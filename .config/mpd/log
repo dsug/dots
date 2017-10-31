@@ -1,0 +1,967 @@
+Oct 09 22:16 : exception: Failed to open /home/dsug/.config/state: No such file or directory
+Oct 09 22:16 : config: option 'songlength_database' on line 340 was not recognized
+Oct 09 22:16 : config: option 'default_songlength' on line 341 was not recognized
+Oct 09 22:16 : config: option 'filter' on line 342 was not recognized
+Oct 09 22:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 09 22:17 : config: option 'songlength_database' on line 340 was not recognized
+Oct 09 22:17 : config: option 'default_songlength' on line 341 was not recognized
+Oct 09 22:17 : config: option 'filter' on line 342 was not recognized
+Oct 09 22:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 09 22:17 : client: [0] opened from [::1]:33918
+Oct 09 22:17 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 09 22:17 : client: [0] closed
+Oct 09 22:18 : config: option 'songlength_database' on line 340 was not recognized
+Oct 09 22:18 : config: option 'default_songlength' on line 341 was not recognized
+Oct 09 22:18 : config: option 'filter' on line 342 was not recognized
+Oct 09 22:32 : config: option 'songlength_database' on line 340 was not recognized
+Oct 09 22:32 : config: option 'default_songlength' on line 341 was not recognized
+Oct 09 22:32 : config: option 'filter' on line 342 was not recognized
+Oct 09 22:32 : client: [0] opened from [::1]:33054
+Oct 09 22:32 : client: [0] closed
+Oct 09 22:34 : config: option 'songlength_database' on line 340 was not recognized
+Oct 09 22:34 : config: option 'default_songlength' on line 341 was not recognized
+Oct 09 22:34 : config: option 'filter' on line 342 was not recognized
+Oct 09 22:36 : client: [0] opened from [::1]:33630
+Oct 09 22:36 : client: [0] closed
+Oct 09 22:37 : client: [1] opened from [::1]:33632
+Oct 09 22:37 : client: [1] closed
+Oct 09 22:38 : update: added /Dorje - Centered  One Guitar Playthrough.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Zrozumiem, cz?owieku.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - F??t.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Gdzie tak pi?knie.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Sprawy wewn?trzne.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - What I owe.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nawiasem mówi?c.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Znowu nic.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Ha?as!.mp3
+Oct 09 22:39 : update: added ?ona & Webber Nawiasem Mówi?c/?ona & Webber - Doklej plakat.mp3
+Oct 09 23:12 : config: option 'songlength_database' on line 340 was not recognized
+Oct 09 23:12 : config: option 'default_songlength' on line 341 was not recognized
+Oct 09 23:12 : config: option 'filter' on line 342 was not recognized
+Oct 09 23:12 : client: [0] opened from [::1]:49460
+Oct 09 23:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 09 23:13 : client: [0] closed
+Oct 09 23:13 : client: [1] opened from [::1]:49462
+Oct 09 23:14 : exception: Failed to open audio output
+Oct 09 23:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 09 23:14 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 09 23:14 : client: [1] closed
+Oct 09 23:14 : client: [2] opened from [::1]:49464
+Oct 09 23:14 : client: [2] closed
+Oct 09 23:16 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 09 23:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 09 23:16 : config: option 'songlength_database' on line 340 was not recognized
+Oct 09 23:16 : config: option 'default_songlength' on line 341 was not recognized
+Oct 09 23:16 : config: option 'filter' on line 342 was not recognized
+Oct 09 23:16 : client: [0] opened from [::1]:49466
+Oct 09 23:16 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 09 23:17 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 09 23:17 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 09 23:17 : client: [0] closed
+Oct 09 23:20 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Gdzie tak pi?knie.mp3"
+Oct 09 23:23 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 09 23:27 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 09 23:30 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Znowu nic.mp3"
+Oct 09 23:32 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 09 23:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 09 23:33 : config: option 'songlength_database' on line 340 was not recognized
+Oct 09 23:33 : config: option 'default_songlength' on line 341 was not recognized
+Oct 09 23:33 : config: option 'filter' on line 342 was not recognized
+Oct 09 23:33 : client: [0] opened from [::1]:49900
+Oct 09 23:33 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 09 23:33 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 09 23:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 09 23:33 : client: [0] closed
+Oct 09 23:37 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 09 23:40 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 09 23:43 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3"
+Oct 09 23:45 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - What I owe.mp3"
+Oct 09 23:49 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Zrozumiem, cz?owieku.mp3"
+Oct 09 23:52 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Sprawy wewn?trzne.mp3"
+Oct 09 23:55 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Doklej plakat.mp3"
+Oct 09 23:58 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - F??t.mp3"
+Oct 10 00:02 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nawiasem mówi?c.mp3"
+Oct 10 00:05 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 10 00:06 : client: [1] opened from 127.0.0.1:55538
+Oct 10 00:07 : client: [1] closed
+Oct 10 00:07 : client: [2] opened from 127.0.0.1:55540
+Oct 10 00:07 : client: [2] closed
+Oct 10 00:07 : client: [3] opened from 127.0.0.1:55542
+Oct 10 00:08 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Ha?as!.mp3"
+Oct 10 00:08 : client: [3] closed
+Oct 10 00:08 : client: [4] opened from 127.0.0.1:55544
+Oct 10 00:08 : client: [4] closed
+Oct 10 00:08 : client: [5] opened from 127.0.0.1:55546
+Oct 10 00:11 : client: [5] closed
+Oct 10 00:11 : client: [6] opened from 127.0.0.1:55548
+Oct 10 00:11 : client: [6] closed
+Oct 10 00:11 : client: [7] opened from 127.0.0.1:55550
+Oct 10 00:11 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Gdzie tak pi?knie.mp3"
+Oct 10 00:11 : client: [7] closed
+Oct 10 00:11 : client: [8] opened from 127.0.0.1:55552
+Oct 10 00:14 : client: [8] closed
+Oct 10 00:14 : client: [9] opened from 127.0.0.1:55554
+Oct 10 00:14 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 10 00:16 : client: [9] closed
+Oct 10 00:16 : client: [10] opened from 127.0.0.1:55610
+Oct 10 00:16 : client: [10] closed
+Oct 10 00:16 : client: [11] opened from 127.0.0.1:55612
+Oct 10 00:16 : client: [11] closed
+Oct 10 00:16 : client: [12] opened from 127.0.0.1:55614
+Oct 10 00:17 : client: [12] closed
+Oct 10 00:17 : client: [13] opened from 127.0.0.1:55616
+Oct 10 00:18 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 10 00:19 : client: [13] closed
+Oct 10 00:19 : client: [14] opened from 127.0.0.1:55698
+Oct 10 00:20 : client: [14] closed
+Oct 10 00:20 : client: [15] opened from 127.0.0.1:55700
+Oct 10 00:20 : client: [15] closed
+Oct 10 00:20 : client: [16] opened from 127.0.0.1:55704
+Oct 10 00:20 : client: [16] closed
+Oct 10 00:21 : client: [17] opened from 127.0.0.1:55706
+Oct 10 00:21 : client: [17] closed
+Oct 10 00:21 : client: [18] opened from 127.0.0.1:55708
+Oct 10 00:22 : client: [18] closed
+Oct 10 00:22 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Znowu nic.mp3"
+Oct 10 00:22 : client: [19] opened from 127.0.0.1:55734
+Oct 10 00:22 : client: [19] closed
+Oct 10 00:22 : client: [20] opened from 127.0.0.1:55736
+Oct 10 00:22 : client: [20] closed
+Oct 10 00:22 : client: [21] opened from 127.0.0.1:55738
+Oct 10 00:22 : client: [21] closed
+Oct 10 00:22 : client: [22] opened from 127.0.0.1:55740
+Oct 10 00:23 : client: [22] closed
+Oct 10 00:23 : client: [23] opened from 127.0.0.1:55742
+Oct 10 00:23 : client: [23] closed
+Oct 10 00:23 : client: [24] opened from 127.0.0.1:55744
+Oct 10 00:23 : client: [24] closed
+Oct 10 00:23 : client: [25] opened from 127.0.0.1:55746
+Oct 10 00:23 : client: [25] closed
+Oct 10 00:23 : client: [26] opened from 127.0.0.1:55748
+Oct 10 00:24 : client: [26] closed
+Oct 10 00:24 : client: [27] opened from 127.0.0.1:55750
+Oct 10 00:24 : client: [27] closed
+Oct 10 00:24 : client: [28] opened from 127.0.0.1:55752
+Oct 10 00:24 : client: [28] closed
+Oct 10 00:24 : client: [29] opened from 127.0.0.1:55754
+Oct 10 00:25 : client: [29] closed
+Oct 10 00:25 : client: [30] opened from 127.0.0.1:55756
+Oct 10 00:25 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 10 00:25 : client: [30] closed
+Oct 10 00:25 : client: [31] opened from 127.0.0.1:55758
+Oct 10 00:26 : client: [31] closed
+Oct 10 00:26 : client: [32] opened from 127.0.0.1:55760
+Oct 10 00:27 : client: [32] closed
+Oct 10 00:27 : client: [33] opened from 127.0.0.1:55762
+Oct 10 00:29 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 10 00:29 : client: [33] closed
+Oct 10 00:29 : client: [34] opened from 127.0.0.1:55764
+Oct 10 00:32 : client: [34] closed
+Oct 10 00:32 : client: [35] opened from 127.0.0.1:55834
+Oct 10 00:32 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3"
+Oct 10 00:34 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - What I owe.mp3"
+Oct 10 00:37 : client: [35] closed
+Oct 10 00:37 : client: [36] opened from 127.0.0.1:55892
+Oct 10 00:37 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Zrozumiem, cz?owieku.mp3"
+Oct 10 00:39 : client: [36] closed
+Oct 10 00:39 : client: [37] opened from 127.0.0.1:55894
+Oct 10 00:40 : client: [37] closed
+Oct 10 00:40 : client: [38] opened from 127.0.0.1:55896
+Oct 10 00:40 : client: [38] closed
+Oct 10 00:40 : client: [39] opened from 127.0.0.1:55898
+Oct 10 00:40 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Sprawy wewn?trzne.mp3"
+Oct 10 00:42 : client: [39] closed
+Oct 10 00:42 : client: [40] opened from 127.0.0.1:55900
+Oct 10 00:42 : client: [40] closed
+Oct 10 00:42 : client: [41] opened from 127.0.0.1:55902
+Oct 10 00:43 : client: [41] closed
+Oct 10 00:43 : client: [42] opened from 127.0.0.1:55904
+Oct 10 00:44 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Doklej plakat.mp3"
+Oct 10 00:47 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - F??t.mp3"
+Oct 10 00:49 : client: [42] closed
+Oct 10 00:49 : client: [43] opened from 127.0.0.1:55918
+Oct 10 00:49 : client: [43] closed
+Oct 10 00:49 : client: [44] opened from 127.0.0.1:55920
+Oct 10 00:50 : client: [44] closed
+Oct 10 00:50 : client: [45] opened from 127.0.0.1:55922
+Oct 10 00:50 : client: [45] closed
+Oct 10 00:50 : client: [46] opened from 127.0.0.1:55924
+Oct 10 00:51 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nawiasem mówi?c.mp3"
+Oct 10 00:54 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 10 00:56 : client: [47] opened from [::1]:52650
+Oct 10 00:56 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Ha?as!.mp3"
+Oct 10 00:57 : client: [47] closed
+Oct 10 00:57 : client: [46] closed
+Oct 10 23:12 : config: option 'songlength_database' on line 340 was not recognized
+Oct 10 23:12 : config: option 'default_songlength' on line 341 was not recognized
+Oct 10 23:12 : config: option 'filter' on line 342 was not recognized
+Oct 10 23:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 23:12 : client: [0] opened from 127.0.0.1:56570
+Oct 10 23:12 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 10 23:13 : client: [1] opened from [::1]:56008
+Oct 10 23:13 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 10 23:13 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 10 23:17 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 10 23:18 : client: [1] closed
+Oct 10 23:18 : client: [2] opened from [::1]:56018
+Oct 10 23:18 : client: [2] closed
+Oct 10 23:18 : client: [3] opened from [::1]:56020
+Oct 10 23:19 : client: [3] closed
+Oct 10 23:19 : client: [4] opened from [::1]:56022
+Oct 10 23:19 : client: [4] closed
+Oct 10 23:19 : client: [5] opened from [::1]:56024
+Oct 10 23:19 : client: [5] closed
+Oct 10 23:19 : client: [6] opened from [::1]:56026
+Oct 10 23:19 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nawiasem mówi?c.mp3"
+Oct 10 23:19 : client: [6] closed
+Oct 10 23:20 : client: [7] opened from [::1]:56028
+Oct 10 23:20 : client: [7] closed
+Oct 10 23:20 : client: [8] opened from [::1]:56030
+Oct 10 23:21 : client: [8] closed
+Oct 10 23:22 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 10 23:24 : client: [0] closed
+Oct 10 23:24 : client: [9] opened from 127.0.0.1:56596
+Oct 10 23:25 : client: [9] closed
+Oct 10 23:25 : client: [10] opened from 127.0.0.1:56622
+Oct 10 23:25 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Ha?as!.mp3"
+Oct 10 23:26 : client: [10] closed
+Oct 10 23:26 : client: [11] opened from 127.0.0.1:56624
+Oct 10 23:29 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Gdzie tak pi?knie.mp3"
+Oct 10 23:32 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 10 23:36 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 10 23:36 : client: [11] closed
+Oct 10 23:36 : client: [12] opened from 127.0.0.1:56720
+Oct 10 23:37 : client: [13] opened from [::1]:56158
+Oct 10 23:39 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Znowu nic.mp3"
+Oct 10 23:42 : client: [13] closed
+Oct 10 23:42 : client: [14] opened from [::1]:56222
+Oct 10 23:46 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 10 23:46 : client: [14] closed
+Oct 10 23:46 : client: [15] opened from [::1]:56232
+Oct 10 23:49 : client: [16] opened from [::1]:56242
+Oct 10 23:49 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 10 23:50 : client: [16] closed
+Oct 10 23:50 : client: [17] opened from [::1]:56244
+Oct 10 23:50 : client: [17] closed
+Oct 10 23:50 : client: [18] opened from [::1]:56246
+Oct 10 23:52 : client: [18] closed
+Oct 10 23:53 : client: [15] closed
+Oct 10 23:53 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3"
+Oct 10 23:55 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - What I owe.mp3"
+Oct 10 23:58 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Zrozumiem, cz?owieku.mp3"
+Oct 11 00:01 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Sprawy wewn?trzne.mp3"
+Oct 11 00:05 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Doklej plakat.mp3"
+Oct 11 00:08 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - F??t.mp3"
+Oct 11 00:11 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nawiasem mówi?c.mp3"
+Oct 11 00:14 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 11 00:15 : client: [12] closed
+Oct 11 00:15 : client: [19] opened from 127.0.0.1:56816
+Oct 11 00:17 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Ha?as!.mp3"
+Oct 11 00:19 : client: [20] opened from [::1]:56346
+Oct 11 00:19 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Gdzie tak pi?knie.mp3"
+Oct 11 01:53 : client: [20] closed
+Oct 11 01:54 : client: [21] opened from [::1]:59040
+Oct 11 01:54 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 11 01:57 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 11 01:58 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3"
+Oct 11 01:59 : client: [21] closed
+Oct 11 01:59 : client: [19] closed
+Oct 11 01:59 : client: [22] opened from 127.0.0.1:59938
+Oct 11 02:00 : client: [22] closed
+Oct 11 02:00 : client: [23] opened from 127.0.0.1:59940
+Oct 11 02:01 : client: [23] closed
+Oct 11 02:01 : client: [24] opened from 127.0.0.1:59942
+Oct 11 02:02 : avahi: Client Disconnected, will reconnect shortly
+Oct 11 02:02 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 11 02:02 : client: [24] closed
+Oct 11 13:28 : config: option 'songlength_database' on line 340 was not recognized
+Oct 11 13:28 : config: option 'default_songlength' on line 341 was not recognized
+Oct 11 13:28 : config: option 'filter' on line 342 was not recognized
+Oct 11 13:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 11 13:28 : client: [0] opened from [::1]:53230
+Oct 11 13:28 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 11 13:28 : client: [1] opened from 127.0.0.1:42258
+Oct 11 13:28 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 11 13:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 11 13:32 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 11 13:34 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3"
+Oct 11 13:34 : client: [0] closed
+Oct 11 15:50 : avahi: Client Disconnected, will reconnect shortly
+Oct 11 15:50 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 11 15:50 : client: [1] closed
+Oct 11 19:05 : config: option 'songlength_database' on line 340 was not recognized
+Oct 11 19:05 : config: option 'default_songlength' on line 341 was not recognized
+Oct 11 19:05 : config: option 'filter' on line 342 was not recognized
+Oct 11 19:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 11 19:05 : client: [0] opened from 127.0.0.1:54366
+Oct 11 19:05 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 11 19:06 : client: [1] opened from [::1]:52312
+Oct 11 19:14 : client: [2] opened from [::1]:52366
+Oct 11 19:15 : client: [2] closed
+Oct 11 22:51 : config: option 'songlength_database' on line 340 was not recognized
+Oct 11 22:51 : config: option 'default_songlength' on line 341 was not recognized
+Oct 11 22:51 : config: option 'filter' on line 342 was not recognized
+Oct 11 22:51 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 11 22:51 : client: [0] opened from 127.0.0.1:58324
+Oct 11 22:51 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 11 23:06 : client: [1] opened from [::1]:39286
+Oct 11 23:06 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 11 23:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 11 23:10 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3"
+Oct 11 23:10 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 11 23:10 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 11 23:11 : client: [1] closed
+Oct 11 23:11 : client: [2] opened from [::1]:39322
+Oct 11 23:24 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 12 06:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 12 06:59 : config: option 'songlength_database' on line 340 was not recognized
+Oct 12 06:59 : config: option 'default_songlength' on line 341 was not recognized
+Oct 12 06:59 : config: option 'filter' on line 342 was not recognized
+Oct 12 06:59 : client: [0] opened from 127.0.0.1:44294
+Oct 12 06:59 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 12 08:00 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 12 15:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 12 15:37 : config: option 'songlength_database' on line 340 was not recognized
+Oct 12 15:37 : config: option 'default_songlength' on line 341 was not recognized
+Oct 12 15:37 : config: option 'filter' on line 342 was not recognized
+Oct 12 15:37 : client: [0] opened from 127.0.0.1:37274
+Oct 12 15:37 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 12 22:54 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 13 07:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 13 07:32 : config: option 'songlength_database' on line 340 was not recognized
+Oct 13 07:32 : config: option 'default_songlength' on line 341 was not recognized
+Oct 13 07:32 : config: option 'filter' on line 342 was not recognized
+Oct 13 07:32 : client: [0] opened from 127.0.0.1:48906
+Oct 13 07:32 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 13 09:34 : client: [1] opened from [::1]:37862
+Oct 13 10:13 : client: [1] closed
+Oct 13 10:40 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 13 16:25 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 13 16:25 : config: option 'songlength_database' on line 340 was not recognized
+Oct 13 16:25 : config: option 'default_songlength' on line 341 was not recognized
+Oct 13 16:25 : config: option 'filter' on line 342 was not recognized
+Oct 13 16:25 : client: [0] opened from 127.0.0.1:43882
+Oct 13 16:25 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 13 22:58 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 14 15:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 14 15:58 : config: option 'songlength_database' on line 340 was not recognized
+Oct 14 15:58 : config: option 'default_songlength' on line 341 was not recognized
+Oct 14 15:58 : config: option 'filter' on line 342 was not recognized
+Oct 14 15:58 : client: [0] opened from 127.0.0.1:59050
+Oct 14 15:58 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 14 16:52 : client: [0] closed
+Oct 14 16:52 : client: [1] opened from 127.0.0.1:60890
+Oct 14 22:51 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 15 19:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 15 19:34 : config: option 'songlength_database' on line 340 was not recognized
+Oct 15 19:34 : config: option 'default_songlength' on line 341 was not recognized
+Oct 15 19:34 : config: option 'filter' on line 342 was not recognized
+Oct 15 19:34 : client: [0] opened from 127.0.0.1:58512
+Oct 15 19:34 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 15 19:34 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 14:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 14:58 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 14:58 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 14:58 : config: option 'filter' on line 342 was not recognized
+Oct 16 14:58 : client: [0] opened from 127.0.0.1:50882
+Oct 16 14:58 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 15:02 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 17:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 17:58 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 17:58 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 17:58 : config: option 'filter' on line 342 was not recognized
+Oct 16 17:58 : client: [0] opened from 127.0.0.1:49708
+Oct 16 17:58 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:01 : client: [1] opened from [::1]:43748
+Oct 16 18:10 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 18:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:10 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 18:10 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 18:10 : config: option 'filter' on line 342 was not recognized
+Oct 16 18:10 : client: [0] opened from [::1]:43936
+Oct 16 18:10 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:10 : client: [1] opened from 127.0.0.1:49970
+Oct 16 18:10 : client: [2] opened from [::1]:43940
+Oct 16 18:10 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:10 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:11 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 18:11 : client: [0] closed
+Oct 16 18:12 : client: [2] closed
+Oct 16 18:12 : client: [3] opened from [::1]:43942
+Oct 16 18:12 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:12 : client: [3] closed
+Oct 16 18:12 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 18:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:12 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 18:12 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 18:12 : config: option 'filter' on line 342 was not recognized
+Oct 16 18:12 : client: [0] opened from 127.0.0.1:49982
+Oct 16 18:12 : client: [1] opened from [::1]:43952
+Oct 16 18:12 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:12 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:12 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:13 : client: [1] closed
+Oct 16 18:13 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 16 18:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:14 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 18:14 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 18:14 : config: option 'filter' on line 342 was not recognized
+Oct 16 18:14 : client: [0] opened from 127.0.0.1:50070
+Oct 16 18:14 : client: [1] opened from [::1]:44040
+Oct 16 18:14 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:14 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:14 : client: [1] closed
+Oct 16 18:14 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 16 18:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:14 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 18:14 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 18:14 : config: option 'filter' on line 342 was not recognized
+Oct 16 18:14 : client: [0] opened from 127.0.0.1:50094
+Oct 16 18:14 : client: [1] opened from [::1]:44064
+Oct 16 18:14 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:14 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:15 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:15 : client: [1] closed
+Oct 16 18:16 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 16 18:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:16 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 18:16 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 18:16 : config: option 'filter' on line 342 was not recognized
+Oct 16 18:16 : client: [0] opened from 127.0.0.1:50108
+Oct 16 18:16 : client: [1] opened from [::1]:44078
+Oct 16 18:16 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:16 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:16 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:16 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:20 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 16 18:21 : client: [1] closed
+Oct 16 18:21 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Znowu nic.mp3"
+Oct 16 18:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:22 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 18:22 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 18:22 : config: option 'filter' on line 342 was not recognized
+Oct 16 18:22 : client: [0] opened from 127.0.0.1:50184
+Oct 16 18:22 : client: [1] opened from [::1]:44154
+Oct 16 18:22 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:22 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:22 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Znowu nic.mp3"
+Oct 16 18:22 : client: [1] closed
+Oct 16 18:23 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 18:23 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 18:23 : config: option 'filter' on line 342 was not recognized
+Oct 16 18:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:23 : client: [0] opened from 127.0.0.1:50228
+Oct 16 18:23 : client: [1] opened from [::1]:44198
+Oct 16 18:23 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:23 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:23 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 18:23 : exception: Failed to open audio output
+Oct 16 18:24 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 18:24 : client: [1] closed
+Oct 16 18:25 : client: [2] opened from [::1]:44200
+Oct 16 18:26 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 18:26 : client: [2] closed
+Oct 16 18:26 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 18:26 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 18:26 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 18:26 : config: option 'filter' on line 342 was not recognized
+Oct 16 18:26 : client: [0] opened from 127.0.0.1:50236
+Oct 16 18:26 : client: [1] opened from [::1]:44206
+Oct 16 18:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:28 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 18:29 : client: [1] closed
+Oct 16 18:29 : client: [2] opened from [::1]:44208
+Oct 16 18:31 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 16 18:32 : client: [2] closed
+Oct 16 18:32 : avahi: Client Disconnected, will reconnect shortly
+Oct 16 18:32 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 16 18:32 : client: [0] closed
+Oct 16 18:33 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 18:33 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 18:33 : config: option 'filter' on line 342 was not recognized
+Oct 16 18:33 : client: [0] opened from 127.0.0.1:41610
+Oct 16 18:34 : client: [1] opened from [::1]:54290
+Oct 16 18:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 18:35 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 16 18:37 : client: [1] closed
+Oct 16 18:37 : client: [2] opened from [::1]:54324
+Oct 16 18:38 : client: [2] closed
+Oct 16 18:40 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 16 18:44 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Znowu nic.mp3"
+Oct 16 18:47 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 18:50 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 16 18:54 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3"
+Oct 16 18:55 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - What I owe.mp3"
+Oct 16 18:59 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Zrozumiem, cz?owieku.mp3"
+Oct 16 19:02 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Sprawy wewn?trzne.mp3"
+Oct 16 19:05 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Doklej plakat.mp3"
+Oct 16 19:08 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - F??t.mp3"
+Oct 16 19:12 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nawiasem mówi?c.mp3"
+Oct 16 19:15 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 16 19:17 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Ha?as!.mp3"
+Oct 16 19:21 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Gdzie tak pi?knie.mp3"
+Oct 16 19:22 : client: [3] opened from [::1]:55064
+Oct 16 19:23 : client: [4] opened from [::1]:55066
+Oct 16 19:26 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 16 19:29 : client: [0] closed
+Oct 16 19:29 : client: [5] opened from 127.0.0.1:42496
+Oct 16 19:29 : client: [5] closed
+Oct 16 19:29 : client: [6] opened from 127.0.0.1:42498
+Oct 16 19:29 : client: [6] closed
+Oct 16 19:29 : client: [7] opened from 127.0.0.1:42500
+Oct 16 19:30 : client: [7] closed
+Oct 16 19:30 : client: [8] opened from 127.0.0.1:42502
+Oct 16 19:30 : client: [3] closed
+Oct 16 19:30 : client: [4] closed
+Oct 16 19:30 : client: [8] closed
+Oct 16 19:30 : client: [9] opened from 127.0.0.1:42504
+Oct 16 19:30 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Znowu nic.mp3"
+Oct 16 19:30 : client: [9] closed
+Oct 16 19:30 : client: [10] opened from 127.0.0.1:42506
+Oct 16 19:32 : client: [10] closed
+Oct 16 19:32 : client: [11] opened from 127.0.0.1:42598
+Oct 16 19:32 : client: [11] closed
+Oct 16 19:32 : client: [12] opened from 127.0.0.1:42600
+Oct 16 19:33 : client: [12] closed
+Oct 16 19:33 : client: [13] opened from 127.0.0.1:42602
+Oct 16 19:33 : client: [13] closed
+Oct 16 19:33 : client: [14] opened from 127.0.0.1:42604
+Oct 16 19:33 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 19:33 : client: [14] closed
+Oct 16 19:33 : client: [15] opened from 127.0.0.1:42606
+Oct 16 19:34 : client: [15] closed
+Oct 16 19:34 : client: [16] opened from 127.0.0.1:42608
+Oct 16 19:35 : client: [16] closed
+Oct 16 19:35 : client: [17] opened from 127.0.0.1:42610
+Oct 16 19:37 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 16 19:40 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3"
+Oct 16 19:42 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - What I owe.mp3"
+Oct 16 19:45 : client: [17] closed
+Oct 16 19:45 : client: [18] opened from 127.0.0.1:42662
+Oct 16 19:45 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Zrozumiem, cz?owieku.mp3"
+Oct 16 19:45 : client: [18] closed
+Oct 16 19:45 : client: [19] opened from 127.0.0.1:42664
+Oct 16 19:45 : client: [19] closed
+Oct 16 19:45 : client: [20] opened from 127.0.0.1:42666
+Oct 16 19:46 : client: [20] closed
+Oct 16 19:46 : client: [21] opened from 127.0.0.1:42668
+Oct 16 19:46 : client: [21] closed
+Oct 16 19:46 : client: [22] opened from 127.0.0.1:42670
+Oct 16 19:47 : client: [23] opened from [::1]:55350
+Oct 16 19:47 : client: [24] opened from [::1]:55352
+Oct 16 19:48 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Sprawy wewn?trzne.mp3"
+Oct 16 19:52 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Doklej plakat.mp3"
+Oct 16 19:55 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - F??t.mp3"
+Oct 16 19:58 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nawiasem mówi?c.mp3"
+Oct 16 20:01 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 16 20:04 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Ha?as!.mp3"
+Oct 16 20:08 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Gdzie tak pi?knie.mp3"
+Oct 16 20:11 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 16 20:14 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 16 20:18 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Znowu nic.mp3"
+Oct 16 20:22 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 20:25 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 16 20:28 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3"
+Oct 16 20:30 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - What I owe.mp3"
+Oct 16 20:34 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Zrozumiem, cz?owieku.mp3"
+Oct 16 20:37 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Sprawy wewn?trzne.mp3"
+Oct 16 20:40 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Doklej plakat.mp3"
+Oct 16 20:46 : client: [23] closed
+Oct 16 20:46 : client: [24] closed
+Oct 16 20:46 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Gdzie tak pi?knie.mp3"
+Oct 16 20:46 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 20:46 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 20:46 : config: option 'filter' on line 342 was not recognized
+Oct 16 20:46 : client: [0] opened from 127.0.0.1:43368
+Oct 16 20:46 : client: [1] opened from [::1]:56048
+Oct 16 20:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 20:47 : client: [1] closed
+Oct 16 20:47 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 16 20:48 : config: option 'songlength_database' on line 340 was not recognized
+Oct 16 20:48 : config: option 'default_songlength' on line 341 was not recognized
+Oct 16 20:48 : config: option 'filter' on line 342 was not recognized
+Oct 16 20:48 : client: [0] opened from 127.0.0.1:43424
+Oct 16 20:48 : client: [1] opened from [::1]:56104
+Oct 16 20:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 20:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 16 20:48 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 20:48 : exception: Failed to open mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 16 20:51 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 16 20:53 : client: [1] closed
+Oct 16 20:54 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Ha?as!.mp3"
+Oct 16 20:58 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Gdzie tak pi?knie.mp3"
+Oct 16 21:01 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - B??d.mp3"
+Oct 16 21:04 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie pogadasz.mp3"
+Oct 16 21:08 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Znowu nic.mp3"
+Oct 16 21:12 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Woodstock ?89.mp3"
+Oct 16 21:15 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Co tak wyje.mp3"
+Oct 16 21:15 : client: [2] opened from [::1]:56282
+Oct 16 21:15 : player: played "?ona & Webber Nawiasem Mówi?c/?ona & Webber - Nie mam poj?cia.mp3"
+Oct 16 21:15 : client: [2] closed
+Oct 16 21:36 : client: [0] closed
+Oct 16 21:36 : client: [3] opened from 127.0.0.1:44244
+Oct 16 21:37 : client: [3] closed
+Oct 16 21:38 : client: [4] opened from 127.0.0.1:44246
+Oct 16 21:39 : client: [4] closed
+Oct 16 21:39 : client: [5] opened from 127.0.0.1:44274
+Oct 16 21:39 : client: [5] closed
+Oct 16 21:39 : client: [6] opened from 127.0.0.1:44276
+Oct 16 21:41 : client: [6] closed
+Oct 16 21:41 : client: [7] opened from 127.0.0.1:44372
+Oct 16 21:42 : client: [7] closed
+Oct 16 21:42 : client: [8] opened from 127.0.0.1:44376
+Oct 16 21:42 : client: [8] closed
+Oct 16 21:42 : client: [9] opened from 127.0.0.1:44378
+Oct 16 21:43 : client: [9] closed
+Oct 16 21:45 : client: [10] opened from 127.0.0.1:44464
+Oct 16 21:49 : client: [11] opened from [::1]:57154
+Oct 16 21:49 : client: [11] closed
+Oct 16 23:24 : client: [12] opened from [::1]:59470
+Oct 16 23:24 : client: [12] closed
+Oct 16 23:56 : avahi: Client Disconnected, will reconnect shortly
+Oct 16 23:56 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 16 23:56 : client: [10] closed
+Oct 17 14:09 : config: option 'songlength_database' on line 340 was not recognized
+Oct 17 14:09 : config: option 'default_songlength' on line 341 was not recognized
+Oct 17 14:09 : config: option 'filter' on line 342 was not recognized
+Oct 17 14:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 17 14:09 : client: [0] opened from 127.0.0.1:46464
+Oct 17 14:09 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 18 13:09 : exception: Failed to open /home/dsugo/.config/state: No such file or directory
+Oct 18 13:09 : config: option 'songlength_database' on line 340 was not recognized
+Oct 18 13:09 : config: option 'default_songlength' on line 341 was not recognized
+Oct 18 13:09 : config: option 'filter' on line 342 was not recognized
+Oct 18 13:09 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 13:09 : client: [0] opened from 127.0.0.1:38664
+Oct 18 13:09 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 18 13:09 : client: [1] opened from [::1]:34694
+Oct 18 13:09 : client: [1] closed
+Oct 18 13:23 : client: [0] closed
+Oct 18 13:24 : client: [2] opened from 127.0.0.1:38674
+Oct 18 13:24 : client: [2] closed
+Oct 18 13:24 : client: [3] opened from 127.0.0.1:38676
+Oct 18 13:27 : client: [3] closed
+Oct 18 13:27 : client: [4] opened from 127.0.0.1:38678
+Oct 18 13:29 : client: [4] closed
+Oct 18 13:29 : client: [5] opened from 127.0.0.1:38680
+Oct 18 13:29 : client: [5] closed
+Oct 18 13:29 : client: [6] opened from 127.0.0.1:38682
+Oct 18 13:31 : client: [6] closed
+Oct 18 13:31 : client: [7] opened from 127.0.0.1:38684
+Oct 18 13:31 : config: option 'songlength_database' on line 340 was not recognized
+Oct 18 13:31 : config: option 'default_songlength' on line 341 was not recognized
+Oct 18 13:31 : config: option 'filter' on line 342 was not recognized
+Oct 18 13:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 18 13:31 : client: [0] opened from 127.0.0.1:37730
+Oct 18 13:31 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 18 13:32 : client: [0] closed
+Oct 18 13:32 : client: [1] opened from 127.0.0.1:37732
+Oct 18 13:34 : client: [1] closed
+Oct 18 13:34 : client: [2] opened from 127.0.0.1:37734
+Oct 18 13:37 : client: [2] closed
+Oct 18 13:37 : client: [3] opened from 127.0.0.1:37736
+Oct 18 13:37 : client: [3] closed
+Oct 18 13:38 : client: [4] opened from 127.0.0.1:37738
+Oct 18 13:39 : client: [4] closed
+Oct 18 13:39 : client: [5] opened from 127.0.0.1:37740
+Oct 18 13:40 : client: [5] closed
+Oct 18 13:40 : client: [6] opened from 127.0.0.1:37742
+Oct 18 15:24 : client: [6] closed
+Oct 18 15:24 : client: [7] opened from 127.0.0.1:37852
+Oct 18 15:24 : client: [7] closed
+Oct 18 15:24 : client: [8] opened from 127.0.0.1:37854
+Oct 18 15:27 : client: [8] closed
+Oct 18 15:27 : client: [9] opened from 127.0.0.1:37860
+Oct 18 15:27 : client: [9] closed
+Oct 18 15:28 : client: [10] opened from 127.0.0.1:37862
+Oct 18 15:28 : client: [10] closed
+Oct 18 15:28 : client: [11] opened from 127.0.0.1:37864
+Oct 18 15:28 : client: [11] closed
+Oct 18 15:28 : client: [12] opened from 127.0.0.1:37866
+Oct 18 15:30 : client: [12] closed
+Oct 18 15:30 : client: [13] opened from 127.0.0.1:37888
+Oct 18 15:30 : client: [13] closed
+Oct 18 15:30 : client: [14] opened from 127.0.0.1:37890
+Oct 18 15:30 : client: [14] closed
+Oct 18 15:30 : client: [15] opened from 127.0.0.1:37892
+Oct 18 15:30 : client: [15] closed
+Oct 18 15:30 : client: [16] opened from 127.0.0.1:37894
+Oct 18 15:35 : client: [16] closed
+Oct 18 15:35 : client: [17] opened from 127.0.0.1:37896
+Oct 18 15:36 : client: [17] closed
+Oct 18 15:36 : client: [18] opened from 127.0.0.1:37898
+Oct 18 15:37 : client: [18] closed
+Oct 18 15:37 : client: [19] opened from 127.0.0.1:37900
+Oct 18 15:37 : client: [19] closed
+Oct 18 15:37 : client: [20] opened from 127.0.0.1:37902
+Oct 18 15:37 : client: [20] closed
+Oct 18 15:37 : client: [21] opened from 127.0.0.1:37904
+Oct 18 15:37 : client: [21] closed
+Oct 18 15:37 : client: [22] opened from 127.0.0.1:37906
+Oct 18 15:38 : client: [22] closed
+Oct 18 15:38 : client: [23] opened from 127.0.0.1:37908
+Oct 18 15:38 : client: [23] closed
+Oct 18 15:38 : client: [24] opened from 127.0.0.1:37910
+Oct 18 15:40 : client: [24] closed
+Oct 18 15:40 : client: [25] opened from 127.0.0.1:37920
+Oct 18 15:41 : client: [25] closed
+Oct 18 15:41 : client: [26] opened from 127.0.0.1:37926
+Oct 18 15:42 : client: [26] closed
+Oct 18 15:42 : client: [27] opened from 127.0.0.1:37928
+Oct 18 15:46 : client: [27] closed
+Oct 18 15:46 : client: [28] opened from 127.0.0.1:37934
+Oct 18 15:49 : client: [28] closed
+Oct 18 15:49 : client: [29] opened from 127.0.0.1:37940
+Oct 18 15:52 : client: [29] closed
+Oct 18 15:52 : client: [30] opened from 127.0.0.1:37952
+Oct 18 18:16 : client: [30] closed
+Oct 18 18:17 : client: [31] opened from 127.0.0.1:38248
+Oct 20 12:32 : config: option 'songlength_database' on line 340 was not recognized
+Oct 20 12:32 : config: option 'default_songlength' on line 341 was not recognized
+Oct 20 12:32 : config: option 'filter' on line 342 was not recognized
+Oct 20 12:32 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 20 12:32 : client: [0] opened from 127.0.0.1:49032
+Oct 20 12:32 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 20 12:51 : client: [0] closed
+Oct 20 12:51 : client: [1] opened from 127.0.0.1:49040
+Oct 20 12:51 : client: [1] closed
+Oct 20 12:51 : client: [2] opened from 127.0.0.1:49042
+Oct 21 00:42 : config: option 'songlength_database' on line 340 was not recognized
+Oct 21 00:42 : config: option 'default_songlength' on line 341 was not recognized
+Oct 21 00:42 : config: option 'filter' on line 342 was not recognized
+Oct 21 00:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 21 00:42 : client: [0] opened from 127.0.0.1:53772
+Oct 21 00:42 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 21 09:07 : config: option 'songlength_database' on line 340 was not recognized
+Oct 21 09:07 : config: option 'default_songlength' on line 341 was not recognized
+Oct 21 09:07 : config: option 'filter' on line 342 was not recognized
+Oct 21 09:07 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 21 09:07 : client: [0] opened from 127.0.0.1:60212
+Oct 21 09:07 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 21 22:50 : config: option 'songlength_database' on line 340 was not recognized
+Oct 21 22:50 : config: option 'default_songlength' on line 341 was not recognized
+Oct 21 22:50 : config: option 'filter' on line 342 was not recognized
+Oct 21 22:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 21 22:50 : client: [0] opened from 127.0.0.1:38396
+Oct 21 22:50 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 21 22:52 : client: [0] closed
+Oct 21 22:53 : client: [1] opened from 127.0.0.1:38424
+Oct 21 22:53 : client: [1] closed
+Oct 21 22:53 : client: [2] opened from 127.0.0.1:38426
+Oct 21 22:53 : client: [2] closed
+Oct 21 22:53 : client: [3] opened from 127.0.0.1:38432
+Oct 22 16:29 : config: option 'songlength_database' on line 340 was not recognized
+Oct 22 16:29 : config: option 'default_songlength' on line 341 was not recognized
+Oct 22 16:29 : config: option 'filter' on line 342 was not recognized
+Oct 22 16:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 22 16:29 : client: [0] opened from 127.0.0.1:59646
+Oct 22 16:29 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 22 16:48 : client: [1] opened from 127.0.0.1:60290
+Oct 22 16:49 : client: [1] closed
+Oct 22 16:51 : client: [2] opened from 127.0.0.1:60312
+Oct 22 16:51 : client: [2] closed
+Oct 22 16:56 : client: [0] closed
+Oct 22 16:56 : client: [3] opened from 127.0.0.1:60366
+Oct 22 16:59 : client: [3] closed
+Oct 22 17:00 : client: [4] opened from 127.0.0.1:60396
+Oct 22 17:01 : client: [4] closed
+Oct 22 17:01 : client: [5] opened from 127.0.0.1:60398
+Oct 22 17:02 : client: [5] closed
+Oct 22 17:02 : client: [6] opened from 127.0.0.1:60430
+Oct 22 17:02 : client: [6] closed
+Oct 22 17:02 : client: [7] opened from 127.0.0.1:60432
+Oct 22 17:03 : client: [7] closed
+Oct 22 17:03 : client: [8] opened from 127.0.0.1:60450
+Oct 22 17:04 : client: [8] closed
+Oct 22 17:04 : client: [9] opened from 127.0.0.1:60452
+Oct 22 17:04 : client: [9] closed
+Oct 22 17:04 : client: [10] opened from 127.0.0.1:60454
+Oct 22 17:04 : client: [10] closed
+Oct 22 17:04 : client: [11] opened from 127.0.0.1:60456
+Oct 22 17:05 : client: [11] closed
+Oct 22 17:05 : client: [12] opened from 127.0.0.1:60458
+Oct 22 17:06 : client: [12] closed
+Oct 22 17:06 : client: [13] opened from 127.0.0.1:60512
+Oct 22 17:06 : client: [13] closed
+Oct 22 17:06 : client: [14] opened from 127.0.0.1:60522
+Oct 22 17:07 : client: [14] closed
+Oct 22 17:07 : client: [15] opened from 127.0.0.1:60532
+Oct 22 17:07 : client: [15] closed
+Oct 22 17:07 : client: [16] opened from 127.0.0.1:60534
+Oct 22 17:08 : client: [16] closed
+Oct 22 17:08 : client: [17] opened from 127.0.0.1:60536
+Oct 22 17:08 : client: [17] closed
+Oct 22 17:09 : client: [18] opened from 127.0.0.1:60558
+Oct 22 17:10 : client: [18] closed
+Oct 22 17:10 : client: [19] opened from 127.0.0.1:60596
+Oct 22 17:10 : client: [19] closed
+Oct 22 17:10 : client: [20] opened from 127.0.0.1:60610
+Oct 22 17:10 : client: [20] closed
+Oct 22 17:10 : client: [21] opened from 127.0.0.1:60620
+Oct 22 17:10 : client: [21] closed
+Oct 22 17:10 : client: [22] opened from 127.0.0.1:60626
+Oct 22 17:11 : client: [22] closed
+Oct 22 17:11 : client: [23] opened from 127.0.0.1:60632
+Oct 22 17:11 : client: [23] closed
+Oct 22 17:11 : client: [24] opened from 127.0.0.1:60634
+Oct 22 17:12 : client: [24] closed
+Oct 22 17:12 : client: [25] opened from 127.0.0.1:60664
+Oct 22 17:12 : client: [25] closed
+Oct 22 17:12 : client: [26] opened from 127.0.0.1:60678
+Oct 22 17:13 : client: [26] closed
+Oct 22 17:13 : client: [27] opened from 127.0.0.1:60700
+Oct 22 17:13 : client: [27] closed
+Oct 22 17:13 : client: [28] opened from 127.0.0.1:60720
+Oct 22 17:14 : client: [28] closed
+Oct 22 17:14 : client: [29] opened from 127.0.0.1:60732
+Oct 22 17:15 : client: [29] closed
+Oct 22 17:15 : client: [30] opened from 127.0.0.1:60786
+Oct 22 17:18 : client: [30] closed
+Oct 22 17:18 : client: [31] opened from 127.0.0.1:60838
+Oct 22 17:18 : client: [31] closed
+Oct 22 17:18 : client: [32] opened from 127.0.0.1:60840
+Oct 22 17:18 : client: [32] closed
+Oct 22 17:19 : client: [33] opened from 127.0.0.1:60842
+Oct 22 17:19 : client: [33] closed
+Oct 22 17:19 : client: [34] opened from 127.0.0.1:60844
+Oct 24 18:14 : config: option 'songlength_database' on line 340 was not recognized
+Oct 24 18:14 : config: option 'default_songlength' on line 341 was not recognized
+Oct 24 18:14 : config: option 'filter' on line 342 was not recognized
+Oct 24 18:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 24 18:14 : client: [0] opened from 127.0.0.1:56226
+Oct 24 18:14 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 24 18:22 : client: [0] closed
+Oct 25 16:59 : config: option 'songlength_database' on line 340 was not recognized
+Oct 25 16:59 : config: option 'default_songlength' on line 341 was not recognized
+Oct 25 16:59 : config: option 'filter' on line 342 was not recognized
+Oct 25 16:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 16:59 : client: [0] opened from 127.0.0.1:49706
+Oct 25 16:59 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 25 19:42 : client: [0] closed
+Oct 25 19:42 : client: [1] opened from 127.0.0.1:50986
+Oct 25 21:23 : config: option 'songlength_database' on line 340 was not recognized
+Oct 25 21:23 : config: option 'default_songlength' on line 341 was not recognized
+Oct 25 21:23 : config: option 'filter' on line 342 was not recognized
+Oct 25 21:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 21:23 : client: [0] opened from 127.0.0.1:46736
+Oct 25 21:23 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 25 21:53 : client: [0] closed
+Oct 25 21:53 : client: [1] opened from 127.0.0.1:47316
+Oct 25 21:58 : client: [1] closed
+Oct 25 21:58 : client: [2] opened from 127.0.0.1:47554
+Oct 25 22:05 : config: option 'songlength_database' on line 340 was not recognized
+Oct 25 22:05 : config: option 'default_songlength' on line 341 was not recognized
+Oct 25 22:05 : config: option 'filter' on line 342 was not recognized
+Oct 25 22:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 25 22:05 : client: [0] opened from 127.0.0.1:43364
+Oct 25 22:05 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 26 18:06 : config: option 'songlength_database' on line 340 was not recognized
+Oct 26 18:06 : config: option 'default_songlength' on line 341 was not recognized
+Oct 26 18:06 : config: option 'filter' on line 342 was not recognized
+Oct 26 18:06 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 26 18:06 : client: [0] opened from 127.0.0.1:47390
+Oct 26 18:06 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 27 13:00 : config: option 'songlength_database' on line 340 was not recognized
+Oct 27 13:00 : config: option 'default_songlength' on line 341 was not recognized
+Oct 27 13:00 : config: option 'filter' on line 342 was not recognized
+Oct 27 13:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 27 13:00 : client: [0] opened from 127.0.0.1:37826
+Oct 27 13:00 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 27 13:13 : client: [0] closed
+Oct 27 13:13 : client: [1] opened from 127.0.0.1:38076
+Oct 27 13:15 : config: option 'songlength_database' on line 340 was not recognized
+Oct 27 13:15 : config: option 'default_songlength' on line 341 was not recognized
+Oct 27 13:15 : config: option 'filter' on line 342 was not recognized
+Oct 27 13:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 27 13:15 : client: [0] opened from 127.0.0.1:46558
+Oct 27 13:15 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 27 18:25 : client: [0] closed
+Oct 27 18:25 : client: [1] opened from 127.0.0.1:48600
+Oct 27 18:26 : client: [1] closed
+Oct 27 18:26 : client: [2] opened from 127.0.0.1:48604
+Oct 27 18:26 : client: [2] closed
+Oct 27 18:26 : client: [3] opened from 127.0.0.1:48610
+Oct 27 18:26 : client: [3] closed
+Oct 27 18:26 : client: [4] opened from 127.0.0.1:48612
+Oct 27 18:27 : client: [4] closed
+Oct 27 18:27 : client: [5] opened from 127.0.0.1:48620
+Oct 27 18:28 : client: [5] closed
+Oct 27 18:28 : client: [6] opened from 127.0.0.1:48624
+Oct 27 18:28 : client: [6] closed
+Oct 27 18:28 : client: [7] opened from 127.0.0.1:48628
+Oct 27 18:37 : client: [7] closed
+Oct 27 18:37 : client: [8] opened from 127.0.0.1:48676
+Oct 28 19:29 : config: option 'songlength_database' on line 340 was not recognized
+Oct 28 19:29 : config: option 'default_songlength' on line 341 was not recognized
+Oct 28 19:29 : config: option 'filter' on line 342 was not recognized
+Oct 28 19:29 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 19:29 : client: [0] opened from 127.0.0.1:54098
+Oct 28 19:29 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 28 19:32 : client: [0] closed
+Oct 28 19:32 : client: [1] opened from 127.0.0.1:54100
+Oct 28 19:46 : config: option 'songlength_database' on line 340 was not recognized
+Oct 28 19:46 : config: option 'default_songlength' on line 341 was not recognized
+Oct 28 19:46 : config: option 'filter' on line 342 was not recognized
+Oct 28 19:46 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 19:46 : client: [0] opened from 127.0.0.1:37766
+Oct 28 19:46 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 28 19:46 : client: [0] closed
+Oct 28 21:02 : client: [1] opened from 127.0.0.1:37772
+Oct 28 21:03 : client: [1] closed
+Oct 28 21:03 : client: [2] opened from 127.0.0.1:37918
+Oct 28 22:07 : client: [2] closed
+Oct 28 22:11 : config: option 'songlength_database' on line 340 was not recognized
+Oct 28 22:11 : config: option 'default_songlength' on line 341 was not recognized
+Oct 28 22:11 : config: option 'filter' on line 342 was not recognized
+Oct 28 22:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 28 22:11 : client: [0] opened from 127.0.0.1:38702
+Oct 28 22:11 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 28 23:22 : client: [0] closed
+Oct 28 23:22 : client: [1] opened from 127.0.0.1:38946
+Oct 29 00:23 : avahi: Client Disconnected, will reconnect shortly
+Oct 29 00:23 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Oct 29 00:23 : client: [1] closed
+Oct 29 05:20 : config: option 'songlength_database' on line 340 was not recognized
+Oct 29 05:20 : config: option 'default_songlength' on line 341 was not recognized
+Oct 29 05:20 : config: option 'filter' on line 342 was not recognized
+Oct 29 05:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 29 05:20 : client: [0] opened from 127.0.0.1:44414
+Oct 29 05:20 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 29 14:11 : config: option 'songlength_database' on line 340 was not recognized
+Oct 29 14:11 : config: option 'default_songlength' on line 341 was not recognized
+Oct 29 14:11 : config: option 'filter' on line 342 was not recognized
+Oct 29 14:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 29 14:11 : client: [0] opened from 127.0.0.1:38934
+Oct 29 14:11 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 29 14:12 : client: [0] closed
+Oct 29 14:12 : client: [1] opened from 127.0.0.1:38936
+Oct 29 14:13 : client: [1] closed
+Oct 29 14:17 : client: [2] opened from 127.0.0.1:38938
+Oct 29 14:17 : client: [2] closed
+Oct 29 14:17 : client: [3] opened from 127.0.0.1:38940
+Oct 29 14:17 : client: [3] closed
+Oct 29 14:17 : client: [4] opened from 127.0.0.1:38942
+Oct 29 14:18 : client: [4] closed
+Oct 29 14:18 : client: [5] opened from 127.0.0.1:38944
+Oct 29 14:18 : client: [5] closed
+Oct 29 14:18 : client: [6] opened from 127.0.0.1:38946
+Oct 29 14:18 : client: [6] closed
+Oct 29 14:18 : client: [7] opened from 127.0.0.1:38948
+Oct 31 18:44 : exception: Failed to open /home/dsugo/.config/state: No such file or directory
+Oct 31 18:44 : config: option 'songlength_database' on line 340 was not recognized
+Oct 31 18:44 : config: option 'default_songlength' on line 341 was not recognized
+Oct 31 18:44 : config: option 'filter' on line 342 was not recognized
+Oct 31 18:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Oct 31 18:46 : client: [0] opened from 127.0.0.1:53708
+Oct 31 18:46 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Oct 31 19:34 : client: [0] closed
+Oct 31 19:34 : client: [1] opened from 127.0.0.1:53856

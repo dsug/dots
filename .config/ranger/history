@@ -1,0 +1,27 @@
+find 
+rename Documents
+q
+open_with l
+rename Zadania i Wzory
+bulk
+rename Zadania i wzory.rar
+shell 
+delete 
+open_with unrar
+
+bulkrename 
+rename Pochodne Wzory
+rename Pochodne Wzory.pdf
+rename zdl1.pdf
+open_with n
+rename Python5.pdf
+set colorscheme jungle
+set colorscheme solarized
+set colorscheme snow
+set colorscheme default
+rename Zadania i wzory
+search home
+l
+search .con
+delete
+open_with 

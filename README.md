@@ -1,0 +1,22 @@
+## Programs that I use
+ 
+ - i3-gaps
+ - neovim
+ - ranger
+ - qutebrowser
+ - ncmpcpp
+ - mpv
+ - neofetch
+ - compton
+ - htop
+ - keepass
+ - libreoffice
+ - feh
+ - mpd
+ - polybar
+ - pulseaudio
+ - weechat
+ - mupdf
+ - oh-my-zsh
+ - rofi
+ - calcurse
