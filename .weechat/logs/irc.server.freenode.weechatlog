@@ -1,0 +1,264 @@
+2017-11-16 20:42:44	--	irc: connecting to server chat.freenode.net/6667...
+2017-11-16 20:42:44	--	irc: connected to chat.freenode.net/6667 (162.213.39.42)
+2017-11-16 20:42:44	--	weber.freenode.net: *** Looking up your hostname...
+2017-11-16 20:42:44	--	weber.freenode.net: *** Checking Ident
+2017-11-16 20:42:44	--	weber.freenode.net: *** No Ident response
+2017-11-16 20:42:44	--	weber.freenode.net: *** Found your hostname
+2017-11-16 20:42:44	--	Welcome to the freenode Internet Relay Chat Network dsugo
+2017-11-16 20:42:44	--	Your host is weber.freenode.net[162.213.39.42/6667], running version ircd-seven-1.1.4
+2017-11-16 20:42:44	--	This server was created Thu Jan 26 2017 at 20:12:59 UTC
+2017-11-16 20:42:44	--	weber.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-11-16 20:42:44	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-11-16 20:42:44	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2017-11-16 20:42:44	--	CPRIVMSG CNOTICE WHOX ETRACE :are supported by this server
+2017-11-16 20:42:44	--	There are 120 users and 91010 invisible on 31 servers
+2017-11-16 20:42:44	--	35 :IRC Operators online
+2017-11-16 20:42:44	--	49 :unknown connection(s)
+2017-11-16 20:42:44	--	55980 :channels formed
+2017-11-16 20:42:44	--	I have 5474 clients and 1 servers
+2017-11-16 20:42:44	--	5474 6820 :Current local users 5474, max 6820
+2017-11-16 20:42:44	--	91130 93012 :Current global users 91130, max 93012
+2017-11-16 20:42:44	--	Highest connection count: 6821 (6820 clients) (1356766 connections received)
+2017-11-16 20:42:44	--	- weber.freenode.net Message of the Day -
+2017-11-16 20:42:44	--	- Welcome to weber.freenode.net in California, USA.
+2017-11-16 20:42:44	--	- Thanks to https://www.cloudsigma.com/ for sponsoring
+2017-11-16 20:42:44	--	- this server!
+2017-11-16 20:42:44	--	-
+2017-11-16 20:42:44	--	- WEBER, DAVID M. (1952-), an American fantasy and scifi
+2017-11-16 20:42:44	--	- author. Best known for his 'Honor Harrington' series, his
+2017-11-16 20:42:44	--	- works span several genres, including alternate history,
+2017-11-16 20:42:44	--	- epic fantasy, military scifi and space opera. He's also
+2017-11-16 20:42:44	--	- done wargame design mainly for the StarFire tabletop
+2017-11-16 20:42:44	--	- boardgame series, a job which later evolved into the novel,
+2017-11-16 20:42:44	--	- 'Insurrection' (collaboration with Steve White, published
+2017-11-16 20:42:44	--	- in 1990).
+2017-11-16 20:42:44	--	-
+2017-11-16 20:42:44	--	- Welcome to freenode - supporting the free and open source
+2017-11-16 20:42:44	--	- software communities since 1998.
+2017-11-16 20:42:44	--	-
+2017-11-16 20:42:44	--	- By connecting to freenode you indicate that you have read and
+2017-11-16 20:42:44	--	- accept our policies and guidelines as set out on https://freenode.net
+2017-11-16 20:42:44	--	-
+2017-11-16 20:42:44	--	- In the event that you observe behaviour that contravenes our policies,
+2017-11-16 20:42:44	--	- please notify a volunteer staff member via private message, or send us an
+2017-11-16 20:42:44	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2017-11-16 20:42:44	--	- situation within a reasonable period of time, and we may request further
+2017-11-16 20:42:44	--	- information or, as appropriate, involve other parties such as channel operators
+2017-11-16 20:42:44	--	- Group Contacts representing an on-topic group.
+2017-11-16 20:42:44	--	-
+2017-11-16 20:42:44	--	- freenode runs an open proxy scanner.
+2017-11-16 20:42:44	--	-
+2017-11-16 20:42:44	--	- If you are looking for assistance, you will be able to find a list of
+2017-11-16 20:42:44	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2017-11-16 20:42:44	--	- message any of us at any time. Please note that freenode predominantly
+2017-11-16 20:42:44	--	- provides assistance via private message, and while we have a network
+2017-11-16 20:42:44	--	- channel the primary venue for support requests is via private message to
+2017-11-16 20:42:44	--	- a member of the volunteer staff team.
+2017-11-16 20:42:44	--	-
+2017-11-16 20:42:44	--	- From time to time, volunteer staff may send server-wide notices relating to
+2017-11-16 20:42:44	--	- the project, or the communities that we host. The majority of such notices
+2017-11-16 20:42:44	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2017-11-16 20:42:44	--	- do not miss them. Important messages relating to the freenode project, including
+2017-11-16 20:42:44	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2017-11-16 20:42:44	--	- global notices.
+2017-11-16 20:42:44	--	-
+2017-11-16 20:42:44	--	- Representing an on-topic project? Don't forget to register, more information
+2017-11-16 20:42:44	--	- can be found on the https://freenode.net website under "Group Registration".
+2017-11-16 20:42:44	--	-
+2017-11-16 20:42:44	--	- freenode organises an annual conference, and we would like to extend our
+2017-11-16 20:42:44	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2017-11-16 20:42:44	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2017-11-16 20:42:45	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2017-11-16 20:42:45	--	-
+2017-11-16 20:42:45	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2017-11-16 20:42:45	--	- network going for close to two decades.
+2017-11-16 20:42:45	--	-
+2017-11-16 20:42:45	--	- freenode #live returns to Bristol, UK on November 3rd-4th 2018, keep an eye
+2017-11-16 20:42:45	--	- on the https://freenode.live venue for our call for volunteers and call for
+2017-11-16 20:42:45	--	- participation. If you are interested in sponsoring next year's event, please
+2017-11-16 20:42:45	--	- send us an e-mail to sponsor@freenode.live
+2017-11-16 20:42:45	--	-
+2017-11-16 20:42:45	--	- Thank you for using freenode!
+2017-11-16 20:42:45	--	-
+2017-11-16 20:42:45	--	-
+2017-11-16 20:42:45	--	End of /MOTD command.
+2017-11-16 20:42:45	--	User mode [+i] by dsugo
+2017-11-16 20:42:45	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2017-11-16 20:42:55	--	MSG(NickServ): identify ************
+2017-11-16 20:42:55	--	NickServ (NickServ@services.): You are now identified for dsugo.
+2017-11-18 16:02:50	--	irc: connecting to server chat.freenode.net/6667...
+2017-11-18 16:02:50	--	irc: connected to chat.freenode.net/6667 (162.213.39.42)
+2017-11-18 16:02:50	--	weber.freenode.net: *** Looking up your hostname...
+2017-11-18 16:02:51	--	weber.freenode.net: *** Checking Ident
+2017-11-18 16:02:51	--	weber.freenode.net: *** No Ident response
+2017-11-18 16:02:51	--	weber.freenode.net: *** Found your hostname
+2017-11-18 16:02:51	--	Welcome to the freenode Internet Relay Chat Network dsugo
+2017-11-18 16:02:51	--	Your host is weber.freenode.net[162.213.39.42/6667], running version ircd-seven-1.1.4
+2017-11-18 16:02:51	--	This server was created Thu Jan 26 2017 at 20:12:59 UTC
+2017-11-18 16:02:51	--	weber.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2017-11-18 16:02:51	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+2017-11-18 16:02:51	--	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+2017-11-18 16:02:51	--	CPRIVMSG CNOTICE WHOX ETRACE :are supported by this server
+2017-11-18 16:02:51	--	There are 112 users and 86317 invisible on 31 servers
+2017-11-18 16:02:51	--	34 :IRC Operators online
+2017-11-18 16:02:51	--	47 :unknown connection(s)
+2017-11-18 16:02:51	--	55752 :channels formed
+2017-11-18 16:02:51	--	I have 5124 clients and 1 servers
+2017-11-18 16:02:51	--	5124 6820 :Current local users 5124, max 6820
+2017-11-18 16:02:51	--	86429 93012 :Current global users 86429, max 93012
+2017-11-18 16:02:51	--	Highest connection count: 6821 (6820 clients) (1393721 connections received)
+2017-11-18 16:02:51	--	- weber.freenode.net Message of the Day -
+2017-11-18 16:02:51	--	- Welcome to weber.freenode.net in California, USA.
+2017-11-18 16:02:51	--	- Thanks to https://www.cloudsigma.com/ for sponsoring
+2017-11-18 16:02:51	--	- this server!
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- WEBER, DAVID M. (1952-), an American fantasy and scifi
+2017-11-18 16:02:51	--	- author. Best known for his 'Honor Harrington' series, his
+2017-11-18 16:02:51	--	- works span several genres, including alternate history,
+2017-11-18 16:02:51	--	- epic fantasy, military scifi and space opera. He's also
+2017-11-18 16:02:51	--	- done wargame design mainly for the StarFire tabletop
+2017-11-18 16:02:51	--	- boardgame series, a job which later evolved into the novel,
+2017-11-18 16:02:51	--	- 'Insurrection' (collaboration with Steve White, published
+2017-11-18 16:02:51	--	- in 1990).
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- Welcome to freenode - supporting the free and open source
+2017-11-18 16:02:51	--	- software communities since 1998.
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- By connecting to freenode you indicate that you have read and
+2017-11-18 16:02:51	--	- accept our policies and guidelines as set out on https://freenode.net
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- In the event that you observe behaviour that contravenes our policies,
+2017-11-18 16:02:51	--	- please notify a volunteer staff member via private message, or send us an
+2017-11-18 16:02:51	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2017-11-18 16:02:51	--	- situation within a reasonable period of time, and we may request further
+2017-11-18 16:02:51	--	- information or, as appropriate, involve other parties such as channel operators
+2017-11-18 16:02:51	--	- Group Contacts representing an on-topic group.
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- freenode runs an open proxy scanner.
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- If you are looking for assistance, you will be able to find a list of
+2017-11-18 16:02:51	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2017-11-18 16:02:51	--	- message any of us at any time. Please note that freenode predominantly
+2017-11-18 16:02:51	--	- provides assistance via private message, and while we have a network
+2017-11-18 16:02:51	--	- channel the primary venue for support requests is via private message to
+2017-11-18 16:02:51	--	- a member of the volunteer staff team.
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- From time to time, volunteer staff may send server-wide notices relating to
+2017-11-18 16:02:51	--	- the project, or the communities that we host. The majority of such notices
+2017-11-18 16:02:51	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2017-11-18 16:02:51	--	- do not miss them. Important messages relating to the freenode project, including
+2017-11-18 16:02:51	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2017-11-18 16:02:51	--	- global notices.
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- Representing an on-topic project? Don't forget to register, more information
+2017-11-18 16:02:51	--	- can be found on the https://freenode.net website under "Group Registration".
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- freenode organises an annual conference, and we would like to extend our
+2017-11-18 16:02:51	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2017-11-18 16:02:51	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2017-11-18 16:02:51	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2017-11-18 16:02:51	--	- network going for close to two decades.
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- freenode #live returns to Bristol, UK on November 3rd-4th 2018, keep an eye
+2017-11-18 16:02:51	--	- on the https://freenode.live website for our call for volunteers and call for
+2017-11-18 16:02:51	--	- participation. If you are interested in sponsoring next year's event, please
+2017-11-18 16:02:51	--	- send us an e-mail to sponsor@freenode.live
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	- Thank you for using freenode!
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	-
+2017-11-18 16:02:51	--	End of /MOTD command.
+2017-11-18 16:02:51	--	User mode [+i] by dsugo
+2017-11-18 16:02:51	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-01-14 19:44:07	--	irc: connecting to server chat.freenode.net/6667...
+2018-01-14 19:44:07	=!=	irc: address "chat.freenode.net" not found
+2018-01-14 19:44:07	=!=	irc: error: Name or service not known
+2018-01-14 19:44:07	--	irc: reconnecting to server in 10 seconds
+2018-01-14 19:44:17	--	irc: reconnecting to server...
+2018-01-14 19:44:17	--	irc: connecting to server chat.freenode.net/6667...
+2018-01-14 19:44:18	--	irc: connected to chat.freenode.net/6667 (195.148.124.79)
+2018-01-14 19:44:18	--	rajaniemi.freenode.net: *** Looking up your hostname...
+2018-01-14 19:44:18	--	rajaniemi.freenode.net: *** Checking Ident
+2018-01-14 19:44:18	--	rajaniemi.freenode.net: *** Found your hostname
+2018-01-14 19:44:27	--	rajaniemi.freenode.net: *** No Ident response
+2018-01-14 19:44:27	--	Welcome to the freenode Internet Relay Chat Network dsugo
+2018-01-14 19:44:27	--	Your host is rajaniemi.freenode.net[195.148.124.79/6667], running version ircd-seven-1.1.5
+2018-01-14 19:44:27	--	This server was created Fri Jan 12 2018 at 20:08:29 UTC
+2018-01-14 19:44:27	--	rajaniemi.freenode.net ircd-seven-1.1.5 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+2018-01-14 19:44:27	--	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+2018-01-14 19:44:27	--	CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+2018-01-14 19:44:27	--	EXTBAN=$,ajrxz WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+2018-01-14 19:44:27	--	There are 117 users and 85186 invisible on 34 servers
+2018-01-14 19:44:27	--	31 :IRC Operators online
+2018-01-14 19:44:27	--	23 :unknown connection(s)
+2018-01-14 19:44:27	--	49424 :channels formed
+2018-01-14 19:44:27	--	I have 3821 clients and 1 servers
+2018-01-14 19:44:27	--	3821 3850 :Current local users 3821, max 3850
+2018-01-14 19:44:27	--	85303 88206 :Current global users 85303, max 88206
+2018-01-14 19:44:27	--	Highest connection count: 3851 (3850 clients) (48748 connections received)
+2018-01-14 19:44:27	--	- rajaniemi.freenode.net Message of the Day -
+2018-01-14 19:44:27	--	- Welcome to rajaniemi.freenode.net in Helsinki, Finland.  Our thanks to
+2018-01-14 19:44:27	--	- Aalto University for sponsoring this server!
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- RAJANIEMI, Hannu  (1978-). Born in Ylivieska, Finland, Rajaniemi is the
+2018-01-14 19:44:27	--	- author of two novels and several short stories, and his debut novel 'The
+2018-01-14 19:44:27	--	- Quantum Thief' was nominated for the 2011 Locus Award for Best First
+2018-01-14 19:44:27	--	- Novel.  Rajaniemi lives in Edinburgh, Scotland where he is founding
+2018-01-14 19:44:27	--	- director of ThinkTank Maths, a commercial research organisation.
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- Welcome to freenode - supporting the free and open source
+2018-01-14 19:44:27	--	- software communities since 1998.
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- By connecting to freenode you indicate that you have read and
+2018-01-14 19:44:27	--	- accept our policies and guidelines as set out on https://freenode.net
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- In the event that you observe behaviour that contravenes our policies,
+2018-01-14 19:44:27	--	- please notify a volunteer staff member via private message, or send us an
+2018-01-14 19:44:27	--	- e-mail to complaints@freenode.net -- we will do our best to address the
+2018-01-14 19:44:27	--	- situation within a reasonable period of time, and we may request further
+2018-01-14 19:44:27	--	- information or, as appropriate, involve other parties such as channel operators
+2018-01-14 19:44:27	--	- Group Contacts representing an on-topic group.
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- freenode runs an open proxy scanner.
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- If you are looking for assistance, you will be able to find a list of
+2018-01-14 19:44:27	--	- volunteer staff using the '/who freenode/staff/*' command, and you may
+2018-01-14 19:44:27	--	- message any of us at any time. Please note that freenode predominantly
+2018-01-14 19:44:27	--	- provides assistance via private message, and while we have a network
+2018-01-14 19:44:27	--	- channel the primary venue for support requests is via private message to
+2018-01-14 19:44:27	--	- a member of the volunteer staff team.
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- From time to time, volunteer staff may send server-wide notices relating to
+2018-01-14 19:44:27	--	- the project, or the communities that we host. The majority of such notices
+2018-01-14 19:44:27	--	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+2018-01-14 19:44:27	--	- do not miss them. Important messages relating to the freenode project, including
+2018-01-14 19:44:27	--	- notices of upcoming maintenance and other scheduled downtime will be issued as
+2018-01-14 19:44:27	--	- global notices.
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- Representing an on-topic project? Don't forget to register, more information
+2018-01-14 19:44:27	--	- can be found on the https://freenode.net website under "Group Registration".
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- freenode organises an annual conference, and we would like to extend our
+2018-01-14 19:44:27	--	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+2018-01-14 19:44:27	--	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+2018-01-14 19:44:27	--	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- Thank you also to our server sponsors for the sustained support in keeping the
+2018-01-14 19:44:27	--	- network going for close to two decades.
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- freenode #live returns to Bristol, UK on November 3rd-4th 2018, keep an eye
+2018-01-14 19:44:27	--	- on the https://freenode.live website for our call for volunteers and call for
+2018-01-14 19:44:27	--	- participation. If you are interested in sponsoring next year's event, please
+2018-01-14 19:44:27	--	- send us an e-mail to sponsor@freenode.live
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	- Thank you for using freenode!
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	-
+2018-01-14 19:44:27	--	End of /MOTD command.
+2018-01-14 19:44:27	--	User mode [+i] by dsugo
+2018-01-14 19:44:27	--	NickServ (NickServ@services.): This nickname is registered. Please choose a different nickname, or identify via /msg NickServ identify <password>.
+2018-01-14 19:44:37	--	MSG(NickServ): identify ************
+2018-01-14 19:44:37	--	NickServ (NickServ@services.): You are now identified for dsugo.

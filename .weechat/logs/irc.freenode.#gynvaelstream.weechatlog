@@ -1,0 +1,495 @@
+2018-01-14 19:44:44	-->	dsugo (~dsugo@public-gprs411203.centertel.pl) has joined #gynvaelstream
+2018-01-14 19:44:44	--	Topic for #gynvaelstream is "Streamy: EN każda śr 20:00, PL każdy czw 20:00 (Następny stream: Losowe tematy 25.01) | Konkurs Wiecha: https://pastebin.com/SJMKy85F (Deadline: 31.01) | Pytania: '!q <pytanie>' | https://goo.gl/xC5vki | Powiadomienia przed streamem: !alert enable | EN:#gynvaelstream-en | Książki: https://goo.gl/Ese27v | http://gynvael.coldwind.pl"
+2018-01-14 19:44:44	--	Topic set by foxtrot_charlie (~foxtrot_c@185.33.145.139) on Sun, 14 Jan 2018 13:53:32
+2018-01-14 19:44:44	--	Channel #gynvaelstream: 116 nicks (7 ops, 25 voices, 84 normals)
+2018-01-14 19:44:47	--	Channel created on Thu, 04 Feb 2016 18:29:19
+2018-01-14 19:44:50	dsugo	o/
+2018-01-14 19:44:50	@Pierun	dsugo, you have notes! [Jan- 9 10:27] <KrzaQ> tak, dawno temu, ale jeszcze nie przeczytalem
+2018-01-14 19:46:47	dsugo	mam dylemacik, aktualnie siedze w pewnej firmie farmaceutycznej i mam projekt z przeniesienia rzeczy papierowych na elektroniczne
+2018-01-14 19:47:00	dsugo	trochę automatyki i troche algorytmów 
+2018-01-14 19:47:18	dsugo	jako, że student to płacą mi tyle co nic
+2018-01-14 19:47:41	dsugo	ale zaproponowali mi żebym się analiza danych zajął w miejsce gościa który odchodzi
+2018-01-14 19:47:56	dsugo	czyli jakieś raporty, updejtowanie power bi itd
+2018-01-14 19:48:41	dsugo	już nawet mnie szkolić zaczęli but unikają rozmowy o zarobkach jak ognia
+2018-01-14 19:49:40	dsugo	zastanawiam się czy nie podziękować i zrobić sobie kilka miechów przerwy i szukać czegoś w kierunku pythona
+2018-01-14 19:50:08	dsugo	any tips from older friends?
+2018-01-14 19:50:30	@Gynvael	tip: popros o kopie umowy do przejrzenia na spokojnie w domu
+2018-01-14 19:50:35	@Gynvael	umowy którą miałbyś podpisać
+2018-01-14 19:50:43	@Gynvael	łącznie ze stawką
+2018-01-14 19:51:11	@Gynvael	nie podpisuj nic przy nich "bo trzeba już podpisać umowę więc musisz to zrobić teraz"
+2018-01-14 19:51:23	@Gynvael	ani nie zaczynaj pracy bez umowy na nowym stanowisku
+2018-01-14 19:51:41	@Gynvael	mozesz im tez powiedziec ze bedziesz chcial miec kilka dni na przejrzenie umowy i warunków
+2018-01-14 19:51:53	@Gynvael	i żeby to wzieli pod uwagę jak będą chcieli ci złożyć ofertę
+2018-01-14 19:52:08	@Gynvael	no i pamiętaj, że nie musisz oferty akceptować, nawet jeśli wyraziłeś wstępne zainteresowanie
+2018-01-14 19:52:23	@Gynvael	a jeśli wolisz sobie zrobić przerwę, to zrób sobie przerwę ;)
+2018-01-14 19:52:57	dsugo	Gynvael: <3
+2018-01-14 19:53:06	dsugo	dziekówy
+2018-01-14 19:53:13	+mrx1	yep, i jak sa tacy dziwni ze unikaja rozmowy o zarobkach jak ognia, to przygotuj sobie asertywna odpowiedz na jakies slodkie pierdzenie z ich strony ze nie moga dac ci umowy teraz, a pozniej trzeba bedzie podpisac na juz
+2018-01-14 19:53:17	@Gynvael	ofc jak bedziesz chcial podpisać tą umowę
+2018-01-14 19:53:24	@Gynvael	to przyjdz ze swoją kopią którą przeczytałeś
+2018-01-14 19:53:27	@Gynvael	i ją podpisz
+2018-01-14 19:53:34	@Gynvael	ew jeśli dadzą swoją wydrukowaną
+2018-01-14 19:53:37	@Gynvael	porównaj obie linia po linii
+2018-01-14 19:53:37	+mrx1	powiedz np. "Powaznie traktuje ta prace dlatego chcialbym bez pospiechu na powaznie zapoznac sie z umowa"
+2018-01-14 19:53:49	@Gynvael	obie kopie wydruku (czy ile tam ich zrobią)
+2018-01-14 19:54:35	dsugo	wykręcają się, że informatyków przez jakieś agencje zatrudniają itd
+2018-01-14 19:54:41	pankracy	dokładnie, umowa rzecz święta
+2018-01-14 19:54:44	dsugo	tylko, że gadałem z departamentem it
+2018-01-14 19:54:45	@Gynvael	i generalnie nie przyjmuj żadnego 'spieszy mi sie już podpisuj' - jesli im sie spieszy, to zaproponuj, że możesz przeczytać je np. na korytarzu / w domu na spokojnie ;)
+2018-01-14 19:54:52	dsugo	i oni są stricte przez tą firme zatrudniani
+2018-01-14 19:54:56	_Vix	nie jest tak, że kopie powinny być... kopiami i nie powinny się różnić?
+2018-01-14 19:55:09	dsugo	i koleś się wykręca, że szukają odpowiedniego stanowiska dla mnie tz. nazwy
+2018-01-14 19:55:10	pankracy	dsugo: możesz też zaakceptować nową umowę i szukać pracy na boku i nie robić sobie przerwy w pracy, wtedy będziesz miał lepszą pozycję negocjacyjną do nowej pracy
+2018-01-14 19:55:16	dsugo	a miałbym zastąpić starszego analityka
+2018-01-14 19:55:25	@Gynvael	dsugo: sure, przy czym to nie znaczy, ze ciebie tez chca bezposrednio zatrudnic - to akurat nie musi byc nic zlego
+2018-01-14 19:55:38	@Gynvael	(chociaz zazwyczaj lepiej byc pracownikiem bezposrednio danej firmy)
+2018-01-14 19:55:43	+mrx1	dsugo: no to w takim wypadku mozesz zadac pytanie: "OK, to od kogo moglibysmy sie dowiedziec orientacyjnie wysokosci zarobkow?"
+2018-01-14 19:56:05	@Gynvael	_Vix: raczej chodzilo mi o przypadek kiedy to co ci dali do przeczytania w domu, i to co ci podsuneli do podpisania sie rozni
+2018-01-14 19:56:15	+mrx1	Gynvael: to bylby juz ladny kolchoz xD
+2018-01-14 19:56:33	pankracy	dsugo: jeżeli dają Ci "awans", w sensie, że np. senior analityk to możesz wciąż i zrezygnować po miesiącu, sporo osób tak robi
+2018-01-14 19:56:38	@Gynvael	dsugo: generalnie jak mrx1 pisze - grzeczna asertywność :)
+2018-01-14 19:56:39	_Vix	no, to tak, zrozumiałem jakoby do podpisania dali dwie różne ;D
+2018-01-14 19:56:54	dsugo	Gynvael: w przypadku tej firmy zatrudnienie bezpośrednie daje o wiele większe korzyści
+2018-01-14 19:57:26	@Gynvael	dsugo: jesli twoim warunkiem zatrudnienia byloby zatrudnienie bezposrednie, to tez im o tym daj znac
+2018-01-14 19:57:38	@Gynvael	_Vix: ah
+2018-01-14 19:57:41	@Gynvael	_Vix: o to tez mi chodzilo
+2018-01-14 19:57:49	@Gynvael	_Vix: ale to tylko moja paranoja ;) wiesz, wymagania zawodowe
+2018-01-14 19:58:33	+D0han	u mnie zatrudnieni bezpośrednio dostają wyraźnie mniejsze stawki niż ci od pośredników na b2b (czasem i 2 poziomy pośredników)
+2018-01-14 19:59:17	+mrx1	jak ja kogos zatrudniam i jestesmy juz dogadani to daje mu umowe podpisana przezemnie zeby se spokojnie przeczytal, podpisal i oddal
+2018-01-14 19:59:20	dsugo	Dohan: u mnie też tak pewnie jest ale jak bym był przez pośrednika zatrudniany to nie dostaje służbowego telefonu laptopa auta itd
+2018-01-14 19:59:41	+mrx1	(chyba to najnormalniejszy sposob, jak ktos ma feedback to chetnie uslysze)
+2018-01-14 19:59:43	dsugo	czyt. żerowanie na studenciaku
+2018-01-14 20:00:09	pankracy	mrx1: możesz mu jeszcze długopis dać
+2018-01-14 20:00:16	pankracy	bo niby czym ma się podpisać?
+2018-01-14 20:00:19	pankracy	śliną?
+2018-01-14 20:00:26	wiechu	pankracy, krwią.
+2018-01-14 20:00:30	pankracy	xD
+2018-01-14 20:00:37	dsugo	czyli wpierw poprosić o wstępną umowe zanim w ogóle zaczną mnie szkolić? :D
+2018-01-14 20:01:06	+mrx1	dsugo: nie no, jak oni wladuja zasoby w twoje szkolenie to tak naprawde wygrywasz na tym ;]
+2018-01-14 20:01:10	-->	Evelek (~Evelek4@public-gprs363049.centertel.pl) has joined #gynvaelstream
+2018-01-14 20:01:10	--	Mode #gynvaelstream [+v Evelek] by ChanServ
+2018-01-14 20:01:11	+Evelek	hello
+2018-01-14 20:01:18	wiechu	dsugo, oczywiście. Żeby nie wyszło na koniec, że to Ty masz zapłacić za to szkolenie.
+2018-01-14 20:01:26	@Gynvael	dsugo: czy 'zanim zaczną szkolić' to zależy od sytuacji, ale to brzmi fair
+2018-01-14 20:01:27	+mrx1	dsugo: bo bedziesz juz przeszkolonym gosciem, a jakby wzieli kogos z ulicy to trzeba bedzie go szkolic
+2018-01-14 20:01:36	dsugo	bo z tego co zrozumiałem to mam mieć takie same obowiązki co ten senior tylko, że szukają odpowiedniego stanowsika za które mniej zapłacą :D
+2018-01-14 20:01:53	pankracy	dsugo: Twój problem jest taki, że my przeszliśmy przez to 100 razy, Ty pewnie kilka razy, my wiemy co jest dla nas naturalne, jak się zachowamy, cokolwiek Ci powiemy może dla Ciebie być nieodpowiednie bo nie będziesz tego czuł
+2018-01-14 20:01:55	+mrx1	wiechu: jezeli nic w tej sprawie nie podpisze to go nie moga pozniej obciazyc za to szkolenie
+2018-01-14 20:02:33	f33	prosta sprawa
+2018-01-14 20:02:36	f33	jak daja to bierz
+2018-01-14 20:02:37	dsugo	pankracy: true nie mam takiego doświadczenia :/
+2018-01-14 20:02:40	f33	a jak bija to uciekaj
+2018-01-14 20:02:40	pankracy	dsugo: dużo zależy od tego jakim jesteś typem człowieka, jeżeli czytanie umów masz we krwi, robiłeś to 100 razy to nie będziesz się denerwował przy 101szym zapytaniu o umowę i przeczytanie jej
+2018-01-14 20:02:59	@Gynvael	tya, przy czym tego trzeba sie nauczyc
+2018-01-14 20:03:00	@Gynvael	;)
+2018-01-14 20:03:03	pankracy	dsugo: generalnie umowa to ostatni krok, przed umową jest dogadywanie szczegółów
+2018-01-14 20:03:10	@Gynvael	wiedziec to jedno, ale zrobic to drugie ;)
+2018-01-14 20:03:38	f33	dsugo: a jak ktos probuje ci na ambicje wjechac to krotko z nim
+2018-01-14 20:03:45	f33	i sie obraz
+2018-01-14 20:03:50	pankracy	dsugo: przy dogadywaniu o szczegóły pytasz o wszystko co Ci leży na sercu, musisz czuć te rzeczy i musisz wiedzieć, że te pytania są ważne
+2018-01-14 20:04:26	pankracy	dsugo: czyli pytasz o stawkę, pytasz o to jaki masz budżet na rozwijanie, pytasz o wyjazdy, pytasz o kompetencje jakie otrzymujesz do podejmowania ważnych decyzji
+2018-01-14 20:04:31	f33	ew olej szczegoly, jak raz po tylku dostaniesz to zaczniesz z naturalnoscia zwracac uwage na szczegoly
+2018-01-14 20:04:32	+mrx1	dsugo: jak juz sami z siebie chca cie szkolic i nie musisz podpisywac zadnych finansowych lojalek z tym zwiazanych - to wez idz i sie szkol. Po pierwsze, zobaczysz czy ci sie podoba. Po drugie, po szkoleniu bedziesz mial lepsza pozycje negocjacyjna (bo jestes juz przeszkolony a goscia z ulicy trzeba bedzie szkolic i go tak naprawde nie znaja)
+2018-01-14 20:05:00	f33	tak
+2018-01-14 20:05:22	pankracy	dokładnie, w międzyczasie idź do drugiej firmy się rekrutować i tam negocjuj już z lepszej pozycji niż jakbyś był bezrobotny
+2018-01-14 20:05:29	dsugo	no niczego nie podpisywałem, aktualnie to mam tylko umowę zlecenie - podstawa + ilość algorytmów jaką napisze w danym miesiącu
+2018-01-14 20:05:35	dsugo	i tam nic nie ma o szkoleniach itd
+2018-01-14 20:05:46	f33	ah, no i kolejna sprawa, jak idziesz po innych firmach szukac pracy
+2018-01-14 20:05:57	f33	to sie nie przyznawaj ze gadasz juz z innymi firmami
+2018-01-14 20:06:07	f33	pozwol im poczuc ze sa unikalni
+2018-01-14 20:06:14	dsugo	f33: nawet przy gadaniu o stawce? XD
+2018-01-14 20:06:23	f33	tak
+2018-01-14 20:06:40	f33	szantaze dosc slabo dzialaja
+2018-01-14 20:06:46	f33	po prostu podaj wyzsza stawke
+2018-01-14 20:06:48	f33	i tyle
+2018-01-14 20:06:55	f33	ja czesto tak robie ze wybieram sobie kilka celow
+2018-01-14 20:07:08	dsugo	bo póki co koleś mi napisał, że będę miał te same warunki co teraz
+2018-01-14 20:07:17	dsugo	but mi płacą za zrobiony algorytm a nie godzinowo
+2018-01-14 20:07:20	+mrx1	przy gadaniu o stawce mozesz sie przyznac w taki sposob: 'Czy mamy mozliwosc negocjacji stawki? Bo panstwa firma, projekty i technologie bardzo mi sie podobaja, ale XYZ zaproponowali mi dosc zauwazalnie wyzsza stawke.' ;]
+2018-01-14 20:07:29	f33	nie
+2018-01-14 20:07:29	dsugo	więc albo on nie ogarnął, albo chce mi dać tylko podstawe
+2018-01-14 20:07:31	f33	to jest suabe
+2018-01-14 20:07:36	f33	nikt nie jest idiota
+2018-01-14 20:07:37	+mrx1	f33: to jest bdb
+2018-01-14 20:07:43	+mrx1	ofc jesli jest to prawda
+2018-01-14 20:07:56	f33	nie ma znaczenia czy to prawda
+2018-01-14 20:08:00	f33	albo to dziala albo nie
+2018-01-14 20:08:02	f33	i przewaznie nie dziala
+2018-01-14 20:08:04	dsugo	mam propozycje w lepszej firmie tylko musiałbym zmienić miasto
+2018-01-14 20:08:06	f33	a tylko zrazasz do siebie
+2018-01-14 20:08:26	+mrx1	ma znaczenie, bo jak beda wiedzieli ze to klamstwo bo znaja warunki w tej innej firmie lub znaja tam kogos, to fail
+2018-01-14 20:08:39	f33	to sie wymysla taka firme zeby nie znali
+2018-01-14 20:08:42	f33	to chyba oczywiste
+2018-01-14 20:08:54	+mrx1	a jak prawda to jest to bardzo dobre zagranie rekrutacyjne, po prostu pytasz czy stawka jest negocjowalna i wyrazasz zachwyt nad ich firma ;]
+2018-01-14 20:09:05	f33	;]
+2018-01-14 20:09:40	f33	ja tam wole bez szantazy podac wyzsza kwote i na ewentualne prosby zejscia w dol odpowiadac ze nie oplacaloby mi sie
+2018-01-14 20:09:42	f33	i tyle
+2018-01-14 20:09:53	pankracy	mrx1: nie polecam czegoś takiego xD
+2018-01-14 20:09:53	+mrx1	super ;]
+2018-01-14 20:09:55	f33	firm jest duzo, zawsze ktos lyknie
+2018-01-14 20:10:02	pankracy	i w ogóle, nie polecam blefów
+2018-01-14 20:10:05	f33	tak
+2018-01-14 20:10:11	+mrx1	pankracy: dlatego pisalem ze jesli jest to prawda ;]
+2018-01-14 20:10:15	f33	generalnie wpieprzanie firm trzecich jest slabe
+2018-01-14 20:10:20	f33	nawet jesli to jest prawda
+2018-01-14 20:10:22	+mrx1	nope
+2018-01-14 20:10:32	f33	zle to wyglada i jest slabe
+2018-01-14 20:10:36	+mrx1	nope
+2018-01-14 20:10:39	f33	nie wiem kim bys musial byc zeby to zadzialalo
+2018-01-14 20:10:44	dsugo	no ale w sumie to bym musiał pracować w głównej mierze z przełożonym 
+2018-01-14 20:10:49	dsugo	i to z nim będe negocjował
+2018-01-14 20:10:59	f33	mrx1: mnie na podobnej zasadzie pod wlos moj poprzedni pracodawca bral
+2018-01-14 20:10:59	dsugo	więc nie mogę sobie pozwolić na jakieś podchody 
+2018-01-14 20:11:07	f33	i jedyne co osiagnal to to ze z ukosa patrzylem
+2018-01-14 20:11:24	f33	nie traktuj innych tak jak sam nie lubisz byc traktowany
+2018-01-14 20:11:25	f33	i juz
+2018-01-14 20:11:34	+mrx1	no ale co ci mogl pracodawca mowic, przeciez nie zatrudniales go
+2018-01-14 20:12:02	f33	mrx1: ze juz 10 ukraincow czeka na moje miejsce, slaby blef i tylko obniza rating pracodawcy w moich oczach
+2018-01-14 20:12:13	+mrx1	no to to nie jest taka sama sytuacja
+2018-01-14 20:12:15	f33	a co chcialem i tak dostalem
+2018-01-14 20:12:21	f33	sytuacja nie, ale zagranie podobne
+2018-01-14 20:12:25	<--	bucu (~bucu@unaffiliated/bucu) has quit
+2018-01-14 20:12:27	f33	zreszta
+2018-01-14 20:12:30	+mrx1	nie podobne ;]
+2018-01-14 20:12:33	dsugo	anyway, dziękówy z innej strony teraz na to pacze :D
+2018-01-14 20:12:41	f33	taki pracownik nawet nie rokuje ze bedzie lojalny
+2018-01-14 20:13:09	+mrx1	wszystko zalezy od tego jak negocjuje i jak stawia sprawe
+2018-01-14 20:13:26	dsugo	no ale jak mi koleś rzuci najniższą to mu powiem, że mam lepszą oferte u innego pracodawcy i podziekuje
+2018-01-14 20:13:31	f33	zalezy tez z kim gadasz, unikam ludzi na ktorych to dziala
+2018-01-14 20:13:35	f33	bo to znaczy ze sa idiotami
+2018-01-14 20:13:49	f33	dsugo: albo ze ci to nie pasuje, ja tam wole byc bardziej tajemniczy
+2018-01-14 20:13:53	f33	zamiast powody wymyslac
+2018-01-14 20:13:56	TheNumb	powazne tematy widze
+2018-01-14 20:13:58	+mrx1	f33: nie sa, to dziala prawie wszedzie, a na pewno nie dziala na niekorzysc [no chyba ze klamiesz]
+2018-01-14 20:14:11	f33	mrx1: no tylko o to chodzi ze skad kto ma wiedziec czy klamiesz czy nie
+2018-01-14 20:14:22	+mrx1	pisalem powyzej
+2018-01-14 20:14:32	f33	ja tez ci pisalem ze to bez sensu
+2018-01-14 20:14:36	+mrx1	ok ;]
+2018-01-14 20:15:10	f33	moze na leszczy to dziala
+2018-01-14 20:15:15	@Gynvael	dsugo: generalnie nie rzucaj niczym co jest nieprawdziwe
+2018-01-14 20:15:16	f33	ale jak ktos jest dobry to sie go nie szantazuje
+2018-01-14 20:15:26	@Gynvael	dsugo: ale tez pamietaj, ze nie musisz sie tlumaczyc z decyzji ;)
+2018-01-14 20:15:29	f33	dsugo: a i prawde czasem zostaw dla siebie
+2018-01-14 20:15:36	+mrx1	f33: ale to co pisalem to nie jest zaden szantaz przeciez
+2018-01-14 20:15:39	-->	Guest7162345 (~ba72e31c4@89-64-30-21.dynamic.chello.pl) has joined #gynvaelstream
+2018-01-14 20:15:44	Guest7162345	:)
+2018-01-14 20:15:48	+mrx1	normalne negocjacje, jak wiekszosc rzeczy w zyciu
+2018-01-14 20:16:08	+mrx1	jesli masz jakies dziwne podejscie ze nie negocjujesz `bo costam` to sporo na tym stracisz
+2018-01-14 20:16:11	f33	mrx1: stawianie miedzy mlotem a kowadlem to jest rodzaj delikatnego szantazu, gdyby to dawalo prawdziwa przewage negocjacyjna to bys sie do tego nie przyznawal
+2018-01-14 20:16:20	f33	nie mowie zeby mowic ze nie
+2018-01-14 20:16:25	+mrx1	dlaczego bym sie nie przyznawal?
+2018-01-14 20:16:26	f33	ale po co podawac powody
+2018-01-14 20:16:27	dsugo	dlatego chce negocjować a nie podpisać to co mi rzucą :P
+2018-01-14 20:16:28	f33	chyba ze ktos zapyta
+2018-01-14 20:16:32	f33	to moge powiedziec
+2018-01-14 20:16:34	f33	ze mam lepsza oferte
+2018-01-14 20:16:40	f33	nawet jakbym nie mial to tak odpowiem
+2018-01-14 20:16:42	f33	ale jak ktos nie pyta
+2018-01-14 20:16:43	+mrx1	f33: po to podawac powody ze oni moga byc gotowi zwiekszyc stawke
+2018-01-14 20:16:43	f33	to sie nie mowi
+2018-01-14 20:16:52	+D0han	mrx1: opij sobie piwo jakieś, bo widzę, że odebrałeś to trochę jak atak na siebie :)
+2018-01-14 20:16:53	dsugo	nawet jeśli się nie uda to może przy innej okazji będzie lepiej :D
+2018-01-14 20:17:00	+mrx1	D0han: ? nope 
+2018-01-14 20:17:24	f33	mrx1: jesli nawet by mial inna oferte, to tamtych dwoch sie moze za plecami ugadac
+2018-01-14 20:17:32	f33	i tylko na tym stracisz
+2018-01-14 20:17:46	f33	tak mojego znajomego wyrolowali
+2018-01-14 20:17:47	pankracy	to też prawda
+2018-01-14 20:17:48	+mrx1	w jaki sposob ugadac
+2018-01-14 20:18:07	f33	no tak ze razem ustala wspolna stawke powyzej ktorej nie wejda wyzej
+2018-01-14 20:18:11	pankracy	mrx1: jeżeli to startupy i się znają właściciele to mogą się jakoś ugadać
+2018-01-14 20:18:13	f33	i masz gorsza pozycje negocjacyjna
+2018-01-14 20:18:35	f33	no w ogole to jest bez sensu, po co sie pucowac z konkretna nazwa firmy
+2018-01-14 20:18:36	+mrx1	pankracy: ale jesli oboje beda chcieli cie zatrudnic to jak to ma przebiegac
+2018-01-14 20:18:42	+mrx1	to ugadywanie
+2018-01-14 20:18:49	pankracy	mrx1: ja odpuszczę teraz, a za to Ty odpuścisz później :)
+2018-01-14 20:18:51	pankracy	win-win :)
+2018-01-14 20:19:08	+mrx1	tj. bywaly przypadki takiego ugadywania pomiedzy korpo - google/apple/intel ;] ale tam to byl caly usystematyozwany system ;]
+2018-01-14 20:19:33	f33	ja tam robie tak ze ide na rozmowe, ugaduje sie, rzucam jakas stawke, nawet jak juz wyrazaja chec zatrudnienia to mowie ze wszystko w porzadku
+2018-01-14 20:19:33	+mrx1	a tak ad-hoc wymyslic miedzy firmami dla pojedynczego pracownika - ciezko to sobie wyobrazic ;]
+2018-01-14 20:19:37	f33	i wtedy wiem na czym stoje
+2018-01-14 20:19:40	f33	ide do drugiej firmy
+2018-01-14 20:19:43	f33	i rzucam wyzsza oferte
+2018-01-14 20:19:52	f33	jak sie zgodza to tamtych zlewam w ostatnim momencie
+2018-01-14 20:19:55	f33	a tych biore
+2018-01-14 20:20:00	f33	i juz
+2018-01-14 20:20:35	f33	zreszta, nawet jesli to nie jest optymalna droga do wysokich zarobkow, to i tak lubie tak robic
+2018-01-14 20:20:37	f33	taki moj styl
+2018-01-14 20:20:43	f33	stawiac wszystko na ostrzu noza
+2018-01-14 20:20:48	+mrx1	xd
+2018-01-14 20:20:49	<--	Evelek (~Evelek4@public-gprs363049.centertel.pl) has quit (Remote host closed the connection)
+2018-01-14 20:21:11	+mrx1	no i git, styl trzeba miec ;]
+2018-01-14 20:21:15	f33	;]
+2018-01-14 20:21:38	-->	Evelek (~Evelek4@public-gprs363049.centertel.pl) has joined #gynvaelstream
+2018-01-14 20:23:59	@foxtrot_charlie	http://blog.exploitlab.net/2018/01/dvar-damn-vulnerable-arm-router.html
+2018-01-14 20:24:00	@foxtrot_charlie	fajne
+2018-01-14 20:24:02	@foxtrot_charlie	^
+2018-01-14 20:24:05	@Pierun	 [The Exploit Laboratory: DVAR - Damn Vulnerable ARM Router]
+2018-01-14 20:24:58	duga	https://youtu.be/iKcWu0tsiZM
+2018-01-14 20:25:11	@Pierun	 [Modern Educayshun - YouTube]
+2018-01-14 20:29:18	pankracy	disconnect3d: jak czytam te mgr i inż to w każdej widzę buble językowe xD
+2018-01-14 20:29:41	pankracy	ale dzięki za linka, znalazlem jedną pracę z rzeczy, które mi są aktualnie potrzebne
+2018-01-14 20:30:26	pankracy	jak to było w tao programowania: "dzisiaj na targach się obłowię"
+2018-01-14 20:30:36	pankracy	jestem złodziejem pomysłów :)
+2018-01-14 20:32:01	TheNumb	no ładnie
+2018-01-14 20:32:43	pankracy	TheNumb: oj mamo
+2018-01-14 20:32:48	pankracy	nie zrozumisz
+2018-01-14 20:34:14	TheNumb	sam się przyznałeś
+2018-01-14 20:34:19	TheNumb	teraz trzeba wymierzyć karę
+2018-01-14 20:35:48	pankracy	mame to nie fair ;(
+2018-01-14 20:36:25	pankracy	Google też tak robio, a im mame kary nie wymierza ;(
+2018-01-14 20:38:43	TheNumb	pankracy: https://www.youtube.com/watch?v=_32hZIficuc
+2018-01-14 20:38:46	TheNumb	:P
+2018-01-14 20:38:53	@Pierun	 [Do mycia gnoju! - YouTube]
+2018-01-14 20:55:14	pankracy	TheNumb: mame, ale niektórzy myją się po 23 ;(
+2018-01-14 20:57:21	<--	Guest7162345 (~ba72e31c4@89-64-30-21.dynamic.chello.pl) has quit (Quit: Lost terminal)
+2018-01-14 21:00:07	-->	daniel1302 (~daniel@189.ip-147-135-209.eu) has joined #gynvaelstream
+2018-01-14 21:00:12	daniel1302	o/ mam pytanie :)
+2018-01-14 21:00:41	daniel1302	mam klase FileController ktora dziedziczy po Controller i mam metode ktora zwraca unique_ptr<Controller> ale chce stworzyc w niej pointer na FileController i zrzutowac go do pointera na Controller. Czy to mozliwe?
+2018-01-14 21:00:49	daniel1302	https://pastebin.com/sS5QvE8x
+2018-01-14 21:00:57	@Pierun	 [std::unique_ptr<Controller> Controller::createController(uint32_t type) { - Pastebin.com]
+2018-01-14 21:01:21	daniel1302	i pojawia mi sie error, ze nie może tak zrzutowac
+2018-01-14 21:01:22	daniel1302	:(
+2018-01-14 21:07:12	-->	serpoland (~serpoland@89-65-13-168.dynamic.chello.pl) has joined #gynvaelstream
+2018-01-14 21:20:09	firemark	no to nie można, po co drazyc temat :P
+2018-01-14 21:21:28	<--	Evelek (~Evelek4@public-gprs363049.centertel.pl) has quit (Ping timeout: 276 seconds)
+2018-01-14 21:26:12	@foxtrot_charlie	hm
+2018-01-14 21:26:16	@foxtrot_charlie	a jakiś dynamic_cast
+2018-01-14 21:26:38	daniel1302	dziedziczenie publiczne potrzeba :( pomogli mi 
+2018-01-14 21:26:39	daniel1302	:D
+2018-01-14 21:27:09	@foxtrot_charlie	;) 
+2018-01-14 21:27:15	@foxtrot_charlie	grunt, że solved
+2018-01-14 21:59:04	<--	serpoland (~serpoland@89-65-13-168.dynamic.chello.pl) has quit (Ping timeout: 276 seconds)
+2018-01-14 22:09:40	<--	quc (~quc@host-89-230-173-123.dynamic.mm.pl) has quit (Remote host closed the connection)
+2018-01-14 22:09:56	-->	quc (~quc@host-89-230-173-123.dynamic.mm.pl) has joined #gynvaelstream
+2018-01-14 22:10:07	Wojo	mam starego linksysa wrt54g, zastanawiałem się co z nim zrobić
+2018-01-14 22:10:13	Wojo	ten projekt wygrywa: http://www.webstyle.in.ua/wp-content/uploads/bezpilot.jpg 
+2018-01-14 22:10:23	+d42	;~;
+2018-01-14 22:10:27	+d42	u mnie robi telewizor ;~;
+2018-01-14 22:11:07	Wojo	https://www.youtube.com/watch?v=BRzf-Yvx3uk ;D
+2018-01-14 22:11:14	@Pierun	 [Flying Linksys Router Test Flight - YouTube]
+2018-01-14 22:15:46	pankracy	filmik jest ilustracją świetnie zapowiadających się startupów na crowdfunding.com
+2018-01-14 22:16:05	pankracy	świetnie wyglądają na papierze
+2018-01-14 22:17:12	<--	shotone (bc9243c8@gateway/web/freenode/ip.188.146.67.200) has quit (Quit: Page closed)
+2018-01-14 22:17:39	@foxtrot_charlie	cotozajanusze3dpirntu?
+2018-01-14 22:19:28	@KrzaQ	ktos mnie wolal?
+2018-01-14 22:20:10	+D0han	czy twój router już lata?
+2018-01-14 22:20:29	@KrzaQ	nope
+2018-01-14 22:20:38	@foxtrot_charlie	:D ej, ja mam niepotrzebnego wrt54gl
+2018-01-14 22:20:42	Wojo	foxtrot_charlie: :D
+2018-01-14 22:20:43	@foxtrot_charlie	to jest IDEALNY pomysł
+2018-01-14 22:20:53	Wojo	flying wrt54 fight!
+2018-01-14 22:21:08	pankracy	foxtrot_charlie: jak niepotrzebny to mi go wyślij
+2018-01-14 22:21:15	@foxtrot_charlie	pewnie i tak ma więcej flopsów niż wszystkie apollo 
+2018-01-14 22:21:18	@foxtrot_charlie	no już mi potrzebny
+2018-01-14 22:21:23	@foxtrot_charlie	leci w kosmos
+2018-01-14 22:21:25	+D0han	zrób z niego latającego za tobą AP
+2018-01-14 22:21:27	@foxtrot_charlie	wrt54gl can into space
+2018-01-14 22:21:44	Wojo	D0han: który będzie ciągnał neta z komórki
+2018-01-14 22:21:45	@foxtrot_charlie	xD D0han taki honeypot będzie lekko podejrzany nie uważasz? 
+2018-01-14 22:21:47	Wojo	;D
+2018-01-14 22:21:57	+D0han	nie, skąd :D
+2018-01-14 22:22:10	pankracy	czyli takie pierdololo, ej ja mam niepotrzebne ferrari w garażu, ktoś chce? nie dla psa!!! dla pana to!!!
+2018-01-14 22:22:38	@foxtrot_charlie	pankracy: Ty ostatnio po mercedesa jechałeś i to dość leciwego, wiec Ty mi tu nie pisz o ferari w garażu :P
+2018-01-14 22:23:12	pankracy	to była taka żaluzja z tym ferrari
+2018-01-14 22:23:15	pankracy	nie mam ferrari
+2018-01-14 22:23:39	 *	foxtrot_charlie sprawdził, że wrt54gl wciąż jest pod biurkiem 
+2018-01-14 22:24:19	Wojo	foxtrot_charlie: generalnie sprawa jest prosta, wygląda na to, że wystarczy przeportować drona na BCM5352 :p
+2018-01-14 22:24:30	@foxtrot_charlie	:D izipizi
+2018-01-14 22:24:40	Wojo	ciekawe czy drony umieją into vlans
+2018-01-14 22:24:49	@foxtrot_charlie	xD jak zrobisz z mikrotika to na bank
+2018-01-14 22:25:03	Wojo	ten broadcom to jakiś mips jest
+2018-01-14 22:25:09	+D0han	wrt chyba umie w vlany?
+2018-01-14 22:25:29	@foxtrot_charlie	dd-wrt umie
+2018-01-14 22:25:52	@foxtrot_charlie	ale jak już się dowiedziałem co to jest, to byłem dwa routery do przodu także nie stawiałem :/
+2018-01-14 22:26:54	Wojo	każde śmigło do innego vlanu
+2018-01-14 22:27:01	Wojo	potem trunk 
+2018-01-14 22:27:03	Wojo	będzie latać
+2018-01-14 22:28:19	@foxtrot_charlie	lol
+2018-01-14 22:28:23	@foxtrot_charlie	radare2 umie w te mipsy
+2018-01-14 22:28:24	@foxtrot_charlie	xD
+2018-01-14 22:28:29	Wojo	to też wygląda ciekawie: https://www.youtube.com/watch?v=7E0ybIYRPaw
+2018-01-14 22:28:37	@Pierun	 [Mjolnir Project Demo - YouTube]
+2018-01-14 22:28:51	wiechu	Mnie się ostatnio zepsuł router, więc zrobiłem sobie access pointa na routerze z linuksem.
+2018-01-14 22:29:01	Wojo	https://hackaday.com/2012/09/05/tank-router-defends-your-pets/#more-84345 
+2018-01-14 22:29:04	@Pierun	 [Tank router defends your pets? | Hackaday]
+2018-01-14 22:29:18	@foxtrot_charlie	hm
+2018-01-14 22:29:22	wiechu	W sumie to ten linux i tak był routerem, a tamten niby-router był wykastrowany do funkcji access pointa.
+2018-01-14 22:29:35	furia	ap od xiaomi ostatnio były po 18 zł :3 
+2018-01-14 22:29:41	@foxtrot_charlie	słabe kąty wejścia i zejścia 
+2018-01-14 22:29:43	@foxtrot_charlie	tego czołgu
+2018-01-14 22:29:44	@foxtrot_charlie	a poza tym
+2018-01-14 22:30:01	@foxtrot_charlie	super, jakbym znalazł IEDa w pokoju to tak bym właśnie podjeżdżał
+2018-01-14 22:30:22	Wojo	ja bym przeganiał kota tym czołgiem
+2018-01-14 22:30:41	Wojo	może akurat nie lubi 2.4GHz
+2018-01-14 22:30:44	+D0han	webcam po skrętce, na bogato
+2018-01-14 22:31:09	@foxtrot_charlie	cat 6 ?
+2018-01-14 22:31:29	furia	Wojo: właśnie po postawieniu tego ap zadomowił mi sie kot pod domem :v 
+2018-01-14 22:31:41	Wojo	o kurde, czyli na odwrót 
+2018-01-14 22:31:45	@foxtrot_charlie	zmień ssid
+2018-01-14 22:31:55	Wojo	ssid na hycel
+2018-01-14 22:32:08	furia	xDDD
+2018-01-14 22:32:13	@foxtrot_charlie	ej dobra, prodżekt do confidence
+2018-01-14 22:32:16	@foxtrot_charlie	zrobić tego drona
+2018-01-14 22:32:19	@foxtrot_charlie	z routera
+2018-01-14 22:32:19	@foxtrot_charlie	xD
+2018-01-14 22:32:24	Wojo	będę na confidence!
+2018-01-14 22:32:26	Wojo	zrobimy fight.
+2018-01-14 22:32:26	furia	z kota ;-;
+2018-01-14 22:32:30	@foxtrot_charlie	xD
+2018-01-14 22:32:34	+d42	byłbyś fajniejszy jakbyś zrobił z drona router :v
+2018-01-14 22:32:44	@foxtrot_charlie	w sumie to będzie łatwiejsze I guess
+2018-01-14 22:32:54	@foxtrot_charlie	trzeba znaleźć tylko taki z jakimiś atherosami
+2018-01-14 22:33:10	Wojo	d42: to zrobimy tak: z wrt54 zrobimy drona, a z bebechów od drona się postawi router ;)
+2018-01-14 22:33:19	+d42	excellent
+2018-01-14 22:34:11	furia	ojej, mam bilet na confidence za 120zł :o
+2018-01-14 22:34:21	@foxtrot_charlie	<3
+2018-01-14 22:35:54	pankracy	btw, w tym roku na sfi w Krakowie będzie kilka petard
+2018-01-14 22:36:22	pankracy	ale nie mogę mówić szczegółów
+2018-01-14 22:36:28	@foxtrot_charlie	#pdk dodaj
+2018-01-14 22:36:32	pankracy	5-7 kwietnia: http://sfi.org.pl
+2018-01-14 22:36:38	@Pierun	 [Studencki Festiwal Informatyczny]
+2018-01-14 22:36:45	Wojo	to tylko uchyl rąbka tajemnicy
+2018-01-14 22:36:47	Wojo	czy coś będzie latać
+2018-01-14 22:36:48	pankracy	przypominam, że w tamtym roku był np. Cormen
+2018-01-14 22:37:05	pankracy	no tak, kilku prelegentów przyleci
+2018-01-14 22:37:10	pankracy	z daleka
+2018-01-14 22:37:44	Wojo	a call for papers się skończyło?
+2018-01-14 22:38:08	furia	pankracy: w zakładce "about SFI" na najnowszej mozzilli jest wyzerowany licznik (bo może zajmujesz sie tą strona)
+2018-01-14 22:38:14	pankracy	zwykle o tej porze jeszcze trwało c4p
+2018-01-14 22:38:28	pankracy	furia: nie, ale przekażę
+2018-01-14 22:38:34	furia	oki oki
+2018-01-14 22:39:57	pankracy	furia: dzięki za zgłoszenie :)
+2018-01-14 22:40:06	Wojo	Jerzy Grębosz ma dobrą fotkę
+2018-01-14 22:40:18	pankracy	Jerzy Grębosz ma ogólnie dobre fotki :)
+2018-01-14 22:40:30	furia	ojej za pierwszym razem przeczytałem "nie, nie przekaze"
+2018-01-14 22:40:38	furia	chyba juz pora odejsc od komputera :D
+2018-01-14 22:41:29	pankracy	mogło się skończyć jak fatalne przejęzyczenie :)
+2018-01-14 22:41:43	@foxtrot_charlie	xD
+2018-01-14 22:41:57	@foxtrot_charlie	f33: jesteś? 
+2018-01-14 22:42:10	f33	no
+2018-01-14 22:42:12	f33	a co
+2018-01-14 22:42:44	@foxtrot_charlie	Ty ogarniasz 3d print, jakie tworzywo jest najbardziej durable z tych woodsów absów etc co można na domowej drukarce użyć?
+2018-01-14 22:43:01	Wojo	haha! foxtrot_charlie już drukuje :D
+2018-01-14 22:43:05	@foxtrot_charlie	xD
+2018-01-14 22:43:06	f33	polywood pewnie
+2018-01-14 22:43:15	@foxtrot_charlie	thx!
+2018-01-14 22:43:16	f33	na pewno nic co jest na bazie pla nie jest zbyt trwale
+2018-01-14 22:43:36	Wojo	ja idę w alu lotnicze
+2018-01-14 22:43:53	@foxtrot_charlie	a masz czym to obrabiać? 
+2018-01-14 22:44:15	Wojo	być może, muszę się zorientować 
+2018-01-14 22:44:17	@foxtrot_charlie	u nas na wydziale są tylko drukarki 3d. cnc i reszta to już musiałbym uderzać do kół, rozmawiać z ludźmi :P
+2018-01-14 22:44:53	Wojo	foxtrot_charlie: znasz walki robotów?
+2018-01-14 22:44:57	@foxtrot_charlie	ofc!
+2018-01-14 22:45:04	Wojo	tam tylko metale :>
+2018-01-14 22:45:07	@foxtrot_charlie	chyba nie chcesz walczyć dronami? :D
+2018-01-14 22:45:11	Wojo	no jak to nie!
+2018-01-14 22:45:19	@foxtrot_charlie	dog fight dronem z routera
+2018-01-14 22:45:28	@foxtrot_charlie	brzmi jak przedawkowanie YT
+2018-01-14 22:45:33	@foxtrot_charlie	deal xD
+2018-01-14 22:49:00	pankracy	Wojo: jak będzie c4p to Ci napiszę
+2018-01-14 22:49:20	pankracy	a w międzyczasie możesz zafollowować https://twitter.com/sfikrakow
+2018-01-14 22:49:24	pankracy	to będziesz na bieżąco :)
+2018-01-14 22:49:32	@Pierun	 [SFI (@sfikrakow) | Twitter]
+2018-01-14 22:51:10	+zagura	https://pbs.twimg.com/media/C7TSZbOXgAApUIn.jpg:large :D
+2018-01-14 22:51:41	Wojo	foxtrot_charlie: https://www.youtube.com/watch?v=jFiYqVKFJ0U
+2018-01-14 22:51:44	@Pierun	 [Game of Drones Final Battle @ Maker Faire 2014 - YouTube]
+2018-01-14 22:51:53	pankracy	zagura: plz, nic o mnie xD
+2018-01-14 22:52:42	@foxtrot_charlie	Wojo: ożesz
+2018-01-14 22:52:56	@foxtrot_charlie	to chyba jednak 3d nie jest the way to go
+2018-01-14 22:53:07	furia	piękne lampy w powietrzu XD
+2018-01-14 22:55:46	+zagura	A czy Gynvael jest zainteresowany prelekcją na SFI?
+2018-01-14 22:55:50	+zagura	pankracy: ↑
+2018-01-14 22:55:56	pankracy	Gynvael zawsze odmawiał ;<
+2018-01-14 22:56:10	pankracy	co roku dostaje zaproszenie z tego co mi wiadomo
+2018-01-14 22:56:10	+D0han	Wojo, foxtrot_charlie: https://www.youtube.com/watch?v=Z-ouLX8Q9UM
+2018-01-14 22:56:14	@Pierun	 [THE GIANT ROBOT DUEL - YouTube]
+2018-01-14 22:56:24	pankracy	tak samo j00ru
+2018-01-14 22:56:35	+zagura	:(
+2018-01-14 22:56:37	@foxtrot_charlie	mam pewne obawy D0han, trudno to będzie z routera zrobić
+2018-01-14 22:56:55	+D0han	jestem przekonany, że router się tam zmieści bez problemu
+2018-01-14 22:57:06	@foxtrot_charlie	xD
+2018-01-14 22:57:55	Wojo	D0han: wtf. oni siedzą w środku i dają się kroić wielką piłą?!
+2018-01-14 22:58:05	+D0han	yep!
+2018-01-14 22:58:12	f33	foxtrot_charlie: w sumie to jak kcesz trwalosc to bierz cos na bazie absu
+2018-01-14 22:58:16	+D0han	walka mechów to walka mechów :D
+2018-01-14 22:58:26	f33	wszystkie drewna to sa domieszki pla afaik
+2018-01-14 22:58:33	Wojo	D0han: ale w tytule jest robot
+2018-01-14 22:59:01	@foxtrot_charlie	f33: thx jeszcze raz ;)
+2018-01-14 22:59:02	pankracy	zagura: w sumie nie powinienem tego publicznie pisać bo teraz Gynvael i j00ru może być niezręcznie xD to tak jakby komuś mówić "nie dajesz na głodne dzieci? wstydź się!"
+2018-01-14 22:59:17	+D0han	Wojo: mylące, to może być różnica kulturowa, ale chodzi o mechy
+2018-01-14 22:59:40	+D0han	pankracy: a dajesz na głodne dzieci?
+2018-01-14 22:59:58	 *	pankracy przełyka ślinę
+2018-01-14 23:00:15	pankracy	ja jestem często głodny i jestem czyimś dzieckiem
+2018-01-14 23:00:19	pankracy	więc tak, daję :)
+2018-01-14 23:00:35	@Gynvael	pankracy: ale jesteś jeden
+2018-01-14 23:00:39	@Gynvael	a 'dzieci' to liczba mnoga
+2018-01-14 23:00:53	pankracy	dzielę się z dziewczyną
+2018-01-14 23:01:25	@Gynvael	ale czy dajesz na jakąś fundacje która kupuje jedzenie dla ciebie i twojej dziewczyny?
+2018-01-14 23:01:37	@Gynvael	bo 'dawac na' to nie to samo co 'dawac'
+2018-01-14 23:01:37	+D0han	hahah
+2018-01-14 23:01:56	pankracy	nie no, bardziej preferuję pomoc doraźną i bezpośrednią
+2018-01-14 23:02:04	pankracy	bez pośredników
+2018-01-14 23:02:07	@Gynvael	mhm
+2018-01-14 23:02:12	@Gynvael	wstydź się
+2018-01-14 23:02:14	@Gynvael	;DD
+2018-01-14 23:02:17	+ChrisWarrick	jeżeli już o dawaniu na dzieci mowa, to wośp pobije 105k
+2018-01-14 23:02:19	pankracy	;(
+2018-01-14 23:02:37	+ChrisWarrick	105M*
+2018-01-14 23:02:37	@Gynvael	ChrisWarrick: k? czy kk?
+2018-01-14 23:02:40	wiechu	Gynvael, a Ty dajesz na głodnego pankracego? Bezpośrednio lub pośrednio?
+2018-01-14 23:02:46	wiechu	Że już o jego dziewczynie nie wspomnę?
+2018-01-14 23:03:06	+ChrisWarrick	w stosunku do zeszłego roku jest jak na razie +8M (23:00 dzień finału)
+2018-01-14 23:03:16	@Gynvael	wiechu: hmm, na jego konkretnie chyba nie ;)
+2018-01-14 23:03:36	wiechu	Gynvael, widzę, że jesteś z tego dumny!!!
+2018-01-14 23:03:54	@Gynvael	tak, jestem dumny, że nie musze, bo to znaczy, że pankracy sobie dobrze w życiu radzi!
+2018-01-14 23:03:58	@Gynvael	;D
+2018-01-14 23:03:59	wiechu	I jeszcze się cieszy! Co za człowiek!
+2018-01-14 23:04:01	pankracy	xD
+2018-01-14 23:04:22	+D0han	toć Gynvael go karmi wiedzą na ircu i streamach
+2018-01-14 23:04:29	+D0han	całkiem bezpośrednio
+2018-01-14 23:05:22	@Gynvael	ad SFI
+2018-01-14 23:05:37	@Gynvael	taaak, faktycznie co roku albo mi cos wypada, albo po prostu sobie robie przerwe od prelekcji
+2018-01-14 23:05:55	+D0han	albo akurat karmi dzieci
+2018-01-14 23:05:59	pankracy	xD
+2018-01-14 23:06:20	pankracy	własną piersią jak Keanu Reeves
+2018-01-14 23:06:38	@Gynvael	hmmm
+2018-01-14 23:06:50	@Gynvael	chyba tez problemy logistyczne dochodzily
+2018-01-14 23:07:08	@Gynvael	ah, ale to sie potem zmienilo
+2018-01-14 23:07:12	@Gynvael	(patrze na historie mejli)
+2018-01-14 23:07:13	@Gynvael	wiec nvm
+2018-01-14 23:07:19	 *	zagura liczy, że w tym roku się uda :D
+2018-01-14 23:07:34	pankracy	https://www.wykop.pl/wpis/17781869/coolstory-w-latach-2005-2008-mieszkalismy-przez-ch/
+2018-01-14 23:07:45	@Pierun	 [#coolstory W latach 2005-2008 mieszkaliśmy przez... - NowyJa - Wykop.pl]
+2018-01-14 23:10:19	+D0han	!c btc in pln
+2018-01-14 23:10:19	@Pierun	failed to parse command
+2018-01-14 23:10:26	+D0han	!c btc to pln
+2018-01-14 23:10:27	@Pierun	1.0 BTC = 46460.0 PLN
+2018-01-14 23:10:39	+D0han	!c btc pln
+2018-01-14 23:10:39	@Pierun	Bitcoin 46460.0 PLN <hourly: -0.17% | -79.11 PLN> <daily: -5.54% | -2725.0 PLN> <weekly: -16.84% | -9408.0 PLN>
+2018-01-14 23:10:55	@foxtrot_charlie	hahahah nie masz premium
+2018-01-14 23:11:00	@foxtrot_charlie	!c btc pln
+2018-01-14 23:11:00	@Pierun	Bitcoin 46460.0 PLN <hourly: -0.17% | -79.11 PLN> <daily: -5.54% | -2725.0 PLN> <weekly: -16.84% | -9408.0 PLN>
+2018-01-14 23:11:08	@foxtrot_charlie	tak wygląda bogactwo
+2018-01-14 23:11:20	+D0han	wręcz przeciwnie, właśnie to ja mam wersję vip
+2018-01-14 23:11:36	 *	foxtrot_charlie lubi kolorki :c
+2018-01-14 23:11:37	+zagura	Jedyna taka na kanale :D
+2018-01-14 23:11:50	wiechu	D0han, nie stać Cię i dorabiasz ideologię!
+2018-01-14 23:11:59	wiechu	(Tak się kiedyś mawiało w takich sytuacjach)
+2018-01-14 23:12:07	+D0han	:D
+2018-01-14 23:12:26	_Vix	bana na kolor dostał, a teraz mówi że przywilej ;f
+2018-01-14 23:14:04	firemark	moment
+2018-01-14 23:14:08	firemark	nie wszyscy mają kolory?
+2018-01-14 23:14:11	firemark	!c btc pln
+2018-01-14 23:14:11	@Pierun	Bitcoin 46460.0 PLN <hourly: -0.17% | -79.11 PLN> <daily: -5.54% | -2725.0 PLN> <weekly: -16.84% | -9408.0 PLN>
+2018-01-14 23:14:16	@foxtrot_charlie	D0han nie ma bo nie zapłacił
+2018-01-14 23:14:18	firemark	aaa fuck moje oczy 
+2018-01-14 23:14:26	 *	firemark runz
+2018-01-14 23:14:31	@foxtrot_charlie	noo, ta cena boli :(
+2018-01-14 23:14:54	firemark	!c btc usd
+2018-01-14 23:14:54	@Pierun	Bitcoin 13590.0 USD <hourly: -0.17% | -23.14 USD> <daily: -5.54% | -796.8 USD> <weekly: -16.84% | -2751.0 USD>
+2018-01-14 23:14:57	wiechu	Słono trzeba płacić, aż w oczy szczypie.
+2018-01-14 23:16:00	@foxtrot_charlie	xD powiadomienie z adobe acrobat -> podczas drukowania do polku pdf zaoszczędzono 15% tonera
+2018-01-14 23:16:10	@foxtrot_charlie	s/plok*/pliku/
+2018-01-14 23:16:10	@Pierun	foxtrot_charlie: You did something wrong... Try s/you/me/ or tell me "help sed"
+2018-01-14 23:16:15	+D0han	wot technika
+2018-01-14 23:17:34	pankracy	btw, jak macie jakieś propozycje na prelegentów, których chcielibyście zaprosić na SFI do Krakowa to walcie śmiało do mnie tutaj albo piszcie na tt albo na fb

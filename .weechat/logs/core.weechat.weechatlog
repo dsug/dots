@@ -3,3 +3,165 @@
 2017-10-31 18:44:03		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
 2017-10-31 18:44:03		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
 2017-10-31 18:44:03		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, irc, logger, lua, perl, python, relay, script, trigger, xfer
+2017-11-12 19:01:23		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2017-11-12 19:01:23		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2017-11-12 19:01:23		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2017-11-12 19:01:23		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2017-11-12 19:01:23		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-12 20:09:26		fifo: pipe closed
+2017-11-12 20:09:30		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-12 20:09:33		fifo: pipe closed
+2017-11-13 18:44:35		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-13 19:24:43		fifo: pipe closed
+2017-11-13 22:11:44		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-13 22:13:15		fifo: pipe closed
+2017-11-13 22:13:40		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-13 22:16:22		fifo: pipe closed
+2017-11-13 22:16:30		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-13 22:57:25		fifo: pipe closed
+2017-11-14 22:01:56		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-14 22:30:35		fifo: pipe closed
+2017-11-15 21:15:26		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-15 22:53:59		fifo: pipe closed
+2017-11-16 18:42:11		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-16 20:42:20	=!=	irc: unable to add temporary server "freenode" because the addition of temporary servers with command /connect is currently disabled
+2017-11-16 20:42:20	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2017-11-16 20:42:31		[irc]  /server  list|listfull [<server>]
+2017-11-16 20:42:31		                add <server> <hostname>[/<port>] [-temp] [-<option>[=<value>]] [-no<option>]
+2017-11-16 20:42:31		                copy|rename <server> <new_name>
+2017-11-16 20:42:31		                reorder <server> [<server>...]
+2017-11-16 20:42:31		                open <server>|-all [<server>...]
+2017-11-16 20:42:31		                del|keep <server>
+2017-11-16 20:42:31		                deloutq|jump|raw
+2017-11-16 20:42:31		list, add or remove IRC servers
+2017-11-16 20:42:31		    list: list servers (without argument, this list is displayed)
+2017-11-16 20:42:31		listfull: list servers with detailed info for each server
+2017-11-16 20:42:31		     add: add a new server
+2017-11-16 20:42:31		  server: server name, for internal and display use
+2017-11-16 20:42:31		hostname: name or IP address of server, with optional port (default: 6667), many addresses can be separated by a comma
+2017-11-16 20:42:31		   -temp: add a temporary server (not saved)
+2017-11-16 20:42:31		  option: set option for server (for boolean option, value can be omitted)
+2017-11-16 20:42:31		nooption: set boolean option to 'off' (for example: -nossl)
+2017-11-16 20:42:31		    copy: duplicate a server
+2017-11-16 20:42:31		  rename: rename a server
+2017-11-16 20:42:31		 reorder: reorder list of servers
+2017-11-16 20:42:31		    open: open the server buffer without connecting
+2017-11-16 20:42:31		    keep: keep server in config file (for temporary servers only)
+2017-11-16 20:42:31		     del: delete a server
+2017-11-16 20:42:31		 deloutq: delete messages out queue for all servers (all messages WeeChat is currently sending)
+2017-11-16 20:42:31		    jump: jump to server buffer
+2017-11-16 20:42:31		     raw: open buffer with raw IRC data
+2017-11-16 20:42:31		Examples:
+2017-11-16 20:42:31		  /server listfull
+2017-11-16 20:42:31		  /server add freenode chat.freenode.net
+2017-11-16 20:42:31		  /server add freenode chat.freenode.net/6697 -ssl -autoconnect
+2017-11-16 20:42:31		  /server add chatspike irc.chatspike.net/6667,irc.duckspike.net/6667
+2017-11-16 20:42:31		  /server copy freenode freenode-test
+2017-11-16 20:42:31		  /server rename freenode-test freenode2
+2017-11-16 20:42:31		  /server reorder freenode2 freenode
+2017-11-16 20:42:31		  /server del freenode
+2017-11-16 20:42:31		  /server deloutq
+2017-11-16 20:42:40		irc: server freenode added
+2017-11-16 23:12:30		fifo: pipe closed
+2017-11-18 12:50:48		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-18 13:14:09		fifo: pipe closed
+2017-11-18 13:14:36		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-18 16:17:01	=!=	irc: unable to add temporary server "#vim_channel" because the addition of temporary servers with command /connect is currently disabled
+2017-11-18 16:17:01	=!=	irc: if you want to add a standard server, use the command "/server add" (see /help server); if you really want to add a temporary server (NOT SAVED), turn on the option irc.look.temporary_servers
+2017-11-19 00:27:25		fifo: pipe closed
+2017-11-19 09:18:43		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-19 17:28:59		fifo: pipe closed
+2017-11-19 19:00:47		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-19 23:20:37		fifo: pipe closed
+2017-11-20 18:34:21		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-20 18:34:25		fifo: pipe closed
+2017-11-21 18:00:10		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-21 23:26:30		fifo: pipe closed
+2017-11-22 18:48:30		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-22 19:38:38		fifo: pipe closed
+2017-11-23 21:22:40		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-23 22:56:10		fifo: pipe closed
+2017-11-24 22:41:35		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-24 22:42:24		fifo: pipe closed
+2017-11-24 23:00:33		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-24 23:07:42		fifo: pipe closed
+2017-11-25 20:57:14		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-25 22:24:21		fifo: pipe closed
+2017-11-26 10:53:25		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-26 10:59:58		fifo: pipe closed
+2017-11-26 12:14:13		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-26 13:29:50		fifo: pipe closed
+2017-11-26 19:41:17		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-26 19:53:47		fifo: pipe closed
+2017-11-27 05:26:11		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-27 06:00:36		fifo: pipe closed
+2017-11-28 18:24:20		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-28 22:44:11		fifo: pipe closed
+2017-11-29 17:15:00		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-29 21:46:22		fifo: pipe closed
+2017-11-30 18:14:44		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-11-30 23:36:38		fifo: pipe closed
+2017-12-02 20:37:40		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-02 20:46:21		fifo: pipe closed
+2017-12-03 13:34:23		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-03 13:44:04		fifo: pipe closed
+2017-12-03 13:44:08		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-03 13:44:50		fifo: pipe closed
+2017-12-03 13:44:58		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-03 14:30:12		fifo: pipe closed
+2017-12-04 18:37:56		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-04 19:00:16		fifo: pipe closed
+2017-12-04 19:00:20		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-04 19:00:22		fifo: pipe closed
+2017-12-04 19:00:27		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-04 19:00:33		fifo: pipe closed
+2017-12-04 19:00:56		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-04 19:22:48		fifo: pipe closed
+2017-12-04 20:20:50		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-04 22:47:19		fifo: pipe closed
+2017-12-07 21:37:13		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-08 00:34:05		fifo: pipe closed
+2017-12-09 11:20:49		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-10 00:00:39		fifo: pipe closed
+2017-12-10 18:37:29		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-11 05:35:03		fifo: pipe closed
+2017-12-15 00:03:59		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-15 00:22:00		fifo: pipe closed
+2017-12-15 22:18:44		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-15 23:35:25		fifo: pipe closed
+2017-12-17 12:02:10		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-17 12:02:13		fifo: pipe closed
+2017-12-17 19:28:10		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-18 00:44:09		fifo: pipe closed
+2017-12-18 21:23:18		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-18 22:58:40		fifo: pipe closed
+2017-12-19 17:38:46		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-19 23:50:19		fifo: pipe closed
+2017-12-20 21:31:58		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-20 22:44:47		fifo: pipe closed
+2017-12-21 20:15:35		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-21 23:58:06		fifo: pipe closed
+2017-12-23 08:45:18		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-24 00:24:01		fifo: pipe closed
+2017-12-24 19:40:41		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-25 00:43:09		fifo: pipe closed
+2017-12-25 14:56:35		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-25 17:47:16		fifo: pipe closed
+2017-12-26 21:43:54		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2017-12-27 00:01:36		fifo: pipe closed
+2018-01-01 16:35:45		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2018-01-01 22:19:23		fifo: pipe closed
+2018-01-02 22:34:03		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2018-01-02 23:29:30		fifo: pipe closed
+2018-01-04 19:19:20		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, script, trigger, xfer
+2018-01-04 23:20:06		fifo: pipe closed
+2018-01-05 22:58:27		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-01-05 23:11:26		fifo: pipe closed
+2018-01-06 22:35:04		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-01-07 00:27:55		fifo: pipe closed
+2018-01-09 21:36:44		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-01-09 22:07:05		fifo: pipe closed
+2018-01-10 19:55:05		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-01-10 22:01:36		fifo: pipe closed
+2018-01-14 19:43:50		Plugins loaded: alias, aspell, buflist, charset, exec, fifo, fset, guile, irc, logger, perl, python, relay, ruby, script, trigger, xfer
+2018-01-14 19:44:26	=!=	irc: command "join" must be executed on connected irc server

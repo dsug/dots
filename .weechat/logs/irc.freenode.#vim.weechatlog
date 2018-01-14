@@ -1,0 +1,799 @@
+2017-11-18 16:17:10	-->	dsugo (~dsugo@dhs23.neoplus.adsl.tpnet.pl) has joined #vim
+2017-11-18 16:17:10	--	Topic for #vim is "Can't talk? Register https://freenode.net/kb/answer/registration | Vim 8.0.1161 http://www.vim.org | Don't ask to ask! | Use :help and :helpgrep | WIKI: http://vim.wikia.com | PASTE: http://vpaste.net/?ft=vim | https://www.vi-improved.org"
+2017-11-18 16:17:10	--	Topic set by ntnn on Sat, 30 Sep 2017 08:13:39
+2017-11-18 16:17:11	--	Channel #vim: 1199 nicks (0 ops, 0 voices, 1199 normals)
+2017-11-18 16:17:11	--	PvNotice(ChanServ): vim discussion .. www.vim.org, vim.sf.net, :help
+2017-11-18 16:17:11	--	URL for #vim: http://vi-improved.org
+2017-11-18 16:17:12	rendar	:set list
+2017-11-18 16:17:12	--	Channel created on Sun, 26 Nov 2006 06:42:44
+2017-11-18 16:17:16	rendar	:set listchars="eol:A"
+2017-11-18 16:17:20	rendar	doesn't do nothing!
+2017-11-18 16:17:25	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 255 seconds)
+2017-11-18 16:17:27	matthewd	Where did those quotes come from?
+2017-11-18 16:17:35	matthewd	Quotes on let, not on set
+2017-11-18 16:17:40	Antony_	. o O (You don't get this in #emacs)
+2017-11-18 16:18:02	-->	Mattiaslndstrm (~Mattiasln@187.211.75.226) has joined #vim
+2017-11-18 16:18:52	rendar	ok, no quotes
+2017-11-18 16:19:01	rendar	now, how i can set characters color?
+2017-11-18 16:19:11	rendar	i want eol to be light gray
+2017-11-18 16:19:31	<--	allcentury (~allcentur@69.85.203.210) has quit (Remote host closed the connection)
+2017-11-18 16:20:01	Antony_	It's at the bottom of `:h listchars`.
+2017-11-18 16:20:04	-->	weedom (~weedom@82-69-103-158.dsl.in-addr.zen.co.uk) has joined #vim
+2017-11-18 16:20:06	dsugo	Guys I have problem with setting up folding, in my init I have these commands: set foldenable, set foldmethod=syntax, set foldlevel=99 and it doesn't work. I have to type set foldmethod=syntax while vim is running to get it working
+2017-11-18 16:20:06	--	#vim: Cannot send to channel
+2017-11-18 16:20:07	-->	allcentury (~allcentur@69.85.203.210) has joined #vim
+2017-11-18 16:20:35	lopid	nothing compares
+2017-11-18 16:20:49	lopid	to you
+2017-11-18 16:21:02	Antony_	That's because I'm NaN.
+2017-11-18 16:21:15	lopid	we know what you are…
+2017-11-18 16:22:01	<--	mmhmw (~mmhmw@89-138-169-60.bb.netvision.net.il) has quit (Quit: Quit)
+2017-11-18 16:22:09	-->	floatleft (~floatleft@89-138-169-60.bb.netvision.net.il) has joined #vim
+2017-11-18 16:22:28	<--	banisterfiend (~textual@53564A4C.cm-6-7b.dynamic.ziggo.nl) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 16:23:43	rendar	Antony_: where?
+2017-11-18 16:23:45	rendar	i can't find it
+2017-11-18 16:23:58	rendar	if you know it, please tell me, i'm struggling with this fucked thing since 2 hrs
+2017-11-18 16:24:08	matthewd	That's an unusual spelling of "thanks everyone for your perseverance while repeating the same command until I ran it as given" ¯\_(⊙︿⊙)_/¯
+2017-11-18 16:24:53	<--	allcentury (~allcentur@69.85.203.210) has quit (Ping timeout: 260 seconds)
+2017-11-18 16:25:08	rendar	sorry but i'm too nervuos to thank people
+2017-11-18 16:25:18	rendar	but i should
+2017-11-18 16:25:20	whyme	rendar: I suggest trying a more user-friendly editor, like Visual Studio Code, or Atom.
+2017-11-18 16:25:38	<--	sebi519 (~sebi519@86.123.22.150) has quit (Quit: Leaving)
+2017-11-18 16:26:11	rendar	whyme: i'm connected via ssh
+2017-11-18 16:26:14	Antony_	~40 years old apparently.
+2017-11-18 16:26:18	rendar	and vim it's the only one decent
+2017-11-18 16:26:56	-->	knidos (~knidos@88.253.130.233) has joined #vim
+2017-11-18 16:26:57	rendar	despite it cannot let set you a fucking simple ascii code, it has a lot of things
+2017-11-18 16:27:23	whyme	How about this Micro editor: https://micro-editor.github.io/
+2017-11-18 16:27:42	whyme	it's just a single binary to download and run, very easy to install.
+2017-11-18 16:28:14	rendar	no
+2017-11-18 16:28:36	rendar	whyme: after spending 3 hrs setting a fucking ascii code on vim, are you telling me to spend other hrs to learn a new editor?
+2017-11-18 16:28:42	rendar	don't push me, please
+2017-11-18 16:28:43	whyme	besides, I believe VS Code should have some kind of remote editing over SSH plugin somewhere.
+2017-11-18 16:28:58	rendar	ok i ignore this fucking moron
+2017-11-18 16:29:07	rendar	VS Code on SSH
+2017-11-18 16:29:15	<--	Mattiaslndstrm (~Mattiasln@187.211.75.226) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 16:29:34	<--	weedom (~weedom@82-69-103-158.dsl.in-addr.zen.co.uk) has quit (Ping timeout: 255 seconds)
+2017-11-18 16:29:38	matthewd	It'd probably support copy and paste too, so there's a win right there
+2017-11-18 16:29:56	whyme	well that's called "sunk cost". and it's better to spend 3 hours to stay away from an editor you don't like, rather than stuck with it forever.
+2017-11-18 16:30:05	rendar	i like vim
+2017-11-18 16:30:34	rendar	i use it since years, but the fact that i cannot set a simple ascii code, pissed me off a lot, because i spend 3 hrs for setting a simple character
+2017-11-18 16:30:45	-->	curiousx (~curiousx@unaffiliated/curiousx) has joined #vim
+2017-11-18 16:30:52	rendar	this is just stupid
+2017-11-18 16:31:11	-->	zamaterian_ (~Thomas@77.241.130.85.mobile.3.dk) has joined #vim
+2017-11-18 16:31:14	rendar	it's very easy to set a new syntax like \x<code> or even !!<code>
+2017-11-18 16:31:22	<--	JeanCarloMachado (~jean@189.4.74.243) has quit (Ping timeout: 255 seconds)
+2017-11-18 16:31:44	Antony_	Use a the letter Q, and patch your font so the Q is the character you want. It should be fine 95% of the time.
+2017-11-18 16:32:28	<--	olminato1 (~olminator@wcw-stud-145-109-36-153.wireless.uva.nl) has quit (Ping timeout: 248 seconds)
+2017-11-18 16:32:33	-->	yonder (~yonder@unaffiliated/yonder) has joined #vim
+2017-11-18 16:33:53	rendar	Antony_: i'm reading the help
+2017-11-18 16:33:56	rendar	where is the color part/
+2017-11-18 16:33:57	rendar	?
+2017-11-18 16:34:14	<--	diniwed (~gavron@ool-944c262b.dyn.optonline.net) has quit (Quit: WeeChat 1.6)
+2017-11-18 16:34:38	<--	zamaterian (~Thomas@212.27.23.177.bredband.3.dk) has quit (Ping timeout: 240 seconds)
+2017-11-18 16:34:43	Antony_	At the bottom.
+2017-11-18 16:35:25	-->	zakharyas (~Snakes@d.cx) has joined #vim
+2017-11-18 16:35:30	rendar	The "NonText" highlighting will be used for "eol",
+2017-11-18 16:35:32	rendar	this, right?
+2017-11-18 16:35:33	-->	sucks (~sucks@2804:7f1:2080:cdfb:dfb7:1b8b:4113:c6db) has joined #vim
+2017-11-18 16:35:38	Antony_	Mhmm.
+2017-11-18 16:36:07	-->	thvdburgt (~thvdburgt@2001:982:eee:1:224:d7ff:fe47:aa54) has joined #vim
+2017-11-18 16:36:32	<--	floatleft (~floatleft@89-138-169-60.bb.netvision.net.il) has quit (Ping timeout: 240 seconds)
+2017-11-18 16:36:41	-->	floatleft (~floatleft@46.19.85.208) has joined #vim
+2017-11-18 16:37:06	<--	SBM (2f0beeab@gateway/web/cgi-irc/kiwiirc.com/ip.47.11.238.171) has quit (Remote host closed the connection)
+2017-11-18 16:37:09	rendar	Antony_: it speaks about highlight, but can i change the highlight type?
+2017-11-18 16:37:19	rendar	e.g. i want eol light gray
+2017-11-18 16:37:42	Antony_	`:help highlight`
+2017-11-18 16:38:48	<--	zakharyas (~Snakes@d.cx) has quit (Remote host closed the connection)
+2017-11-18 16:39:25	-->	zakharyas (~Snakes@d.cx) has joined #vim
+2017-11-18 16:39:44	-->	riemann (~riemann@ip-222-88.ists.pl) has joined #vim
+2017-11-18 16:40:25	Antony_	Someone else can help with terminal colours ;-)
+2017-11-18 16:41:02	<--	cotko3 (~ahmed@188-230-161-23.dynamic.t-2.net) has quit (Ping timeout: 268 seconds)
+2017-11-18 16:41:49	-->	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has joined #vim
+2017-11-18 16:42:02	<--	yu (~Rushikesh@103.225.103.68) has quit (Read error: Connection reset by peer)
+2017-11-18 16:42:02	blawiz_	are you flirting with me?
+2017-11-18 16:42:09	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 16:43:15	<--	jalalsfs (~jalalsfs@unaffiliated/jalalsfs) has quit (Remote host closed the connection)
+2017-11-18 16:43:27	-->	olminato1 (~olminator@wcw-stud-145-109-36-153.wireless.uva.nl) has joined #vim
+2017-11-18 16:43:40	-->	wsdjeg (~wsdjeg@114.223.56.63) has joined #vim
+2017-11-18 16:44:15	rendar	set listchars=tab:xy
+2017-11-18 16:44:21	qstrahl	G
+2017-11-18 16:44:26	qstrahl	Oops.
+2017-11-18 16:44:27	rendar	this doesn't work, and nullify eol:A
+2017-11-18 16:44:29	rendar	why?
+2017-11-18 16:44:45	qstrahl	rendar: You set listchars to a new value which does not include eol:A
+2017-11-18 16:44:47	-->	jalalsfs (~jalalsfs@unaffiliated/jalalsfs) has joined #vim
+2017-11-18 16:44:59	qstrahl	What you want is set listchars+= instead of set listchars=
+2017-11-18 16:45:20	rendar	 i see
+2017-11-18 16:46:57	qstrahl	Antony_: I'm going to need to you back off; I can't have anyone trolling in #vim harder than me :<
+2017-11-18 16:47:23	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 248 seconds)
+2017-11-18 16:47:55	<--	olminato1 (~olminator@wcw-stud-145-109-36-153.wireless.uva.nl) has quit (Ping timeout: 248 seconds)
+2017-11-18 16:48:58	<--	coot___________ (~coot@188.146.98.30.nat.umts.dynamic.t-mobile.pl) has quit (Ping timeout: 248 seconds)
+2017-11-18 16:49:11	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 16:49:12	Antony_	:-)
+2017-11-18 16:49:49	rendar	i'm on the highlight help section, every highlight name has a color, which one has the most invisible gray text?
+2017-11-18 16:50:01	-->	olminato1 (~olminator@143.179.46.2) has joined #vim
+2017-11-18 16:51:19	qstrahl	rendar: I don't understand your question
+2017-11-18 16:51:34	<--	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 16:51:55	matthewd	rendar: Try gray10 through gray90 (or just black or white?)
+2017-11-18 16:51:59	rendar	qstrahl: ok, the question is: how i can set eol and tab characters, light gray?
+2017-11-18 16:52:08	<--	curiousx (~curiousx@unaffiliated/curiousx) has quit (Quit: leaving)
+2017-11-18 16:52:18	<--	pepper_chico (~pepper_ch@179.110.220.137) has quit (Ping timeout: 260 seconds)
+2017-11-18 16:52:29	rendar	under highlight i don't see colors
+2017-11-18 16:52:41	rendar	but highlight names of some part of text
+2017-11-18 16:54:00	qstrahl	rendar: :highlight Whitespace ctermfg=246
+2017-11-18 16:54:10	qstrahl	(Assuming you are using terminal vim)
+2017-11-18 16:54:10	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Remote host closed the connection)
+2017-11-18 16:54:56	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 16:55:12	<--	floatleft (~floatleft@46.19.85.208) has quit (Ping timeout: 260 seconds)
+2017-11-18 16:55:18	rendar	qstrahl: but then i have to tell listchars do not use NullText but Whitespace for highlight
+2017-11-18 16:55:20	rendar	or nothing will happen
+2017-11-18 16:55:53	qstrahl	Oh weird for me the highlight group is Whitespace
+2017-11-18 16:55:57	qstrahl	Well just use NullText then
+2017-11-18 16:56:03	-->	floatleft (~floatleft@89-138-169-60.bb.netvision.net.il) has joined #vim
+2017-11-18 16:56:26	<--	codyw (~cody@24.130.87.147) has quit (Ping timeout: 248 seconds)
+2017-11-18 16:56:46	rendar	qstrahl: but isn't null text also code's comments like /* .. */ ?
+2017-11-18 16:56:50	rendar	i don't want them light gray
+2017-11-18 16:57:45	qstrahl	No idea! I don't have that highlight group.
+2017-11-18 16:58:22	rendar	qstrahl: just how i can change highlight group for listchars?
+2017-11-18 16:59:40	Antony_	SpecialKey and NonText by default.
+2017-11-18 16:59:51	rendar	yes, and then? how i can change it?
+2017-11-18 17:00:05	qstrahl	rendar: Take a guess c:
+2017-11-18 17:00:10	<--	indeedwatson (~yama@host47.201-252-87.telecom.net.ar) has quit (Ping timeout: 255 seconds)
+2017-11-18 17:00:25	rendar	after 3 hrs and almost kill myself? please no
+2017-11-18 17:00:32	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 258 seconds)
+2017-11-18 17:00:46	<--	perrier-jouet (~perrier-j@gateway/vpn/privateinternetaccess/perrier-jouet) has quit (Ping timeout: 240 seconds)
+2017-11-18 17:00:47	nedbat	rendar: it seems like you need to take a different approach to this
+2017-11-18 17:01:26	qstrahl	rendar: please don't do anything drastic, there is help 1-800-273-8255
+2017-11-18 17:01:35	qstrahl	https://suicidepreventionlifeline.org/
+2017-11-18 17:01:50	rendar	qstrahl: who knows if they used vim to configure that website
+2017-11-18 17:02:55	rendar	seriously, how i can change SpecialKey and NonText ?
+2017-11-18 17:03:52	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 17:04:48	qstrahl	rendar: :highlight SpecialKey ctermfg=246
+2017-11-18 17:05:02	qstrahl	rendar: Please do not ask me how to do it for NonText
+2017-11-18 17:05:11	qstrahl	rendar: That one I absolutely insist you guess
+2017-11-18 17:05:34	<--	olminato1 (~olminator@143.179.46.2) has quit (Ping timeout: 255 seconds)
+2017-11-18 17:05:40	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Remote host closed the connection)
+2017-11-18 17:06:03	<--	hpt (~hpt@221.219.79.37) has quit (Ping timeout: 248 seconds)
+2017-11-18 17:06:14	rendar	qstrahl: wait
+2017-11-18 17:06:16	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 17:06:29	romainl	woah, that's still not settled
+2017-11-18 17:07:57	rendar	qstrahl: it's wrong, that's normal text gray, not lighter gray
+2017-11-18 17:08:17	Antony_	I predicted this.
+2017-11-18 17:08:23	-->	zakharyas1 (~Snakes@d.cx) has joined #vim
+2017-11-18 17:08:23	qstrahl	I should have known
+2017-11-18 17:08:29	<--	zakharyas (~Snakes@d.cx) has quit (Remote host closed the connection)
+2017-11-18 17:08:31	qstrahl	rendar: You can figure this out. I believe in you.
+2017-11-18 17:08:44	-->	bilb_ono (~conduce-l@ip98-171-168-96.sb.sd.cox.net) has joined #vim
+2017-11-18 17:08:47	<--	sucks (~sucks@2804:7f1:2080:cdfb:dfb7:1b8b:4113:c6db) has quit (Remote host closed the connection)
+2017-11-18 17:09:41	rendar	what is that 245?
+2017-11-18 17:09:49	rendar	err, 246
+2017-11-18 17:09:57	qstrahl	rendar: Maybe mess with it and find out :D
+2017-11-18 17:10:09	qstrahl	grep -b (qstrahl|rendar)\t
+2017-11-18 17:10:12	qstrahl	Oopsie
+2017-11-18 17:10:18	romainl	vimgor: vimpire
+2017-11-18 17:10:19	vimgor	A (#)Vimpire is a creature we get in #vim from time to time. This is a user who sucks the souls out of the channel regulars. They do this by doing absolutely no independent research (:helpgrep, :help, google, vim.wikia.com, etc, etc) and by constantly requesting insane amount of hand-holding. This creature was first given a proper name by channel regular, daniel.
+2017-11-18 17:10:39	-->	zmt00 (~zmt00@128.54.233.60) has joined #vim
+2017-11-18 17:10:50	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 248 seconds)
+2017-11-18 17:11:29	rendar	yes, after 3 hrs spent, let's mess with it and try to figure out
+2017-11-18 17:11:30	rendar	why not?
+2017-11-18 17:11:53	nedbat	rendar: no, you shouldn't mess with it.  You should read about what it means.
+2017-11-18 17:12:28	nedbat	rendar: for example, i see the word ctermfg there, so I type:  :help ctermfg
+2017-11-18 17:12:29	digmbot	:help ctermfg -> http://vimhelp.appspot.com/syntax.txt.html#highlight-ctermfg
+2017-11-18 17:12:40	TheLemonMan	rendar, https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg watch dis
+2017-11-18 17:13:03	wsdjeg	romainl: do you share your vimrc in github or any other website?
+2017-11-18 17:13:40	-->	pepper_chico (~pepper_ch@189-19-138-166.dsl.telesp.net.br) has joined #vim
+2017-11-18 17:14:17	romainl	wsdjeg: no but you might find it on r/vim if you are fast enough because I'll delete the private gist tomorrow
+2017-11-18 17:14:35	-->	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has joined #vim
+2017-11-18 17:14:48	wsdjeg	yeah
+2017-11-18 17:15:21	wsdjeg	I just see someone comment on reddit about your gist, but I can not find the link now
+2017-11-18 17:15:26	--	e is now known as demiurge
+2017-11-18 17:15:47	romainl	I'm romainl on github too
+2017-11-18 17:15:58	romainl	so on gist.github too
+2017-11-18 17:16:01	romainl	easy
+2017-11-18 17:16:27	qstrahl	wsdjeg: I host my vimrc on github and try to be minimalistic in my config - and I'm always looking for people to criticize my decisions :D
+2017-11-18 17:16:40	wsdjeg	https://github.com/romainl/vim-qf
+2017-11-18 17:16:44	wsdjeg	I like this
+2017-11-18 17:16:52	romainl	I like it too
+2017-11-18 17:17:00	-->	agerick (~agerick@c-71-233-96-10.hsd1.ct.comcast.net) has joined #vim
+2017-11-18 17:17:19	-->	perrier-jouet (~perrier-j@modemcable234.57-162-184.mc.videotron.ca) has joined #vim
+2017-11-18 17:17:52	wsdjeg	I am wsdjeg on github, and I use DotFiles repo for app config, and I use SpaceVim :D
+2017-11-18 17:18:03	qstrahl	Thank you both for that wholesome interaction c:
+2017-11-18 17:18:11	qstrahl	wsdjeg: begone vile heathen etc
+2017-11-18 17:18:33	-->	Forlorn (~Forlorn@unaffiliated/forlorn) has joined #vim
+2017-11-18 17:19:23	<--	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has quit (Ping timeout: 248 seconds)
+2017-11-18 17:21:40	-->	allcentury (~allcentur@69.85.203.210) has joined #vim
+2017-11-18 17:23:20	-->	sucks (~sucks@2804:7f1:2080:cdfb:7f24:b449:d03e:928e) has joined #vim
+2017-11-18 17:23:40	<--	lkolstad (~ljk@c-24-16-12-195.hsd1.wa.comcast.net) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 17:23:59	-->	lkolstad (~ljk@c-24-16-12-195.hsd1.wa.comcast.net) has joined #vim
+2017-11-18 17:24:10	-->	euoia (~euoia@79-67-208-190.dynamic.dsl.as9105.com) has joined #vim
+2017-11-18 17:28:31	<--	wsdjeg (~wsdjeg@114.223.56.63) has quit (Remote host closed the connection)
+2017-11-18 17:28:46	<--	euoia (~euoia@79-67-208-190.dynamic.dsl.as9105.com) has quit (Ping timeout: 240 seconds)
+2017-11-18 17:29:28	<--	senecaty (~senecaty@unaffiliated/senecaty) has quit (Quit: leaving)
+2017-11-18 17:29:44	<--	klon (~electro7@88.129.179.151) has quit (Quit: WeeChat 1.6)
+2017-11-18 17:30:10	<--	knidos (~knidos@88.253.130.233) has quit (Quit: knidos)
+2017-11-18 17:30:42	-->	cesc (~cesc@147.92.21.109.rev.sfr.net) has joined #vim
+2017-11-18 17:30:54	-->	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has joined #vim
+2017-11-18 17:31:14	<--	cesc (~cesc@147.92.21.109.rev.sfr.net) has quit (Client Quit)
+2017-11-18 17:31:40	<--	erikw (~Erik@p4FD1FCB4.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2017-11-18 17:32:47	-->	AquaL1te (~AquaL1te@unaffiliated/aqual1te) has joined #vim
+2017-11-18 17:33:16	-->	erikw (~Erik@p4FD1FCB4.dip0.t-ipconnect.de) has joined #vim
+2017-11-18 17:33:25	rendar	i'm trying to figureout that ctermfg
+2017-11-18 17:33:32	-->	cesc (~cesc@147.92.21.109.rev.sfr.net) has joined #vim
+2017-11-18 17:33:33	rendar	why if i change number, color doesn't change/
+2017-11-18 17:33:34	rendar	?
+2017-11-18 17:34:04	<--	thinkpad (~thinkpad@bb116-14-129-42.singnet.com.sg) has quit (Ping timeout: 268 seconds)
+2017-11-18 17:34:23	romainl	maybe because you don't have a 256color terminal emulator or you have one but it doesn't advertize itself as such
+2017-11-18 17:35:12	<--	raindev (~raindev@ec2-35-156-118-7.eu-central-1.compute.amazonaws.com) has quit (Quit: ZNC 1.6.5 - http://znc.in)
+2017-11-18 17:36:27	matteeyah	export TERM=screen-256color
+2017-11-18 17:36:29	matteeyah	try and see
+2017-11-18 17:36:35	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 17:36:44	matteeyah	xterm-256color
+2017-11-18 17:36:52	matteeyah	my bad, I was used to being in tmux 100% time
+2017-11-18 17:37:47	-->	obiwan90 (~obiwan90@38.26.25.52) has joined #vim
+2017-11-18 17:38:04	<--	allcentury (~allcentur@69.85.203.210) has quit (Ping timeout: 248 seconds)
+2017-11-18 17:38:20	romainl	the problem, here, is that someone rushed a bit the first few stages so he doesn't have what it takes to tackle the mini-boss he is currently facing.
+2017-11-18 17:38:42	romainl	matteeyah: even then, that's not how you set up tmux anyway :-)
+2017-11-18 17:39:05	-->	raindev (~raindev@ec2-35-156-118-7.eu-central-1.compute.amazonaws.com) has joined #vim
+2017-11-18 17:39:21	-->	kinbiko (~textual@host-84-13-125-122.opaltelecom.net) has joined #vim
+2017-11-18 17:39:34	matteeyah	I know
+2017-11-18 17:39:35	matteeyah	it's set -g default-terminal "screen-256color"
+2017-11-18 17:39:40	matteeyah	but I mixed those two up
+2017-11-18 17:40:02	-->	JeanCarloMachado (~jean@189.34.45.142) has joined #vim
+2017-11-18 17:41:28	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 268 seconds)
+2017-11-18 17:41:58	-->	neoncontrails (~neoncontr@99-26-122-26.lightspeed.sndgca.sbcglobal.net) has joined #vim
+2017-11-18 17:46:00	-->	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has joined #vim
+2017-11-18 17:46:19	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 17:46:40	-->	allcentury (~allcentur@69.85.203.210) has joined #vim
+2017-11-18 17:48:00	-->	higgs (~higgs@c-73-228-141-118.hsd1.mn.comcast.net) has joined #vim
+2017-11-18 17:50:51	<--	allcentury (~allcentur@69.85.203.210) has quit (Ping timeout: 248 seconds)
+2017-11-18 17:51:01	<--	kinbiko (~textual@host-84-13-125-122.opaltelecom.net) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-11-18 17:51:24	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 248 seconds)
+2017-11-18 17:51:49	-->	alx741_ (~alx741@190.152.168.47) has joined #vim
+2017-11-18 17:52:38	<--	sucks (~sucks@2804:7f1:2080:cdfb:7f24:b449:d03e:928e) has quit (Remote host closed the connection)
+2017-11-18 17:53:04	-->	sucks (~sucks@2804:7f1:2080:cdfb:7f24:b449:d03e:928e) has joined #vim
+2017-11-18 17:53:30	<--	alx741 (~alx741@190.152.48.79) has quit (Ping timeout: 248 seconds)
+2017-11-18 17:56:56	<--	kvik_ (~kvik@93-141-98-109.adsl.net.t-com.hr) has quit (Quit: Leaving)
+2017-11-18 17:57:06	-->	Anthaas_ (~Anthaas@unaffiliated/anthaas) has joined #vim
+2017-11-18 17:57:16	-->	kvik (~kvik@93-141-98-109.adsl.net.t-com.hr) has joined #vim
+2017-11-18 17:58:42	<--	erikw (~Erik@p4FD1FCB4.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2017-11-18 17:58:47	<--	Anthaas (~Anthaas@unaffiliated/anthaas) has quit (Ping timeout: 260 seconds)
+2017-11-18 18:00:45	-->	erikw (~Erik@p4FD1FCB4.dip0.t-ipconnect.de) has joined #vim
+2017-11-18 18:03:18	<--	sucks (~sucks@2804:7f1:2080:cdfb:7f24:b449:d03e:928e) has quit (Ping timeout: 240 seconds)
+2017-11-18 18:05:19	<--	OS-16517 (~YBPL@unaffiliated/os-16517) has quit (Remote host closed the connection)
+2017-11-18 18:06:18	<--	erikw (~Erik@p4FD1FCB4.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2017-11-18 18:07:54	-->	erikw (~Erik@p4FD1FCB4.dip0.t-ipconnect.de) has joined #vim
+2017-11-18 18:07:57	-->	allcentury (~allcentur@69.85.203.210) has joined #vim
+2017-11-18 18:08:19	<--	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has quit (Remote host closed the connection)
+2017-11-18 18:10:15	-->	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has joined #vim
+2017-11-18 18:10:36	-->	gb00s (uid99359@gateway/web/irccloud.com/x-zyzonawvlzahsgin) has joined #vim
+2017-11-18 18:11:07	-->	notoriousa (~chris@82.102.30.72) has joined #vim
+2017-11-18 18:11:34	-->	mirk0 (~mirk0@unaffiliated/-mirko-/x-2946915) has joined #vim
+2017-11-18 18:12:55	<--	allcentury (~allcentur@69.85.203.210) has quit (Ping timeout: 268 seconds)
+2017-11-18 18:14:08	<--	erikw (~Erik@p4FD1FCB4.dip0.t-ipconnect.de) has quit (Ping timeout: 240 seconds)
+2017-11-18 18:14:37	-->	coot___________ (~coot@188.146.102.180.nat.umts.dynamic.t-mobile.pl) has joined #vim
+2017-11-18 18:14:38	-->	rkta (~kt@p5DE85457.dip0.t-ipconnect.de) has joined #vim
+2017-11-18 18:15:44	-->	jg0 (~jg@118.200.51.51) has joined #vim
+2017-11-18 18:15:52	<--	JeanCarloMachado (~jean@189.34.45.142) has quit (Ping timeout: 240 seconds)
+2017-11-18 18:16:03	-->	erikw (~Erik@p4FD1FCB4.dip0.t-ipconnect.de) has joined #vim
+2017-11-18 18:17:39	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 18:18:29	<--	deniska (~denis@unaffiliated/deniska) has quit (Quit: leaving)
+2017-11-18 18:19:24	-->	deniska (~denis@unaffiliated/deniska) has joined #vim
+2017-11-18 18:19:49	-->	apurv (~apurv@125.18.33.146) has joined #vim
+2017-11-18 18:20:08	-->	ralpheeee (~ralpheeee@gateway/vpn/privateinternetaccess/ralpheeee) has joined #vim
+2017-11-18 18:21:08	apurv	Hey guys, I'm looking for a way to make Vim support the latest CSS syntax styling. I'm fairly new to Vim and don't know how to do that. I'm planning to use Vim as my preferred editor for Web.
+2017-11-18 18:21:48	<--	ralpheeee (~ralpheeee@gateway/vpn/privateinternetaccess/ralpheeee) has quit (Client Quit)
+2017-11-18 18:22:00	blawiz_	why would this stop a {}fold? \subsubsectionfont{\hspace*{0.2cm}\itshape} # works if i delete the 0 in "0.2cm" :S
+2017-11-18 18:22:24	<--	asmcoder (~asmcoder@2405:204:3208:e2eb:7403:11f8:52d9:ace5) has quit (Ping timeout: 250 seconds)
+2017-11-18 18:22:52	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 240 seconds)
+2017-11-18 18:23:12	gagbo	apurv, try to look for 'vim css' in github
+2017-11-18 18:23:30	gagbo	I found this while googling, this is not what you want, but I find the idea of the plugin awesome https://github.com/skammer/vim-css-color
+2017-11-18 18:23:48	apurv	gagbo: thanks :)
+2017-11-18 18:23:49	gagbo	(And I don't know anything about css, so I don't even know what vim currently lacks in native css support)
+2017-11-18 18:24:52	apurv	gagbo: this isn't what I was looking for. I basically want something for the new CSS-grid feature.
+2017-11-18 18:25:20	apurv	it's not a deal breaker, but syntax highlighting makes it easier to figure out the error
+2017-11-18 18:25:59	-->	inad922 (~inad922@78-131-82-48.pool.digikabel.hu) has joined #vim
+2017-11-18 18:26:20	-->	Warfront1 (~Warfront1@c-73-141-53-247.hsd1.pa.comcast.net) has joined #vim
+2017-11-18 18:26:31	-->	chreekat (~b@unaffiliated/chreekat) has joined #vim
+2017-11-18 18:26:32	<--	banttu (~bantu@154.122.248.119) has quit (Read error: Connection reset by peer)
+2017-11-18 18:28:46	<--	salamanderrake (~quassel@2605:a000:122a:32:10cc:4ac8:a089:d7) has quit (Remote host closed the connection)
+2017-11-18 18:30:18	-->	banttu (~bantu@154.122.248.119) has joined #vim
+2017-11-18 18:30:46	-->	gffa (~unknown@unaffiliated/gffa) has joined #vim
+2017-11-18 18:30:50	<--	floatleft (~floatleft@89-138-169-60.bb.netvision.net.il) has quit (Ping timeout: 248 seconds)
+2017-11-18 18:30:53	<--	Warfront1 (~Warfront1@c-73-141-53-247.hsd1.pa.comcast.net) has quit (Client Quit)
+2017-11-18 18:31:35	-->	floatleft (~floatleft@89-138-169-60.bb.netvision.net.il) has joined #vim
+2017-11-18 18:34:41	-->	JeanCarloMachado (~jean@189.34.45.142) has joined #vim
+2017-11-18 18:35:12	<--	untitled (~edge563@unaffiliated/edge563) has quit (Read error: Connection reset by peer)
+2017-11-18 18:35:19	-->	salamanderrake (~quassel@2605:a000:122a:32:ace2:1f70:edd0:afb4) has joined #vim
+2017-11-18 18:36:05	-->	kroete (~kroete@p2003006248022C6798143467E3981E16.dip0.t-ipconnect.de) has joined #vim
+2017-11-18 18:37:16	<--	zakharyas1 (~Snakes@d.cx) has quit (Remote host closed the connection)
+2017-11-18 18:38:08	-->	untitled1 (~edge563@unaffiliated/edge563) has joined #vim
+2017-11-18 18:40:22	-->	francis36012 (~francis@S0106a84e3f6eee83.cg.shawcable.net) has joined #vim
+2017-11-18 18:41:00	<--	agerick (~agerick@c-71-233-96-10.hsd1.ct.comcast.net) has quit (Ping timeout: 248 seconds)
+2017-11-18 18:44:11	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 18:46:29	-->	redblade7 (~redblade7@gateway/tor-sasl/redblade7) has joined #vim
+2017-11-18 18:48:25	-->	kerrhau (~kerrhau@unaffiliated/aceahmedmoh) has joined #vim
+2017-11-18 18:49:32	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 260 seconds)
+2017-11-18 18:50:16	-->	xkapastel (uid17782@gateway/web/irccloud.com/x-bwhnzzzwzobilskv) has joined #vim
+2017-11-18 18:51:08	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 18:51:12	-->	Anthaas__ (~Anthaas@unaffiliated/anthaas) has joined #vim
+2017-11-18 18:54:55	<--	Anthaas_ (~Anthaas@unaffiliated/anthaas) has quit (Ping timeout: 255 seconds)
+2017-11-18 18:55:59	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 240 seconds)
+2017-11-18 18:57:16	-->	Mattiaslndstrm (~Mattiasln@187.211.75.226) has joined #vim
+2017-11-18 18:57:54	<--	annexseven (~annexseve@toroon017sw-lp140-05-69-159-30-229.dsl.bell.ca) has quit (Quit: leaving)
+2017-11-18 18:58:04	<--	kaze` (~kaze`@weg38-1-82-237-37-15.fbx.proxad.net) has quit (Ping timeout: 248 seconds)
+2017-11-18 18:58:48	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 18:58:55	-->	ryp (~ryp@88.190.202.176) has joined #vim
+2017-11-18 18:59:08	<--	db8093246 (~db8093246@46-162-124-202.cust.bredband2.com) has quit (Ping timeout: 248 seconds)
+2017-11-18 18:59:34	<--	neoncontrails (~neoncontr@99-26-122-26.lightspeed.sndgca.sbcglobal.net) has quit (Remote host closed the connection)
+2017-11-18 18:59:48	-->	annexseven (~annexseve@toroon017sw-lp140-05-69-159-30-229.dsl.bell.ca) has joined #vim
+2017-11-18 19:00:16	-->	neoncontrails (~neoncontr@2600:1702:850:9ed0:7ce2:fb15:2e94:8e7c) has joined #vim
+2017-11-18 19:00:44	<--	neoncontrails (~neoncontr@2600:1702:850:9ed0:7ce2:fb15:2e94:8e7c) has quit (Remote host closed the connection)
+2017-11-18 19:01:00	-->	fotonzade (~memduh@78.189.158.97) has joined #vim
+2017-11-18 19:01:22	-->	neoncontrails (~neoncontr@2600:1702:850:9ed0:7ce2:fb15:2e94:8e7c) has joined #vim
+2017-11-18 19:01:48	<--	JeanCarloMachado (~jean@189.34.45.142) has quit (Ping timeout: 248 seconds)
+2017-11-18 19:02:34	<--	Mattiaslndstrm (~Mattiasln@187.211.75.226) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 19:03:08	<--	victori (~victori@cpe-76-174-185-145.socal.res.rr.com) has quit (Read error: Connection reset by peer)
+2017-11-18 19:03:47	-->	victori (~victori@cpe-76-174-185-145.socal.res.rr.com) has joined #vim
+2017-11-18 19:03:49	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Remote host closed the connection)
+2017-11-18 19:04:13	-->	dviola (~diego@unaffiliated/dviola) has joined #vim
+2017-11-18 19:04:50	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 19:05:56	<--	neoncontrails (~neoncontr@2600:1702:850:9ed0:7ce2:fb15:2e94:8e7c) has quit (Ping timeout: 264 seconds)
+2017-11-18 19:07:50	-->	Mattiaslndstrm (~Mattiasln@187.211.75.226) has joined #vim
+2017-11-18 19:08:55	-->	M-Dominic (dominicmat@gateway/shell/matrix.org/x-pztfvqgfbndigvee) has joined #vim
+2017-11-18 19:09:40	-->	asmcoder (~asmcoder@2405:204:3208:e2eb:28d2:9cc8:acb5:725e) has joined #vim
+2017-11-18 19:09:46	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 255 seconds)
+2017-11-18 19:10:41	<--	jenkins (~jenkins@gateway/vpn/privateinternetaccess/jenkins/x-23040476) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 19:12:19	-->	euoia (~euoia@79-67-208-190.dynamic.dsl.as9105.com) has joined #vim
+2017-11-18 19:14:05	-->	whitecrow1 (~Arash@unaffiliated/whitecrow1) has joined #vim
+2017-11-18 19:14:34	whitecrow1	Hi, how can i set specific port for ycm vim plugin?
+2017-11-18 19:15:16	<--	untitled1 (~edge563@unaffiliated/edge563) has quit (Ping timeout: 250 seconds)
+2017-11-18 19:15:37	-->	untitled1 (~edge563@gateway/vpn/privateinternetaccess/edge563) has joined #vim
+2017-11-18 19:16:44	arora	whitecrow1: what do you mean?
+2017-11-18 19:16:45	-->	Anthaas (~Anthaas@unaffiliated/anthaas) has joined #vim
+2017-11-18 19:17:23	<--	euoia (~euoia@79-67-208-190.dynamic.dsl.as9105.com) has quit (Ping timeout: 258 seconds)
+2017-11-18 19:17:23	blawiz_	solved the problem with breaking folds like this : set foldmarker={#,}# ...
+2017-11-18 19:17:26	-->	lior (~lior@dsl217-132-52-252.bb.netvision.net.il) has joined #vim
+2017-11-18 19:17:44	<--	lior (~lior@dsl217-132-52-252.bb.netvision.net.il) has left #vim
+2017-11-18 19:18:52	<--	Anthaas__ (~Anthaas@unaffiliated/anthaas) has quit (Ping timeout: 248 seconds)
+2017-11-18 19:19:26	<--	jg0 (~jg@118.200.51.51) has quit (Quit: Textual IRC Client: www.textualapp.com)
+2017-11-18 19:20:12	whitecrow1	arora, i set up my iptables, and youcompleteme plugin (ycm) is work throgh tcp connection on localhost. each time you run vim or ycm choose random port, i want specify specific port for it, then i can add it to my iptables rule.
+2017-11-18 19:20:52	-->	lior (~lior@dsl217-132-52-252.bb.netvision.net.il) has joined #vim
+2017-11-18 19:21:19	<--	kirby__ (~caretaker@ppp109-252-50-68.pppoe.spdop.ru) has quit (Remote host closed the connection)
+2017-11-18 19:21:36	<--	lior (~lior@dsl217-132-52-252.bb.netvision.net.il) has quit (Client Quit)
+2017-11-18 19:22:34	<--	apurv (~apurv@125.18.33.146) has quit (Quit: Konversation terminated!)
+2017-11-18 19:22:49	<--	jottr (~jottr@unaffiliated/jottr) has quit (Ping timeout: 255 seconds)
+2017-11-18 19:23:21	-->	SBM (2f0bd956@gateway/web/cgi-irc/kiwiirc.com/ip.47.11.217.86) has joined #vim
+2017-11-18 19:23:57	<--	erikw (~Erik@p4FD1FCB4.dip0.t-ipconnect.de) has quit (Ping timeout: 260 seconds)
+2017-11-18 19:25:04	<--	untitled1 (~edge563@gateway/vpn/privateinternetaccess/edge563) has quit (Ping timeout: 268 seconds)
+2017-11-18 19:26:59	-->	untitled1 (~edge563@unaffiliated/edge563) has joined #vim
+2017-11-18 19:27:09	-->	kirby__ (~caretaker@ppp109-252-50-68.pppoe.spdop.ru) has joined #vim
+2017-11-18 19:27:21	pepper_chico	whitecrow1: you should ask on their gitter channel
+2017-11-18 19:27:29	pepper_chico	not here
+2017-11-18 19:27:37	arora	whitecrow1: iirc install.sh can be run with '--port=xxxx' where xxxx is port number.
+2017-11-18 19:27:47	pepper_chico	whitecrow1: https://gitter.im/Valloric/YouCompleteMe
+2017-11-18 19:28:01	whitecrow1	pepper_chico, okay
+2017-11-18 19:28:06	romainl	whitecrow1: there are two official support channels for ycm at the bottom of their readme
+2017-11-18 19:28:06	whitecrow1	arora, thanks :)
+2017-11-18 19:28:21	arora	:)
+2017-11-18 19:28:27	<--	whitecrow1 (~Arash@unaffiliated/whitecrow1) has quit (Quit: Leaving)
+2017-11-18 19:29:25	<--	adminseodwn (~archer@unaffiliated/remcwo9o) has quit (Remote host closed the connection)
+2017-11-18 19:31:08	<--	chargen (~chargen@179.149.21.95.dynamic.jazztel.es) has quit (Quit: BBL)
+2017-11-18 19:31:20	<--	SBM (2f0bd956@gateway/web/cgi-irc/kiwiirc.com/ip.47.11.217.86) has quit (Remote host closed the connection)
+2017-11-18 19:31:38	<--	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has quit (Remote host closed the connection)
+2017-11-18 19:32:59	-->	ray_ (~ray90800@host-92-1-6-151.as43234.net) has joined #vim
+2017-11-18 19:33:54	matteeyah	here's a random question: what do you guys use as the go-to CI solution?
+2017-11-18 19:34:16	ggVGc	I've only ever used jenkins
+2017-11-18 19:34:17	-->	tymczenko (~tymczenko@unaffiliated/tymczenko) has joined #vim
+2017-11-18 19:34:20	ggVGc	but I like it
+2017-11-18 19:34:37	-->	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has joined #vim
+2017-11-18 19:35:04	romainl	at work I've used jenkins, travis, and gitlab's
+2017-11-18 19:35:18	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 19:35:28	romainl	but I'm not a devops so I don't have a go-to CI solution
+2017-11-18 19:36:14	chreekat	I use gitlab; it's the only one i've used
+2017-11-18 19:36:47	<--	alx741_ (~alx741@190.152.168.47) has quit (Quit: alx741_)
+2017-11-18 19:37:05	-->	alx741 (~alx741@190.152.168.47) has joined #vim
+2017-11-18 19:37:14	<--	dancinggrass (~dancinggr@111.94.36.116) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 19:37:32	romainl	I idn't like any of the three
+2017-11-18 19:37:43	romainl	*didn't
+2017-11-18 19:38:59	-->	diniwed (~gavron@ool-944c262b.dyn.optonline.net) has joined #vim
+2017-11-18 19:39:55	<--	chjj (~chjj@unaffiliated/chjj) has quit (Ping timeout: 255 seconds)
+2017-11-18 19:40:22	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 255 seconds)
+2017-11-18 19:41:43	-->	sasheto (~sasheto@2601:184:4a80:1f40::c39) has joined #vim
+2017-11-18 19:41:50	<--	romainl (~Adium@176.186.242.162) has quit (Quit: Leaving.)
+2017-11-18 19:42:10	<--	untitled1 (~edge563@unaffiliated/edge563) has quit (Ping timeout: 255 seconds)
+2017-11-18 19:42:47	-->	lunary (~lunary@nat-19-pool-1-ip-5.cosmostv.by) has joined #vim
+2017-11-18 19:43:31	<--	pepper_chico (~pepper_ch@189-19-138-166.dsl.telesp.net.br) has quit (Ping timeout: 255 seconds)
+2017-11-18 19:44:01	-->	pepper_chico (~pepper_ch@177.45.33.57) has joined #vim
+2017-11-18 19:44:21	-->	untitled1 (~edge563@gateway/vpn/privateinternetaccess/edge563) has joined #vim
+2017-11-18 19:44:33	<--	Arcaelyx (~Arcaelyx@2601:646:c200:27a1:dae:2955:5145:93ae) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 19:44:42	<--	gfixler (~gfixler@cpe-108-185-238-241.socal.res.rr.com) has quit (Quit: WeeChat 1.4)
+2017-11-18 19:45:21	-->	romainl (~Adium@176.186.242.162) has joined #vim
+2017-11-18 19:46:46	<--	Mattiaslndstrm (~Mattiasln@187.211.75.226) has quit (Read error: Connection reset by peer)
+2017-11-18 19:47:27	-->	Mattiaslndstrm (~Mattiasln@187.211.75.226) has joined #vim
+2017-11-18 19:47:46	<--	chreekat (~b@unaffiliated/chreekat) has quit (Ping timeout: 250 seconds)
+2017-11-18 19:48:38	<--	drleviathan (~andrew@2602:306:cd03:cd0:7159:d8a6:58f6:3389) has quit (Ping timeout: 250 seconds)
+2017-11-18 19:50:01	-->	chreekat (~b@172.58.225.249) has joined #vim
+2017-11-18 19:50:15	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 19:54:34	<--	kirby__ (~caretaker@ppp109-252-50-68.pppoe.spdop.ru) has quit (Ping timeout: 248 seconds)
+2017-11-18 19:55:12	<--	diniwed (~gavron@ool-944c262b.dyn.optonline.net) has quit (Quit: WeeChat 1.6)
+2017-11-18 19:55:32	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 240 seconds)
+2017-11-18 19:56:05	<--	mirk0 (~mirk0@unaffiliated/-mirko-/x-2946915) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 19:57:42	-->	Jesin (~Jesin@pool-108-51-89-131.washdc.fios.verizon.net) has joined #vim
+2017-11-18 19:57:58	-->	rubiano (~thomas@mut38-1-82-67-65-234.fbx.proxad.net) has joined #vim
+2017-11-18 19:58:26	<--	rubiano (~thomas@mut38-1-82-67-65-234.fbx.proxad.net) has quit (Client Quit)
+2017-11-18 19:58:28	-->	sasadadad (~fmklfdsja@dsl217-132-52-252.bb.netvision.net.il) has joined #vim
+2017-11-18 19:59:11	-->	rubiano (~thomas@mut38-1-82-67-65-234.fbx.proxad.net) has joined #vim
+2017-11-18 19:59:43	-->	JeanCarloMachado (~jean@177-58-253-92.3g.claro.net.br) has joined #vim
+2017-11-18 20:00:11	<--	CrepeSuzette (~ettezuspe@114.91.240.112) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 20:01:28	-->	kirby__ (~caretaker@ppp109-252-50-68.pppoe.spdop.ru) has joined #vim
+2017-11-18 20:01:42	-->	Anthaas_ (~Anthaas@unaffiliated/anthaas) has joined #vim
+2017-11-18 20:01:49	<--	AquaL1te (~AquaL1te@unaffiliated/aqual1te) has quit (Quit: leaving)
+2017-11-18 20:02:38	<--	simka (~simka@188.146.41.238.nat.umts.dynamic.t-mobile.pl) has quit (Ping timeout: 240 seconds)
+2017-11-18 20:04:40	-->	kw21 (~kw21@D978E830.cm-3-1d.dynamic.ziggo.nl) has joined #vim
+2017-11-18 20:04:42	<--	Anthaas (~Anthaas@unaffiliated/anthaas) has quit (Ping timeout: 248 seconds)
+2017-11-18 20:06:02	-->	neoncontrails (~neoncontr@99-26-122-26.lightspeed.sndgca.sbcglobal.net) has joined #vim
+2017-11-18 20:06:19	<--	sasadadad (~fmklfdsja@dsl217-132-52-252.bb.netvision.net.il) has quit (Quit: sasadadad)
+2017-11-18 20:06:24	<--	thvdburgt (~thvdburgt@2001:982:eee:1:224:d7ff:fe47:aa54) has quit (Ping timeout: 250 seconds)
+2017-11-18 20:06:45	-->	sasadadad (~fmklfdsja@dsl217-132-52-252.bb.netvision.net.il) has joined #vim
+2017-11-18 20:09:29	<--	romainl (~Adium@176.186.242.162) has quit (Quit: Leaving.)
+2017-11-18 20:10:01	<--	rendar (~I@unaffiliated/rendar) has quit (Quit: std::lower_bound + std::less_equal *works* with a vector without duplicates!)
+2017-11-18 20:10:14	<--	sasadadad (~fmklfdsja@dsl217-132-52-252.bb.netvision.net.il) has left #vim
+2017-11-18 20:10:23	-->	sasadadad (~fmklfdsja@dsl217-132-52-252.bb.netvision.net.il) has joined #vim
+2017-11-18 20:10:41	<--	sasadadad (~fmklfdsja@dsl217-132-52-252.bb.netvision.net.il) has left #vim
+2017-11-18 20:11:27	-->	wingnut (~afwingnut@ip98-186-245-30.mc.at.cox.net) has joined #vim
+2017-11-18 20:13:14	<--	cesc (~cesc@147.92.21.109.rev.sfr.net) has quit (Ping timeout: 248 seconds)
+2017-11-18 20:16:41	<--	Haudegen (~quassel@178.115.237.87) has quit (Remote host closed the connection)
+2017-11-18 20:17:48	-->	r3d9u11 (~r3d9u11@93.84.16.103) has joined #vim
+2017-11-18 20:19:15	-->	agerick (~agerick@c-71-233-96-10.hsd1.ct.comcast.net) has joined #vim
+2017-11-18 20:19:34	-->	jottr (~jottr@unaffiliated/jottr) has joined #vim
+2017-11-18 20:20:55	<--	coot___________ (~coot@188.146.102.180.nat.umts.dynamic.t-mobile.pl) has quit (Quit: coot___________)
+2017-11-18 20:23:52	<--	jottr (~jottr@unaffiliated/jottr) has quit (Ping timeout: 240 seconds)
+2017-11-18 20:24:00	<--	chreekat (~b@172.58.225.249) has quit (Quit: quitting)
+2017-11-18 20:24:16	<--	r3d9u11 (~r3d9u11@93.84.16.103) has quit (Remote host closed the connection)
+2017-11-18 20:26:19	-->	chreekat (~b@unaffiliated/chreekat) has joined #vim
+2017-11-18 20:26:59	LeoNerd	qstrahl: "verbatim"? Whoknows..?
+2017-11-18 20:27:10	-->	easzero (~easzero@2a02:908:4c4:f300:ac28:c61b:6d95:df66) has joined #vim
+2017-11-18 20:29:19	<--	captain_morgan (~morgan@104.236.136.56) has quit (Remote host closed the connection)
+2017-11-18 20:29:31	-->	captain_morgan (~morgan@104.236.136.56) has joined #vim
+2017-11-18 20:29:42	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 20:30:24	<--	TheLemonMan (~lemonboy@irssi/staff/TheLemonMan) has quit (Quit: "It's now safe to turn off your computer.")
+2017-11-18 20:30:24	<--	jucaroba (~quassel@static-182-108-27-46.ipcom.comunitel.net) has quit (Read error: Connection reset by peer)
+2017-11-18 20:31:04	-->	gfixler (~gfixler@cpe-108-185-238-241.socal.res.rr.com) has joined #vim
+2017-11-18 20:31:39	-->	jucaroba (~quassel@static-182-108-27-46.ipcom.comunitel.net) has joined #vim
+2017-11-18 20:32:28	-->	jottr (~jottr@unaffiliated/jottr) has joined #vim
+2017-11-18 20:33:04	-->	hauleth (~hauleth@euj220.neoplus.adsl.tpnet.pl) has joined #vim
+2017-11-18 20:33:55	<--	kirby__ (~caretaker@ppp109-252-50-68.pppoe.spdop.ru) has quit (Remote host closed the connection)
+2017-11-18 20:34:08	<--	JeanCarloMachado (~jean@177-58-253-92.3g.claro.net.br) has quit (Read error: No route to host)
+2017-11-18 20:34:18	-->	kirby__ (~caretaker@ppp109-252-50-68.pppoe.spdop.ru) has joined #vim
+2017-11-18 20:34:22	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 255 seconds)
+2017-11-18 20:35:05	<--	gfixler (~gfixler@cpe-108-185-238-241.socal.res.rr.com) has quit (Client Quit)
+2017-11-18 20:35:51	<--	hardenedapple (~hardeneda@88-111-57-152.dynamic.dsl.as9105.com) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 20:37:11	-->	gfixler (~gfixler@cpe-108-185-238-241.socal.res.rr.com) has joined #vim
+2017-11-18 20:38:36	-->	kerananw (~kerananw@unaffiliated/kerananw) has joined #vim
+2017-11-18 20:39:12	<--	neoncontrails (~neoncontr@99-26-122-26.lightspeed.sndgca.sbcglobal.net) has quit (Remote host closed the connection)
+2017-11-18 20:39:50	-->	neoncontrails (~neoncontr@2600:1702:850:9ed0:1911:9643:60c:4225) has joined #vim
+2017-11-18 20:41:12	-->	a___ (~a___@dsl217-132-52-252.bb.netvision.net.il) has joined #vim
+2017-11-18 20:41:12	-->	Haudegen (~quassel@178.115.237.87) has joined #vim
+2017-11-18 20:41:25	<--	vidhan (uid103753@gateway/web/irccloud.com/x-pomwkxdztcnrrmkw) has quit (Quit: Connection closed for inactivity)
+2017-11-18 20:41:39	<--	boubou (boubou@unaffiliated/boubou) has quit (Quit: ZNC - http://znc.sourceforge.net)
+2017-11-18 20:41:50	-->	JeanCarloMachado (~jean@177-58-253-92.3g.claro.net.br) has joined #vim
+2017-11-18 20:43:33	-->	astronavt (~astronavt@2604:2000:1343:4291:a43c:3f7c:2556:4d19) has joined #vim
+2017-11-18 20:44:24	<--	neoncontrails (~neoncontr@2600:1702:850:9ed0:1911:9643:60c:4225) has quit (Ping timeout: 258 seconds)
+2017-11-18 20:45:37	<--	dviola (~diego@unaffiliated/dviola) has quit (Ping timeout: 255 seconds)
+2017-11-18 20:46:12	<--	lunary (~lunary@nat-19-pool-1-ip-5.cosmostv.by) has quit (Ping timeout: 240 seconds)
+2017-11-18 20:46:36	<--	a___ (~a___@dsl217-132-52-252.bb.netvision.net.il) has left #vim
+2017-11-18 20:46:39	<--	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has quit (Remote host closed the connection)
+2017-11-18 20:46:46	<--	ray_ (~ray90800@host-92-1-6-151.as43234.net) has quit (Ping timeout: 240 seconds)
+2017-11-18 20:48:37	-->	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has joined #vim
+2017-11-18 20:48:48	-->	lunary (~lunary@fw1-nat-qts.infoblox.com) has joined #vim
+2017-11-18 20:49:55	-->	dviola (~diego@187.66.114.144) has joined #vim
+2017-11-18 20:50:17	<--	dviola (~diego@187.66.114.144) has quit (Changing host)
+2017-11-18 20:50:17	-->	dviola (~diego@unaffiliated/dviola) has joined #vim
+2017-11-18 20:50:35	<--	easzero (~easzero@2a02:908:4c4:f300:ac28:c61b:6d95:df66) has quit (Remote host closed the connection)
+2017-11-18 20:51:55	-->	curiousx (~curiousx@unaffiliated/curiousx) has joined #vim
+2017-11-18 20:51:58	<--	coellobranco (~FoRcEr@103.37.117.91.dynamic.reverse-mundo-r.com) has quit (Quit: Arch User...)
+2017-11-18 20:52:16	<--	curiousx (~curiousx@unaffiliated/curiousx) has quit (Client Quit)
+2017-11-18 20:52:26	-->	Guest17941 (~daniel@82.102.16.91) has joined #vim
+2017-11-18 20:53:00	<--	roentgen (~none@unaffiliated/roentgen) has quit (Quit: Puff)
+2017-11-18 20:53:03	-->	romainl (~Adium@176.186.242.162) has joined #vim
+2017-11-18 20:53:21	-->	roentgen (~none@unaffiliated/roentgen) has joined #vim
+2017-11-18 20:54:36	-->	trafaret1 (~user@178.206.33.242) has joined #vim
+2017-11-18 20:54:41	<--	trafaret1 (~user@178.206.33.242) has left #vim
+2017-11-18 20:55:21	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 20:55:46	<--	JeanCarloMachado (~jean@177-58-253-92.3g.claro.net.br) has quit (Ping timeout: 240 seconds)
+2017-11-18 20:55:58	-->	DVS-1 (~r3-s0urce@37.142.6.238) has joined #vim
+2017-11-18 20:57:41	<--	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has quit (Remote host closed the connection)
+2017-11-18 20:59:35	-->	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has joined #vim
+2017-11-18 21:00:30	-->	euoia (~euoia@79-67-208-190.dynamic.dsl.as9105.com) has joined #vim
+2017-11-18 21:01:46	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 248 seconds)
+2017-11-18 21:02:00	-->	gone_haywire (~gone_hayw@gateway/tor-sasl/gonehaywire/x-92471824) has joined #vim
+2017-11-18 21:03:36	-->	neoncontrails (~neoncontr@2600:1702:850:9ed0:38cc:f4d9:5fd2:968c) has joined #vim
+2017-11-18 21:03:44	<--	ivan_the_monkey (~ivan_the_@S0106e4f4c606be7f.vc.shawcable.net) has quit (Ping timeout: 268 seconds)
+2017-11-18 21:03:46	-->	ivan_the1monkey (~ivan_the_@196.52.20.211) has joined #vim
+2017-11-18 21:04:17	qstrahl	I am pleased to report that xterm now supports csi u and therefore I am back to using xterm
+2017-11-18 21:04:24	qstrahl	And thanks to this I have obliterated a bunch of hacky config files
+2017-11-18 21:04:31	qstrahl	One more victory for simplicity <3
+2017-11-18 21:04:40	romainl	we were all worried, qstrahl
+2017-11-18 21:04:49	qstrahl	Thank you romainl but you can stop now c:
+2017-11-18 21:04:55	qstrahl	Everything is much better
+2017-11-18 21:05:14	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 21:05:19	romainl	everything is awesome
+2017-11-18 21:05:29	qstrahl	Everything is cool when you're part of a team~
+2017-11-18 21:05:32	<--	euoia (~euoia@79-67-208-190.dynamic.dsl.as9105.com) has quit (Ping timeout: 248 seconds)
+2017-11-18 21:05:37	<--	gone_haywire (~gone_hayw@gateway/tor-sasl/gonehaywire/x-92471824) has quit (Remote host closed the connection)
+2017-11-18 21:05:40	<--	qstrahl (~weechat@35.193.176.152) has quit (Quit: WeeChat 1.7)
+2017-11-18 21:06:03	-->	gone_haywire (~gone_hayw@gateway/tor-sasl/gonehaywire/x-92471824) has joined #vim
+2017-11-18 21:07:02	-->	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has joined #vim
+2017-11-18 21:07:35	-->	chargen (~chargen@179.149.21.95.dynamic.jazztel.es) has joined #vim
+2017-11-18 21:08:15	-->	qstrahl (~weechat@35.193.176.152) has joined #vim
+2017-11-18 21:09:14	<--	jottr (~jottr@unaffiliated/jottr) has quit (Ping timeout: 248 seconds)
+2017-11-18 21:09:20	-->	boubou (boubou@unaffiliated/boubou) has joined #vim
+2017-11-18 21:09:38	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 240 seconds)
+2017-11-18 21:10:36	<--	redblade7 (~redblade7@gateway/tor-sasl/redblade7) has quit (Quit: Later...)
+2017-11-18 21:12:28	<--	untitled1 (~edge563@gateway/vpn/privateinternetaccess/edge563) has quit (Ping timeout: 248 seconds)
+2017-11-18 21:12:52	<--	Guest17941 (~daniel@82.102.16.91) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 21:13:36	-->	db8093246 (~db8093246@46-162-124-202.cust.bredband2.com) has joined #vim
+2017-11-18 21:13:50	-->	ahmed_elgabri (~ahmedelga@gateway/vpn/privateinternetaccess/gabri) has joined #vim
+2017-11-18 21:14:05	<--	romainl (~Adium@176.186.242.162) has quit (Quit: Leaving.)
+2017-11-18 21:14:46	-->	untitled1 (~edge563@unaffiliated/edge563) has joined #vim
+2017-11-18 21:16:40	<--	ahmedelgabri (~ahmedelga@2a02:a441:9f5:1:c09b:c666:430e:e724) has quit (Ping timeout: 255 seconds)
+2017-11-18 21:18:21	-->	jottr (~jottr@unaffiliated/jottr) has joined #vim
+2017-11-18 21:18:29	-->	cdg (~cdg@162-226-219-152.lightspeed.tukrga.sbcglobal.net) has joined #vim
+2017-11-18 21:18:51	<--	zamaterian_ (~Thomas@77.241.130.85.mobile.3.dk) has quit (Read error: No route to host)
+2017-11-18 21:18:52	<--	DVS-1 (~r3-s0urce@37.142.6.238) has quit (Ping timeout: 260 seconds)
+2017-11-18 21:19:09	-->	tomphp (~tomphp@host81-154-228-252.range81-154.btcentralplus.com) has joined #vim
+2017-11-18 21:20:14	<--	astronavt (~astronavt@2604:2000:1343:4291:a43c:3f7c:2556:4d19) has quit (Quit: Leaving...)
+2017-11-18 21:23:04	<--	fotonzade (~memduh@78.189.158.97) has quit (Quit: Konversation terminated!)
+2017-11-18 21:24:42	<--	rindolf (~shlomif@IGLD-84-229-8-129.inter.net.il) has quit (Ping timeout: 268 seconds)
+2017-11-18 21:26:00	<--	jalalsfs (~jalalsfs@unaffiliated/jalalsfs) has quit (Remote host closed the connection)
+2017-11-18 21:26:02	<--	sasheto (~sasheto@2601:184:4a80:1f40::c39) has quit (Ping timeout: 240 seconds)
+2017-11-18 21:26:30	<--	Jesin (~Jesin@pool-108-51-89-131.washdc.fios.verizon.net) has quit (Quit: Leaving)
+2017-11-18 21:26:35	-->	coot___________ (~coot@188.146.98.43.nat.umts.dynamic.t-mobile.pl) has joined #vim
+2017-11-18 21:27:16	<--	ryp (~ryp@88.190.202.176) has quit (Ping timeout: 240 seconds)
+2017-11-18 21:27:28	-->	zakharyas (~Snakes@d.cx) has joined #vim
+2017-11-18 21:27:52	<--	`brian (~ohai@2604:a880:2:d0::2c2f:9001) has quit (Ping timeout: 250 seconds)
+2017-11-18 21:28:09	-->	`brian (~ohai@2604:a880:2:d0::2c2f:9001) has joined #vim
+2017-11-18 21:29:01	-->	Araxia (~araxia@50-1-48-29.dsl.dynamic.sonic.net) has joined #vim
+2017-11-18 21:29:03	<--	Araxia (~araxia@50-1-48-29.dsl.dynamic.sonic.net) has quit (Remote host closed the connection)
+2017-11-18 21:29:15	<--	tomphp (~tomphp@host81-154-228-252.range81-154.btcentralplus.com) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 21:30:00	<--	kirby__ (~caretaker@ppp109-252-50-68.pppoe.spdop.ru) has quit (Remote host closed the connection)
+2017-11-18 21:30:27	-->	kirby__ (~caretaker@ppp109-252-50-68.pppoe.spdop.ru) has joined #vim
+2017-11-18 21:31:30	-->	fotonzade (~memduh@78.189.158.97) has joined #vim
+2017-11-18 21:31:31	<--	mingdao (~mingdao@unaffiliated/mingdao) has quit (Ping timeout: 255 seconds)
+2017-11-18 21:31:41	-->	mingdao (~mingdao@unaffiliated/mingdao) has joined #vim
+2017-11-18 21:31:42	<--	HeNeLaser (~HeNeLaser@dbj99pyyyyyyyyyyyyycy-3.rev.dnainternet.fi) has quit (Remote host closed the connection)
+2017-11-18 21:32:06	-->	HeNeLaser (~HeNeLaser@dbj99pyyyyyyyyyyyyycy-3.rev.dnainternet.fi) has joined #vim
+2017-11-18 21:33:48	<--	ivan_the1monkey (~ivan_the_@196.52.20.211) has quit (Quit: Lost terminal)
+2017-11-18 21:34:08	<--	coot___________ (~coot@188.146.98.43.nat.umts.dynamic.t-mobile.pl) has quit (Read error: Connection reset by peer)
+2017-11-18 21:34:23	-->	coot___________ (~coot@188.146.98.43.nat.umts.dynamic.t-mobile.pl) has joined #vim
+2017-11-18 21:34:38	<--	HeNeLaser (~HeNeLaser@dbj99pyyyyyyyyyyyyycy-3.rev.dnainternet.fi) has quit (Remote host closed the connection)
+2017-11-18 21:35:17	<--	higgs (~higgs@c-73-228-141-118.hsd1.mn.comcast.net) has quit (Remote host closed the connection)
+2017-11-18 21:36:55	<--	zakharyas (~Snakes@d.cx) has quit (Ping timeout: 255 seconds)
+2017-11-18 21:37:22	<--	inad922 (~inad922@78-131-82-48.pool.digikabel.hu) has quit (Ping timeout: 255 seconds)
+2017-11-18 21:37:27	<--	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 21:38:36	<--	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has quit (Ping timeout: 248 seconds)
+2017-11-18 21:38:52	-->	ivan_the_monkey (~ivan_the_@S0106e4f4c606be7f.vc.shawcable.net) has joined #vim
+2017-11-18 21:39:46	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 21:41:18	-->	Jesin (~Jesin@pool-108-51-89-131.washdc.fios.verizon.net) has joined #vim
+2017-11-18 21:43:32	<--	agerick (~agerick@c-71-233-96-10.hsd1.ct.comcast.net) has quit (Quit: agerick)
+2017-11-18 21:43:44	-->	ivan_the1monkey (~ivan_the_@196.52.20.232) has joined #vim
+2017-11-18 21:44:58	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 248 seconds)
+2017-11-18 21:45:30	<--	ivan_the_monkey (~ivan_the_@S0106e4f4c606be7f.vc.shawcable.net) has quit (Ping timeout: 248 seconds)
+2017-11-18 21:46:20	-->	curiousx (~curiousx@unaffiliated/curiousx) has joined #vim
+2017-11-18 21:49:29	-->	skylite (~skylite@BC0613D2.catv.pool.telekom.hu) has joined #vim
+2017-11-18 21:49:41	-->	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has joined #vim
+2017-11-18 21:50:16	skylite	whats the default ruby version in vim8?
+2017-11-18 21:50:32	-->	ray_ (~ray90800@host-92-1-6-151.as43234.net) has joined #vim
+2017-11-18 21:50:57	lopid	whatever you compile it against?
+2017-11-18 21:51:33	<--	lunary (~lunary@fw1-nat-qts.infoblox.com) has quit (Ping timeout: 260 seconds)
+2017-11-18 21:51:37	-->	lunary_ (~lunary@nat-19-pool-1-ip-5.cosmostv.by) has joined #vim
+2017-11-18 21:51:42	skylite	im compiling it with --enable-rubyinterp
+2017-11-18 21:51:50	-->	r3d9u11 (~r3d9u11@mm-103-7-84-93.mgts.dynamic.pppoe.byfly.by) has joined #vim
+2017-11-18 21:51:56	skylite	whats the version in that?
+2017-11-18 21:52:08	lopid	you tell us
+2017-11-18 21:52:20	lopid	ruby --version ?
+2017-11-18 21:52:25	skylite	well what if I have multiple versions?
+2017-11-18 21:52:37	skylite	how do vim know which one I want ahd how does it find it?
+2017-11-18 21:52:51	lopid	vim --version might reveal the path
+2017-11-18 21:54:02	<--	jottr (~jottr@unaffiliated/jottr) has quit (Ping timeout: 248 seconds)
+2017-11-18 21:56:47	<--	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has quit (Remote host closed the connection)
+2017-11-18 21:58:38	-->	jottr (~jottr@unaffiliated/jottr) has joined #vim
+2017-11-18 21:59:47	<--	neoncontrails (~neoncontr@2600:1702:850:9ed0:38cc:f4d9:5fd2:968c) has quit (Remote host closed the connection)
+2017-11-18 21:59:54	<--	KnoP (~andreas@p5B0A3E2B.dip0.t-ipconnect.de) has quit (Ping timeout: 248 seconds)
+2017-11-18 21:59:58	-->	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has joined #vim
+2017-11-18 22:01:13	-->	romainl (~Adium@176.186.242.162) has joined #vim
+2017-11-18 22:01:29	-->	nZac (~Kingino@140-186-161-3-dynamic.midco.net) has joined #vim
+2017-11-18 22:02:01	<--	chargen (~chargen@179.149.21.95.dynamic.jazztel.es) has quit (Quit: BBL)
+2017-11-18 22:02:49	-->	zakharyas (~Snakes@d.cx) has joined #vim
+2017-11-18 22:03:54	<--	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 22:05:26	-->	ryp (~ryp@88.190.202.176) has joined #vim
+2017-11-18 22:06:00	<--	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has quit (Remote host closed the connection)
+2017-11-18 22:06:45	-->	kculpis (~kculpic@unaffiliated/kculpic) has joined #vim
+2017-11-18 22:06:50	<--	nielsk (~nielsk@striper.datahaven.space) has quit (Ping timeout: 248 seconds)
+2017-11-18 22:07:31	<--	kculpis (~kculpic@unaffiliated/kculpic) has quit (Max SendQ exceeded)
+2017-11-18 22:07:50	-->	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has joined #vim
+2017-11-18 22:08:00	-->	kculpis (~kculpic@unaffiliated/kculpic) has joined #vim
+2017-11-18 22:08:14	-->	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has joined #vim
+2017-11-18 22:08:30	-->	nielsk (~nielsk@2001:1560:a000:2:b89b:c019:2511:7af6) has joined #vim
+2017-11-18 22:08:43	<--	SilentGhost (~SilentGho@unaffiliated/silentghost) has left #vim ("WeeChat 1.9.1")
+2017-11-18 22:08:50	<--	kculpis (~kculpic@unaffiliated/kculpic) has quit (Max SendQ exceeded)
+2017-11-18 22:09:20	-->	kculpis (~kculpic@unaffiliated/kculpic) has joined #vim
+2017-11-18 22:09:33	<--	zakharyas (~Snakes@d.cx) has left #vim
+2017-11-18 22:10:34	-->	djapo (~archie@unaffiliated/djapo) has joined #vim
+2017-11-18 22:10:40	<--	kculpis (~kculpic@unaffiliated/kculpic) has quit (Max SendQ exceeded)
+2017-11-18 22:11:10	-->	kculpis (~kculpic@unaffiliated/kculpic) has joined #vim
+2017-11-18 22:12:38	<--	kculpis (~kculpic@unaffiliated/kculpic) has quit (Max SendQ exceeded)
+2017-11-18 22:13:06	-->	ReptilianBrain (~Reptilian@24-54-27-160.mg.cgocable.ca) has joined #vim
+2017-11-18 22:13:11	-->	kculpis (~kculpic@unaffiliated/kculpic) has joined #vim
+2017-11-18 22:14:05	<--	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has quit (Quit: Leaving)
+2017-11-18 22:14:09	<--	kculpis (~kculpic@unaffiliated/kculpic) has quit (Max SendQ exceeded)
+2017-11-18 22:14:21	-->	mopley (~Unknown@p549FD2C6.dip0.t-ipconnect.de) has joined #vim
+2017-11-18 22:14:43	-->	kculpis (~kculpic@unaffiliated/kculpic) has joined #vim
+2017-11-18 22:15:27	<--	kculpis (~kculpic@unaffiliated/kculpic) has quit (Remote host closed the connection)
+2017-11-18 22:15:53	-->	kculpis (~kculpic@unaffiliated/kculpic) has joined #vim
+2017-11-18 22:17:59	Desu	could readelf and see which it links against
+2017-11-18 22:18:21	<--	blawiz_ (~DD_comman@unaffiliated/blawiz) has left #vim
+2017-11-18 22:18:37	-->	tomphp (~tomphp@host81-154-228-252.range81-154.btcentralplus.com) has joined #vim
+2017-11-18 22:18:40	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 22:19:38	<--	kirby__ (~caretaker@ppp109-252-50-68.pppoe.spdop.ru) has quit (Ping timeout: 248 seconds)
+2017-11-18 22:20:40	<--	nZac (~Kingino@140-186-161-3-dynamic.midco.net) has quit (Read error: Connection reset by peer)
+2017-11-18 22:22:38	<--	bolt (~r00t@unaffiliated/bolt) has quit (Ping timeout: 240 seconds)
+2017-11-18 22:24:25	<--	qzo (~qzo@c-67-177-224-24.hsd1.co.comcast.net) has quit (Quit: Leaving)
+2017-11-18 22:24:26	-->	alan_w (~alan_w@c-73-118-106-143.hsd1.al.comcast.net) has joined #vim
+2017-11-18 22:24:31	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 268 seconds)
+2017-11-18 22:24:33	-->	bolt (~r00t@unaffiliated/bolt) has joined #vim
+2017-11-18 22:24:43	-->	watabou (~watabou@unaffiliated/watabou) has joined #vim
+2017-11-18 22:24:47	-->	qzo (~qzo@c-67-177-224-24.hsd1.co.comcast.net) has joined #vim
+2017-11-18 22:25:02	arora	Desu: what?
+2017-11-18 22:25:35	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 22:29:19	<--	chreekat (~b@unaffiliated/chreekat) has quit (Ping timeout: 240 seconds)
+2017-11-18 22:29:47	-->	nZac (~Kingino@140-186-161-3-dynamic.midco.net) has joined #vim
+2017-11-18 22:30:08	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 240 seconds)
+2017-11-18 22:31:40	-->	chreekat (~b@unaffiliated/chreekat) has joined #vim
+2017-11-18 22:32:12	<--	jottr (~jottr@unaffiliated/jottr) has quit (Ping timeout: 240 seconds)
+2017-11-18 22:32:43	Desu	hmm might not work since the loading is dynamic
+2017-11-18 22:33:32	<--	encome (~~@93.85.51.134) has quit (Ping timeout: 240 seconds)
+2017-11-18 22:34:14	-->	jottr (~jottr@unaffiliated/jottr) has joined #vim
+2017-11-18 22:34:36	<--	banttu (~bantu@154.122.248.119) has quit (Ping timeout: 248 seconds)
+2017-11-18 22:34:42	<--	nZac (~Kingino@140-186-161-3-dynamic.midco.net) has quit (Ping timeout: 260 seconds)
+2017-11-18 22:34:54	-->	HTTP___GK1wmSU (~DEEP-BOOK@185.141.24.244) has joined #vim
+2017-11-18 22:36:23	<--	alan_w (~alan_w@c-73-118-106-143.hsd1.al.comcast.net) has quit (Read error: Connection reset by peer)
+2017-11-18 22:36:42	<--	wonko7 (~wonko7@2a01:e34:ec14:5250:64d6:5ee1:a343:bc39) has quit (Ping timeout: 240 seconds)
+2017-11-18 22:36:47	-->	alan_w (~alan_w@75.78.103.9) has joined #vim
+2017-11-18 22:37:35	<--	HTTP___GK1wmSU (~DEEP-BOOK@185.141.24.244) has left #vim
+2017-11-18 22:37:51	-->	euoia (~euoia@79-67-208-190.dynamic.dsl.as9105.com) has joined #vim
+2017-11-18 22:40:06	-->	L1nk (~lbigas@a89-155-192-162.cpe.netcabo.pt) has joined #vim
+2017-11-18 22:40:07	<--	L1nk (~lbigas@a89-155-192-162.cpe.netcabo.pt) has quit (Max SendQ exceeded)
+2017-11-18 22:40:32	-->	L1nk (~lbigas@a89-155-192-162.cpe.netcabo.pt) has joined #vim
+2017-11-18 22:41:42	<--	cpe (~cpe@unaffiliated/cpe) has quit (Ping timeout: 258 seconds)
+2017-11-18 22:41:45	-->	alhariel (~alhariel@189.113.68.90) has joined #vim
+2017-11-18 22:42:23	<--	mopley (~Unknown@p549FD2C6.dip0.t-ipconnect.de) has quit (Quit: leaving)
+2017-11-18 22:42:39	<--	watabou (~watabou@unaffiliated/watabou) has quit (Ping timeout: 240 seconds)
+2017-11-18 22:43:55	-->	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined #vim
+2017-11-18 22:46:52	-->	cagomez (~cagomez@rrcs-76-79-113-210.west.biz.rr.com) has joined #vim
+2017-11-18 22:46:56	-->	chargen (~chargen@179.149.21.95.dynamic.jazztel.es) has joined #vim
+2017-11-18 22:47:11	-->	encome (~~@93.85.140.41) has joined #vim
+2017-11-18 22:47:11	-->	cpe (~cpe@unaffiliated/cpe) has joined #vim
+2017-11-18 22:47:36	<--	granitosaurus (~granitosa@abf0-fe1f-96ff-0a11-ae80-8917-07d0-2001.dyn.estpak.ee) has quit (Ping timeout: 250 seconds)
+2017-11-18 22:47:40	-->	banttu (~bantu@154.122.78.228) has joined #vim
+2017-11-18 22:47:51	-->	nZac (~Kingino@140-186-161-3-dynamic.midco.net) has joined #vim
+2017-11-18 22:48:29	romainl	In the mind of <strike>John Malkovich</strike>Desu
+2017-11-18 22:49:43	<--	alhariel (~alhariel@189.113.68.90) has quit (Read error: Connection reset by peer)
+2017-11-18 22:50:01	-->	alhariel (~alhariel@189.113.68.90) has joined #vim
+2017-11-18 22:51:16	<--	wooden (~anon@c-73-80-106-100.hsd1.nj.comcast.net) has quit (Read error: Connection reset by peer)
+2017-11-18 22:52:31	<--	nZac (~Kingino@140-186-161-3-dynamic.midco.net) has quit (Ping timeout: 255 seconds)
+2017-11-18 22:54:26	<--	max_m (~max_m@gateway/tor-sasl/maxm/x-47377621) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 22:54:46	-->	mfukar (~mfukar@unaffiliated/mfukar) has joined #vim
+2017-11-18 22:55:35	-->	wooden (~anon@c-73-80-106-100.hsd1.nj.comcast.net) has joined #vim
+2017-11-18 22:57:12	<--	euoia (~euoia@79-67-208-190.dynamic.dsl.as9105.com) has quit (Ping timeout: 268 seconds)
+2017-11-18 22:58:13	<--	ivan_the1monkey (~ivan_the_@196.52.20.232) has quit (Read error: Connection reset by peer)
+2017-11-18 22:58:20	-->	ivan_the_monkey (~ivan_the_@196.52.20.232) has joined #vim
+2017-11-18 22:59:08	-->	max_m (~max_m@gateway/tor-sasl/maxm/x-47377621) has joined #vim
+2017-11-18 23:00:12	<--	kunev (~kunev@78-83-71-166.spectrumnet.bg) has quit (Ping timeout: 248 seconds)
+2017-11-18 23:00:17	<--	qstrahl (~weechat@35.193.176.152) has quit (Quit: WeeChat 1.7)
+2017-11-18 23:01:41	-->	kunev (~kunev@78-83-71-166.spectrumnet.bg) has joined #vim
+2017-11-18 23:02:02	-->	agerick (~agerick@c-71-233-96-10.hsd1.ct.comcast.net) has joined #vim
+2017-11-18 23:02:28	<--	L1nk (~lbigas@a89-155-192-162.cpe.netcabo.pt) has quit (Quit: Leaving)
+2017-11-18 23:03:33	-->	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has joined #vim
+2017-11-18 23:03:57	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 23:04:02	<--	floatleft (~floatleft@89-138-169-60.bb.netvision.net.il) has quit (Ping timeout: 240 seconds)
+2017-11-18 23:04:33	-->	floatleft (~floatleft@46.19.85.212) has joined #vim
+2017-11-18 23:04:34	-->	neoncontrails (~neoncontr@99-26-122-26.lightspeed.sndgca.sbcglobal.net) has joined #vim
+2017-11-18 23:05:18	-->	qstrahl (~weechat@35.193.176.152) has joined #vim
+2017-11-18 23:07:41	-->	mirk0 (~mirk0@unaffiliated/-mirko-/x-2946915) has joined #vim
+2017-11-18 23:09:16	<--	jottr (~jottr@unaffiliated/jottr) has quit (Ping timeout: 248 seconds)
+2017-11-18 23:11:22	<--	tomphp (~tomphp@host81-154-228-252.range81-154.btcentralplus.com) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 23:11:33	-->	agerick_ (~agerick@96-67-23-35-static.hfc.comcastbusiness.net) has joined #vim
+2017-11-18 23:12:26	<--	agerick (~agerick@c-71-233-96-10.hsd1.ct.comcast.net) has quit (Ping timeout: 248 seconds)
+2017-11-18 23:12:26	--	agerick_ is now known as agerick
+2017-11-18 23:13:15	<--	curiousx (~curiousx@unaffiliated/curiousx) has quit (Quit: leaving)
+2017-11-18 23:14:52	<--	db8093246 (~db8093246@46-162-124-202.cust.bredband2.com) has quit (Remote host closed the connection)
+2017-11-18 23:15:13	-->	tomphp (~tomphp@host81-154-228-252.range81-154.btcentralplus.com) has joined #vim
+2017-11-18 23:18:10	-->	jottr (~jottr@unaffiliated/jottr) has joined #vim
+2017-11-18 23:18:11	<--	r3d9u11 (~r3d9u11@mm-103-7-84-93.mgts.dynamic.pppoe.byfly.by) has quit (Remote host closed the connection)
+2017-11-18 23:20:26	<--	monpocchi (~monpocchi@unaffiliated/monpocchi) has quit (Ping timeout: 248 seconds)
+2017-11-18 23:20:58	<--	banttu (~bantu@154.122.78.228) has quit (Ping timeout: 250 seconds)
+2017-11-18 23:22:46	-->	astronavt (~astronavt@2604:2000:1343:4291:a43c:3f7c:2556:4d19) has joined #vim
+2017-11-18 23:26:44	<--	chargen (~chargen@179.149.21.95.dynamic.jazztel.es) has quit (Quit: BBL)
+2017-11-18 23:26:50	<--	agerick (~agerick@96-67-23-35-static.hfc.comcastbusiness.net) has quit (Ping timeout: 248 seconds)
+2017-11-18 23:29:04	<--	jrofd (j3dl3@188.172.155.54) has quit (Read error: Connection reset by peer)
+2017-11-18 23:29:12	<--	pepper_chico (~pepper_ch@177.45.33.57) has quit (Read error: Connection reset by peer)
+2017-11-18 23:29:14	-->	jrofd (j3dl3@188.172.155.54) has joined #vim
+2017-11-18 23:29:55	<--	tymczenko (~tymczenko@unaffiliated/tymczenko) has quit (Quit: Leaving)
+2017-11-18 23:30:25	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Remote host closed the connection)
+2017-11-18 23:30:36	-->	rssk (~rhs@gateway/tor-sasl/rssk) has joined #vim
+2017-11-18 23:31:01	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 23:31:10	-->	Tudor_ (~XTC@89.46.228.229) has joined #vim
+2017-11-18 23:31:50	-->	pepper_chico (~pepper_ch@177.45.33.57) has joined #vim
+2017-11-18 23:34:22	<--	Tudor__ (~XTC@31.14.36.252) has quit (Ping timeout: 255 seconds)
+2017-11-18 23:35:08	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 240 seconds)
+2017-11-18 23:35:56	<--	riemann (~riemann@ip-222-88.ists.pl) has quit (Quit: Leaving)
+2017-11-18 23:36:10	<--	floatleft (~floatleft@46.19.85.212) has quit (Ping timeout: 255 seconds)
+2017-11-18 23:36:16	<--	arora (~arora@92.99.129.156) has quit (Read error: No route to host)
+2017-11-18 23:36:46	-->	floatleft (~floatleft@89-138-169-60.bb.netvision.net.il) has joined #vim
+2017-11-18 23:37:04	-->	chars6 (~chris@ool-18bd5185.dyn.optonline.net) has joined #vim
+2017-11-18 23:38:15	-->	systemfault (~rcyr@unaffiliated/rcyr) has joined #vim
+2017-11-18 23:39:18	-->	sasheto (~sasheto@2601:184:4a80:1f40::c39) has joined #vim
+2017-11-18 23:43:44	-->	ngqrl (~ngqrl@unaffiliated/ngqrl) has joined #vim
+2017-11-18 23:44:04	-->	DaffyDuck_ (~jan@217-208-118-191-no110.tbcn.telia.com) has joined #vim
+2017-11-18 23:44:10	<--	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 23:45:02	-->	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has joined #vim
+2017-11-18 23:45:32	<--	lunary_ (~lunary@nat-19-pool-1-ip-5.cosmostv.by) has quit (Ping timeout: 248 seconds)
+2017-11-18 23:46:16	<--	djapo (~archie@unaffiliated/djapo) has quit (Ping timeout: 240 seconds)
+2017-11-18 23:48:14	<--	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has quit (Remote host closed the connection)
+2017-11-18 23:49:00	<--	nevodka (~nevodka@71.19.252.27) has quit (Ping timeout: 268 seconds)
+2017-11-18 23:49:07	-->	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has joined #vim
+2017-11-18 23:49:16	<--	chars6 (~chris@ool-18bd5185.dyn.optonline.net) has quit (Ping timeout: 240 seconds)
+2017-11-18 23:49:20	-->	Arcaelyx (~Arcaelyx@2601:646:c200:27a1:209e:c201:e4d7:168c) has joined #vim
+2017-11-18 23:50:07	-->	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has joined #vim
+2017-11-18 23:50:17	<--	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 23:51:00	<--	qzo (~qzo@c-67-177-224-24.hsd1.co.comcast.net) has quit (Remote host closed the connection)
+2017-11-18 23:51:52	<--	jottr (~jottr@unaffiliated/jottr) has quit (Ping timeout: 240 seconds)
+2017-11-18 23:52:28	<--	sim590 (~sim590@cable-192.222.210.73.electronicbox.net) has quit (Ping timeout: 248 seconds)
+2017-11-18 23:52:52	<--	cdown (~cdown@80.179.186.2.forward.012.net.il) has quit (Ping timeout: 240 seconds)
+2017-11-18 23:53:54	-->	sim590 (~sim590@cable-192.222.210.73.electronicbox.net) has joined #vim
+2017-11-18 23:54:03	<--	pt1 (~pt1@31-208-142-54.cust.bredband2.com) has quit (Ping timeout: 260 seconds)
+2017-11-18 23:54:46	<--	fotonzade (~memduh@78.189.158.97) has quit (Ping timeout: 240 seconds)
+2017-11-18 23:55:31	<--	sasheto (~sasheto@2601:184:4a80:1f40::c39) has quit (Ping timeout: 255 seconds)
+2017-11-18 23:59:25	-->	s73vm1lls (~stevmills@gateway/tor-sasl/stevmills) has joined #vim
+2017-11-19 00:00:19	-->	jdj (~chatzilla@c-76-106-174-246.hsd1.fl.comcast.net) has joined #vim
+2017-11-19 00:00:36	<--	Xrayez (~Xrayez@79.110.128.128) has quit (Read error: Connection reset by peer)
+2017-11-19 00:00:45	-->	eclm (~alan_w@c-73-118-106-143.hsd1.al.comcast.net) has joined #vim
+2017-11-19 00:00:47	<--	neoncontrails (~neoncontr@99-26-122-26.lightspeed.sndgca.sbcglobal.net) has quit (Remote host closed the connection)
+2017-11-19 00:01:02	-->	jottr (~jottr@p4FED3694.dip0.t-ipconnect.de) has joined #vim
+2017-11-19 00:01:43	<--	kapitalist (~kapitalis@78-73-113-101-no162.tbcn.telia.com) has quit (Quit: Leaving)
+2017-11-19 00:01:46	-->	nevodka (~nevodka@71.19.252.22) has joined #vim
+2017-11-19 00:02:16	<--	alan_w (~alan_w@75.78.103.9) has quit (Ping timeout: 255 seconds)
+2017-11-19 00:03:21	<--	bilb_ono (~conduce-l@ip98-171-168-96.sb.sd.cox.net) has quit (Quit: bilb_ono)
+2017-11-19 00:03:43	-->	cotko3 (~ahmed@188-230-161-23.dynamic.t-2.net) has joined #vim
+2017-11-19 00:04:39	<--	fkaa (~fkaa@c83-252-58-71.bredband.comhem.se) has quit (Read error: Connection reset by peer)
+2017-11-19 00:05:42	-->	thinkpad (~thinkpad@bb116-14-129-42.singnet.com.sg) has joined #vim
+2017-11-19 00:05:44	<--	blawiz (~DD_comman@unaffiliated/blawiz) has quit (Quit: Lost terminal)
+2017-11-19 00:06:16	<--	aguslr (~aguslr@183.97.117.91.dynamic.reverse-mundo-r.com) has quit (Quit: Coyote finally caught me)
+2017-11-19 00:06:30	-->	aguslr (~aguslr@183.97.117.91.dynamic.reverse-mundo-r.com) has joined #vim
+2017-11-19 00:09:58	<--	coot___________ (~coot@188.146.98.43.nat.umts.dynamic.t-mobile.pl) has quit (Quit: coot___________)
+2017-11-19 00:11:58	-->	RalphJr45 (~RalphJr45@host109-154-124-160.range109-154.btcentralplus.com) has joined #vim
+2017-11-19 00:12:06	<--	RalphJr45 (~RalphJr45@host109-154-124-160.range109-154.btcentralplus.com) has quit (Client Quit)
+2017-11-19 00:12:56	-->	BUSY (~BUSY@72.35.153.96) has joined #vim
+2017-11-19 00:14:34	<--	systemfault (~rcyr@unaffiliated/rcyr) has quit (Quit: Bye!)
+2017-11-19 00:16:32	<--	yohnnyjoe (~yohnnyjoe@c-73-129-2-10.hsd1.dc.comcast.net) has quit (Ping timeout: 240 seconds)
+2017-11-19 00:17:50	<--	untitled1 (~edge563@unaffiliated/edge563) has quit (Quit: WeeChat 1.9.1)
+2017-11-19 00:18:12	-->	untitled1 (~edge563@unaffiliated/edge563) has joined #vim
+2017-11-19 00:19:24	<--	wingnut (~afwingnut@ip98-186-245-30.mc.at.cox.net) has quit (Quit: Leaving)
+2017-11-19 00:19:51	<--	s73vm1lls (~stevmills@gateway/tor-sasl/stevmills) has quit (Ping timeout: 248 seconds)
+2017-11-19 00:22:13	<--	romainl (~Adium@176.186.242.162) has quit (Quit: Leaving.)
+2017-11-19 00:22:21	<--	jdj (~chatzilla@c-76-106-174-246.hsd1.fl.comcast.net) has quit (Quit: ChatZilla 0.9.92-rdmsoft [XULRunner 35.0.1/20150122214805])
+2017-11-19 00:22:29	-->	romainl (~Adium@176.186.242.162) has joined #vim
+2017-11-19 00:22:58	<--	romainl (~Adium@176.186.242.162) has quit (Client Quit)
+2017-11-19 00:23:14	-->	romainl (~Adium@176.186.242.162) has joined #vim
+2017-11-19 00:23:45	<--	romainl (~Adium@176.186.242.162) has quit (Client Quit)
+2017-11-19 00:24:04	-->	romainl (~Adium@176.186.242.162) has joined #vim
+2017-11-19 00:24:33	<--	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has quit (Remote host closed the connection)
+2017-11-19 00:24:34	<--	romainl (~Adium@176.186.242.162) has quit (Client Quit)
+2017-11-19 00:24:50	-->	romainl (~Adium@176.186.242.162) has joined #vim
+2017-11-19 00:25:21	<--	romainl (~Adium@176.186.242.162) has quit (Client Quit)
+2017-11-19 00:25:40	-->	romainl (~Adium@176.186.242.162) has joined #vim
+2017-11-19 00:26:09	<--	romainl (~Adium@176.186.242.162) has quit (Client Quit)
+2017-11-19 00:26:21	-->	tmsmith (~tmsmith@68-119-102-85.static.jcsn.tn.charter.com) has joined #vim
+2017-11-19 00:26:50	<--	gffa (~unknown@unaffiliated/gffa) has quit (Quit: sleep)
+2017-11-19 00:27:01	<--	Forlorn (~Forlorn@unaffiliated/forlorn) has quit (Ping timeout: 255 seconds)

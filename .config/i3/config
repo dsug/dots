@@ -20,9 +20,10 @@ exec --no-startup-id Telegram
 exec --no-startup-id termite --name weechat -e "weechat"
 
 ###---Keybindings---###
-bindsym F1 exec qutebrowser
-bindsym F2 exec keepass 
-bindcode 49 exec termite
+
+bindsym F1 exec termite
+bindsym F2 exec qutebrowser
+bindsym F3 exec keepass 
 
  
 

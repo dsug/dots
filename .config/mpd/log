@@ -965,3 +965,536 @@ Oct 31 18:46 : client: [0] opened from 127.0.0.1:53708
 Oct 31 18:46 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
 Oct 31 19:34 : client: [0] closed
 Oct 31 19:34 : client: [1] opened from 127.0.0.1:53856
+Nov 02 23:27 : exception: Failed to open /home/dsugo/.config/state: No such file or directory
+Nov 02 23:27 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 02 23:27 : config: option 'songlength_database' on line 340 was not recognized
+Nov 02 23:27 : config: option 'default_songlength' on line 341 was not recognized
+Nov 02 23:27 : config: option 'filter' on line 342 was not recognized
+Nov 02 23:27 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 02 23:28 : client: [0] opened from 127.0.0.1:32844
+Nov 02 23:28 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 02 23:34 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 02 23:34 : config: option 'songlength_database' on line 340 was not recognized
+Nov 02 23:34 : config: option 'default_songlength' on line 341 was not recognized
+Nov 02 23:34 : config: option 'filter' on line 342 was not recognized
+Nov 02 23:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 02 23:34 : client: [0] opened from 127.0.0.1:54338
+Nov 02 23:34 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 02 23:53 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 02 23:53 : config: option 'songlength_database' on line 340 was not recognized
+Nov 02 23:53 : config: option 'default_songlength' on line 341 was not recognized
+Nov 02 23:53 : config: option 'filter' on line 342 was not recognized
+Nov 02 23:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 02 23:53 : client: [0] opened from 127.0.0.1:52434
+Nov 02 23:53 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 02 23:58 : client: [0] closed
+Nov 03 00:00 : client: [1] opened from 127.0.0.1:52444
+Nov 03 00:02 : avahi: Client Disconnected, will reconnect shortly
+Nov 03 00:02 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 03 00:02 : client: [1] closed
+Nov 03 00:04 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 03 00:04 : config: option 'songlength_database' on line 340 was not recognized
+Nov 03 00:04 : config: option 'default_songlength' on line 341 was not recognized
+Nov 03 00:04 : config: option 'filter' on line 342 was not recognized
+Nov 03 00:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 03 00:04 : client: [0] opened from 127.0.0.1:41506
+Nov 03 00:04 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 03 00:08 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 03 00:08 : config: option 'songlength_database' on line 340 was not recognized
+Nov 03 00:08 : config: option 'default_songlength' on line 341 was not recognized
+Nov 03 00:08 : config: option 'filter' on line 342 was not recognized
+Nov 03 00:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 03 00:08 : client: [0] opened from 127.0.0.1:51252
+Nov 03 00:08 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 03 00:08 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 03 00:08 : config: option 'songlength_database' on line 340 was not recognized
+Nov 03 00:08 : config: option 'default_songlength' on line 341 was not recognized
+Nov 03 00:08 : config: option 'filter' on line 342 was not recognized
+Nov 03 00:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 03 00:08 : client: [0] opened from 127.0.0.1:44718
+Nov 03 00:08 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 03 00:09 : client: [0] closed
+Nov 03 00:10 : client: [1] opened from 127.0.0.1:44720
+Nov 03 11:34 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 03 11:34 : config: option 'songlength_database' on line 340 was not recognized
+Nov 03 11:34 : config: option 'default_songlength' on line 341 was not recognized
+Nov 03 11:34 : config: option 'filter' on line 342 was not recognized
+Nov 03 11:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 03 11:34 : client: [0] opened from 127.0.0.1:42308
+Nov 03 11:34 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 03 12:45 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 03 12:45 : config: option 'songlength_database' on line 340 was not recognized
+Nov 03 12:45 : config: option 'default_songlength' on line 341 was not recognized
+Nov 03 12:45 : config: option 'filter' on line 342 was not recognized
+Nov 03 12:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 03 12:45 : client: [0] opened from 127.0.0.1:34474
+Nov 03 12:45 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 03 20:08 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 03 20:08 : config: option 'songlength_database' on line 340 was not recognized
+Nov 03 20:08 : config: option 'default_songlength' on line 341 was not recognized
+Nov 03 20:08 : config: option 'filter' on line 342 was not recognized
+Nov 03 20:08 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 03 20:08 : client: [0] opened from 127.0.0.1:51520
+Nov 03 20:08 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 03 20:19 : client: [0] closed
+Nov 03 20:19 : client: [1] opened from 127.0.0.1:51596
+Nov 03 20:33 : client: [1] closed
+Nov 04 06:04 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 04 06:04 : config: option 'songlength_database' on line 340 was not recognized
+Nov 04 06:04 : config: option 'default_songlength' on line 341 was not recognized
+Nov 04 06:04 : config: option 'filter' on line 342 was not recognized
+Nov 04 06:04 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 04 06:04 : client: [0] opened from 127.0.0.1:50598
+Nov 04 06:04 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 04 21:55 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 04 21:55 : config: option 'songlength_database' on line 340 was not recognized
+Nov 04 21:55 : config: option 'default_songlength' on line 341 was not recognized
+Nov 04 21:55 : config: option 'filter' on line 342 was not recognized
+Nov 04 21:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 04 21:55 : client: [0] opened from 127.0.0.1:37880
+Nov 04 21:55 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 04 22:08 : client: [0] closed
+Nov 05 22:15 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 05 22:15 : config: option 'songlength_database' on line 340 was not recognized
+Nov 05 22:15 : config: option 'default_songlength' on line 341 was not recognized
+Nov 05 22:15 : config: option 'filter' on line 342 was not recognized
+Nov 05 22:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 05 22:15 : client: [0] opened from 127.0.0.1:42438
+Nov 05 22:15 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 05 23:22 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 05 23:22 : config: option 'songlength_database' on line 340 was not recognized
+Nov 05 23:22 : config: option 'default_songlength' on line 341 was not recognized
+Nov 05 23:22 : config: option 'filter' on line 342 was not recognized
+Nov 05 23:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 05 23:22 : client: [0] opened from 127.0.0.1:42818
+Nov 05 23:22 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 05 23:34 : client: [0] closed
+Nov 06 22:18 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 06 22:18 : config: option 'songlength_database' on line 340 was not recognized
+Nov 06 22:18 : config: option 'default_songlength' on line 341 was not recognized
+Nov 06 22:18 : config: option 'filter' on line 342 was not recognized
+Nov 06 22:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 06 22:18 : client: [0] opened from 127.0.0.1:58916
+Nov 06 22:18 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 07 20:39 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 07 20:39 : config: option 'songlength_database' on line 340 was not recognized
+Nov 07 20:39 : config: option 'default_songlength' on line 341 was not recognized
+Nov 07 20:39 : config: option 'filter' on line 342 was not recognized
+Nov 07 20:39 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 07 20:39 : client: [0] opened from 127.0.0.1:35548
+Nov 07 20:39 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 08 22:41 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 08 22:41 : config: option 'songlength_database' on line 340 was not recognized
+Nov 08 22:41 : config: option 'default_songlength' on line 341 was not recognized
+Nov 08 22:41 : config: option 'filter' on line 342 was not recognized
+Nov 08 22:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 08 22:41 : client: [0] opened from 127.0.0.1:51260
+Nov 08 22:41 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 12 16:31 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 12 16:31 : config: option 'songlength_database' on line 340 was not recognized
+Nov 12 16:31 : config: option 'default_songlength' on line 341 was not recognized
+Nov 12 16:31 : config: option 'filter' on line 342 was not recognized
+Nov 12 16:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 16:31 : client: [0] opened from 127.0.0.1:41874
+Nov 12 16:31 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 12 16:59 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 12 16:59 : config: option 'songlength_database' on line 340 was not recognized
+Nov 12 16:59 : config: option 'default_songlength' on line 341 was not recognized
+Nov 12 16:59 : config: option 'filter' on line 342 was not recognized
+Nov 12 16:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 12 16:59 : client: [0] opened from 127.0.0.1:54094
+Nov 12 16:59 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 12 18:08 : client: [0] closed
+Nov 12 18:08 : client: [1] opened from 127.0.0.1:55382
+Nov 12 18:23 : client: [1] closed
+Nov 12 18:23 : client: [2] opened from 127.0.0.1:55410
+Nov 12 19:01 : client: [2] closed
+Nov 12 19:01 : client: [3] opened from 127.0.0.1:55930
+Nov 12 20:09 : client: [3] closed
+Nov 12 20:09 : client: [4] opened from 127.0.0.1:55992
+Nov 12 20:09 : avahi: Client Disconnected, will reconnect shortly
+Nov 12 20:09 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 12 20:09 : client: [4] closed
+Nov 13 18:44 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 13 18:44 : config: option 'songlength_database' on line 340 was not recognized
+Nov 13 18:44 : config: option 'default_songlength' on line 341 was not recognized
+Nov 13 18:44 : config: option 'filter' on line 342 was not recognized
+Nov 13 18:44 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 18:44 : client: [0] opened from 127.0.0.1:44542
+Nov 13 18:44 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 13 22:11 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 13 22:11 : config: option 'songlength_database' on line 340 was not recognized
+Nov 13 22:11 : config: option 'default_songlength' on line 341 was not recognized
+Nov 13 22:11 : config: option 'filter' on line 342 was not recognized
+Nov 13 22:11 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 13 22:11 : client: [0] opened from 127.0.0.1:60294
+Nov 13 22:11 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 13 22:13 : client: [0] closed
+Nov 13 22:13 : client: [1] opened from 127.0.0.1:60372
+Nov 13 22:16 : client: [1] closed
+Nov 13 22:16 : client: [2] opened from 127.0.0.1:60424
+Nov 14 22:01 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 14 22:01 : config: option 'songlength_database' on line 340 was not recognized
+Nov 14 22:01 : config: option 'default_songlength' on line 341 was not recognized
+Nov 14 22:01 : config: option 'filter' on line 342 was not recognized
+Nov 14 22:01 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 14 22:01 : client: [0] opened from 127.0.0.1:42766
+Nov 14 22:01 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 14 22:30 : client: [0] closed
+Nov 15 21:15 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 15 21:15 : config: option 'songlength_database' on line 340 was not recognized
+Nov 15 21:15 : config: option 'default_songlength' on line 341 was not recognized
+Nov 15 21:15 : config: option 'filter' on line 342 was not recognized
+Nov 15 21:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 15 21:15 : client: [0] opened from 127.0.0.1:59802
+Nov 15 21:15 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 15 22:31 : client: [0] closed
+Nov 15 22:31 : client: [1] opened from 127.0.0.1:60226
+Nov 15 22:53 : avahi: Client Disconnected, will reconnect shortly
+Nov 15 22:53 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 16 18:42 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 16 18:42 : config: option 'songlength_database' on line 340 was not recognized
+Nov 16 18:42 : config: option 'default_songlength' on line 341 was not recognized
+Nov 16 18:42 : config: option 'filter' on line 342 was not recognized
+Nov 16 18:42 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 16 18:42 : client: [0] opened from 127.0.0.1:36196
+Nov 16 18:42 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 18 12:50 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 18 12:50 : config: option 'songlength_database' on line 340 was not recognized
+Nov 18 12:50 : config: option 'default_songlength' on line 341 was not recognized
+Nov 18 12:50 : config: option 'filter' on line 342 was not recognized
+Nov 18 12:50 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 18 12:50 : client: [0] opened from 127.0.0.1:58906
+Nov 18 12:50 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 18 13:14 : avahi: Client Disconnected, will reconnect shortly
+Nov 18 13:14 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 18 13:14 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 18 13:14 : config: option 'songlength_database' on line 340 was not recognized
+Nov 18 13:14 : config: option 'default_songlength' on line 341 was not recognized
+Nov 18 13:14 : config: option 'filter' on line 342 was not recognized
+Nov 18 13:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 18 13:14 : client: [0] opened from 127.0.0.1:50582
+Nov 18 13:14 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 18 18:16 : client: [0] closed
+Nov 18 18:16 : client: [1] opened from 127.0.0.1:50978
+Nov 19 09:18 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 19 09:18 : config: option 'songlength_database' on line 340 was not recognized
+Nov 19 09:18 : config: option 'default_songlength' on line 341 was not recognized
+Nov 19 09:18 : config: option 'filter' on line 342 was not recognized
+Nov 19 09:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 19 09:18 : client: [0] opened from 127.0.0.1:40434
+Nov 19 09:18 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 19 19:00 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 19 19:00 : config: option 'songlength_database' on line 340 was not recognized
+Nov 19 19:00 : config: option 'default_songlength' on line 341 was not recognized
+Nov 19 19:00 : config: option 'filter' on line 342 was not recognized
+Nov 19 19:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 19 19:00 : client: [0] opened from 127.0.0.1:41156
+Nov 19 19:00 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 20 18:34 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 20 18:34 : config: option 'songlength_database' on line 340 was not recognized
+Nov 20 18:34 : config: option 'default_songlength' on line 341 was not recognized
+Nov 20 18:34 : config: option 'filter' on line 342 was not recognized
+Nov 20 18:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 20 18:34 : client: [0] opened from 127.0.0.1:44904
+Nov 20 18:34 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 21 18:00 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 21 18:00 : config: option 'songlength_database' on line 340 was not recognized
+Nov 21 18:00 : config: option 'default_songlength' on line 341 was not recognized
+Nov 21 18:00 : config: option 'filter' on line 342 was not recognized
+Nov 21 18:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 21 18:00 : client: [0] opened from 127.0.0.1:57420
+Nov 21 18:00 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 22 18:48 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 22 18:48 : config: option 'songlength_database' on line 340 was not recognized
+Nov 22 18:48 : config: option 'default_songlength' on line 341 was not recognized
+Nov 22 18:48 : config: option 'filter' on line 342 was not recognized
+Nov 22 18:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 22 18:48 : client: [0] opened from 127.0.0.1:37862
+Nov 22 18:48 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 23 21:22 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 23 21:22 : config: option 'songlength_database' on line 340 was not recognized
+Nov 23 21:22 : config: option 'default_songlength' on line 341 was not recognized
+Nov 23 21:22 : config: option 'filter' on line 342 was not recognized
+Nov 23 21:22 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 23 21:22 : client: [0] opened from 127.0.0.1:42008
+Nov 23 21:22 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 24 22:41 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 24 22:41 : config: option 'songlength_database' on line 340 was not recognized
+Nov 24 22:41 : config: option 'default_songlength' on line 341 was not recognized
+Nov 24 22:41 : config: option 'filter' on line 342 was not recognized
+Nov 24 22:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 24 22:41 : client: [0] opened from 127.0.0.1:36558
+Nov 24 22:41 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 24 22:42 : avahi: Client Disconnected, will reconnect shortly
+Nov 24 22:42 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Nov 24 23:00 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 24 23:00 : config: option 'songlength_database' on line 340 was not recognized
+Nov 24 23:00 : config: option 'default_songlength' on line 341 was not recognized
+Nov 24 23:00 : config: option 'filter' on line 342 was not recognized
+Nov 24 23:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 24 23:00 : client: [0] opened from 127.0.0.1:46288
+Nov 24 23:00 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 25 20:57 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 25 20:57 : config: option 'songlength_database' on line 340 was not recognized
+Nov 25 20:57 : config: option 'default_songlength' on line 341 was not recognized
+Nov 25 20:57 : config: option 'filter' on line 342 was not recognized
+Nov 25 20:57 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 25 20:57 : client: [0] opened from 127.0.0.1:53498
+Nov 25 20:57 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 25 22:24 : client: [0] closed
+Nov 26 10:53 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 26 10:53 : config: option 'songlength_database' on line 340 was not recognized
+Nov 26 10:53 : config: option 'default_songlength' on line 341 was not recognized
+Nov 26 10:53 : config: option 'filter' on line 342 was not recognized
+Nov 26 10:53 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 26 10:53 : client: [0] opened from 127.0.0.1:59062
+Nov 26 10:53 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 26 12:14 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 26 12:14 : config: option 'songlength_database' on line 340 was not recognized
+Nov 26 12:14 : config: option 'default_songlength' on line 341 was not recognized
+Nov 26 12:14 : config: option 'filter' on line 342 was not recognized
+Nov 26 12:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 26 12:14 : client: [0] opened from 127.0.0.1:45838
+Nov 26 12:14 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 26 13:29 : client: [0] closed
+Nov 26 19:41 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 26 19:41 : config: option 'songlength_database' on line 340 was not recognized
+Nov 26 19:41 : config: option 'default_songlength' on line 341 was not recognized
+Nov 26 19:41 : config: option 'filter' on line 342 was not recognized
+Nov 26 19:41 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 26 19:41 : client: [0] opened from 127.0.0.1:42642
+Nov 26 19:41 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 27 05:26 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 27 05:26 : config: option 'songlength_database' on line 340 was not recognized
+Nov 27 05:26 : config: option 'default_songlength' on line 341 was not recognized
+Nov 27 05:26 : config: option 'filter' on line 342 was not recognized
+Nov 27 05:26 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 27 05:26 : client: [0] opened from 127.0.0.1:57742
+Nov 27 05:26 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 28 18:24 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 28 18:24 : config: option 'songlength_database' on line 340 was not recognized
+Nov 28 18:24 : config: option 'default_songlength' on line 341 was not recognized
+Nov 28 18:24 : config: option 'filter' on line 342 was not recognized
+Nov 28 18:24 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 28 18:24 : client: [0] opened from 127.0.0.1:49984
+Nov 28 18:24 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 29 17:15 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 29 17:15 : config: option 'songlength_database' on line 340 was not recognized
+Nov 29 17:15 : config: option 'default_songlength' on line 341 was not recognized
+Nov 29 17:15 : config: option 'filter' on line 342 was not recognized
+Nov 29 17:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 29 17:15 : client: [0] opened from 127.0.0.1:34326
+Nov 29 17:15 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Nov 30 18:14 : exception: inotify_add_watch() has failed: No such file or directory
+Nov 30 18:14 : config: option 'songlength_database' on line 340 was not recognized
+Nov 30 18:14 : config: option 'default_songlength' on line 341 was not recognized
+Nov 30 18:14 : config: option 'filter' on line 342 was not recognized
+Nov 30 18:14 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Nov 30 18:14 : client: [0] opened from 127.0.0.1:52050
+Nov 30 18:14 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 02 20:37 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 02 20:37 : config: option 'songlength_database' on line 340 was not recognized
+Dec 02 20:37 : config: option 'default_songlength' on line 341 was not recognized
+Dec 02 20:37 : config: option 'filter' on line 342 was not recognized
+Dec 02 20:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 02 20:37 : client: [0] opened from 127.0.0.1:36586
+Dec 02 20:37 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 02 20:46 : client: [0] closed
+Dec 03 13:34 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 03 13:34 : config: option 'songlength_database' on line 340 was not recognized
+Dec 03 13:34 : config: option 'default_songlength' on line 341 was not recognized
+Dec 03 13:34 : config: option 'filter' on line 342 was not recognized
+Dec 03 13:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 03 13:34 : client: [0] opened from 127.0.0.1:55014
+Dec 03 13:34 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 03 13:43 : client: [0] closed
+Dec 03 13:44 : client: [1] opened from 127.0.0.1:55704
+Dec 03 13:44 : client: [1] closed
+Dec 03 13:44 : client: [2] opened from 127.0.0.1:55706
+Dec 03 13:44 : client: [2] closed
+Dec 03 13:44 : client: [3] opened from 127.0.0.1:55712
+Dec 03 13:44 : client: [3] closed
+Dec 03 13:44 : client: [4] opened from 127.0.0.1:55714
+Dec 04 18:37 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 04 18:37 : config: option 'songlength_database' on line 340 was not recognized
+Dec 04 18:37 : config: option 'default_songlength' on line 341 was not recognized
+Dec 04 18:37 : config: option 'filter' on line 342 was not recognized
+Dec 04 18:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 04 19:00 : avahi: Client Disconnected, will reconnect shortly
+Dec 04 19:00 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Dec 04 19:00 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 04 19:00 : config: option 'songlength_database' on line 340 was not recognized
+Dec 04 19:00 : config: option 'default_songlength' on line 341 was not recognized
+Dec 04 19:00 : config: option 'filter' on line 342 was not recognized
+Dec 04 19:00 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 04 19:15 : client: [0] opened from 127.0.0.1:46386
+Dec 04 19:15 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 04 19:22 : client: [0] closed
+Dec 04 20:20 : client: [1] opened from 127.0.0.1:46392
+Dec 04 22:47 : client: [1] closed
+Dec 07 21:37 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 07 21:37 : config: option 'songlength_database' on line 340 was not recognized
+Dec 07 21:37 : config: option 'default_songlength' on line 341 was not recognized
+Dec 07 21:37 : config: option 'filter' on line 342 was not recognized
+Dec 07 21:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 07 21:37 : client: [0] opened from 127.0.0.1:42776
+Dec 07 21:37 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 09 11:20 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 09 11:20 : config: option 'songlength_database' on line 340 was not recognized
+Dec 09 11:20 : config: option 'default_songlength' on line 341 was not recognized
+Dec 09 11:20 : config: option 'filter' on line 342 was not recognized
+Dec 09 11:20 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 09 11:20 : client: [0] opened from 127.0.0.1:55286
+Dec 09 11:20 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 10 18:37 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 10 18:37 : config: option 'songlength_database' on line 340 was not recognized
+Dec 10 18:37 : config: option 'default_songlength' on line 341 was not recognized
+Dec 10 18:37 : config: option 'filter' on line 342 was not recognized
+Dec 10 18:37 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 10 18:37 : client: [0] opened from 127.0.0.1:47610
+Dec 10 18:37 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 15 00:03 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 15 00:03 : config: option 'songlength_database' on line 340 was not recognized
+Dec 15 00:03 : config: option 'default_songlength' on line 341 was not recognized
+Dec 15 00:03 : config: option 'filter' on line 342 was not recognized
+Dec 15 00:03 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 15 00:03 : client: [0] opened from 127.0.0.1:40728
+Dec 15 00:03 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 15 22:18 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 15 22:18 : config: option 'songlength_database' on line 340 was not recognized
+Dec 15 22:18 : config: option 'default_songlength' on line 341 was not recognized
+Dec 15 22:18 : config: option 'filter' on line 342 was not recognized
+Dec 15 22:18 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 15 22:18 : client: [0] opened from 127.0.0.1:42092
+Dec 15 22:18 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 17 12:02 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 17 12:02 : config: option 'songlength_database' on line 340 was not recognized
+Dec 17 12:02 : config: option 'default_songlength' on line 341 was not recognized
+Dec 17 12:02 : config: option 'filter' on line 342 was not recognized
+Dec 17 12:02 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 17 12:02 : client: [0] opened from 127.0.0.1:35796
+Dec 17 12:02 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 17 12:35 : avahi: Client Disconnected, will reconnect shortly
+Dec 17 12:35 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Dec 17 19:28 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 17 19:28 : config: option 'songlength_database' on line 340 was not recognized
+Dec 17 19:28 : config: option 'default_songlength' on line 341 was not recognized
+Dec 17 19:28 : config: option 'filter' on line 342 was not recognized
+Dec 17 19:28 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 17 19:28 : client: [0] opened from 127.0.0.1:40378
+Dec 17 19:28 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 18 21:23 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 18 21:23 : config: option 'songlength_database' on line 340 was not recognized
+Dec 18 21:23 : config: option 'default_songlength' on line 341 was not recognized
+Dec 18 21:23 : config: option 'filter' on line 342 was not recognized
+Dec 18 21:23 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 18 21:23 : client: [0] opened from 127.0.0.1:49834
+Dec 18 21:23 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 19 17:38 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 19 17:38 : config: option 'songlength_database' on line 340 was not recognized
+Dec 19 17:38 : config: option 'default_songlength' on line 341 was not recognized
+Dec 19 17:38 : config: option 'filter' on line 342 was not recognized
+Dec 19 17:38 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 19 17:38 : client: [0] opened from 127.0.0.1:41838
+Dec 19 17:38 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 19 23:50 : avahi: Client Disconnected, will reconnect shortly
+Dec 19 23:50 : avahi: Could not reconnect: An unexpected D-Bus error occurred
+Dec 20 21:31 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 20 21:31 : config: option 'songlength_database' on line 340 was not recognized
+Dec 20 21:31 : config: option 'default_songlength' on line 341 was not recognized
+Dec 20 21:31 : config: option 'filter' on line 342 was not recognized
+Dec 20 21:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 20 21:31 : client: [0] opened from 127.0.0.1:51034
+Dec 20 21:31 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 21 20:15 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 21 20:15 : config: option 'songlength_database' on line 340 was not recognized
+Dec 21 20:15 : config: option 'default_songlength' on line 341 was not recognized
+Dec 21 20:15 : config: option 'filter' on line 342 was not recognized
+Dec 21 20:15 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 20:15 : client: [0] opened from 127.0.0.1:38240
+Dec 21 20:15 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 23 08:45 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 23 08:45 : config: option 'songlength_database' on line 340 was not recognized
+Dec 23 08:45 : config: option 'default_songlength' on line 341 was not recognized
+Dec 23 08:45 : config: option 'filter' on line 342 was not recognized
+Dec 23 08:45 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 23 08:45 : client: [0] opened from 127.0.0.1:50116
+Dec 23 08:45 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 24 19:40 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 24 19:40 : config: option 'songlength_database' on line 340 was not recognized
+Dec 24 19:40 : config: option 'default_songlength' on line 341 was not recognized
+Dec 24 19:40 : config: option 'filter' on line 342 was not recognized
+Dec 24 19:40 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 24 19:40 : client: [0] opened from 127.0.0.1:43812
+Dec 24 19:40 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 25 14:56 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 25 14:56 : config: option 'songlength_database' on line 340 was not recognized
+Dec 25 14:56 : config: option 'default_songlength' on line 341 was not recognized
+Dec 25 14:56 : config: option 'filter' on line 342 was not recognized
+Dec 25 14:56 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 25 14:56 : client: [0] opened from 127.0.0.1:47178
+Dec 25 14:56 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Dec 26 21:43 : exception: inotify_add_watch() has failed: No such file or directory
+Dec 26 21:43 : config: option 'songlength_database' on line 340 was not recognized
+Dec 26 21:43 : config: option 'default_songlength' on line 341 was not recognized
+Dec 26 21:43 : config: option 'filter' on line 342 was not recognized
+Dec 26 21:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 26 21:43 : client: [0] opened from 127.0.0.1:59304
+Dec 26 21:43 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Jan 01 16:35 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 01 16:35 : config: option 'songlength_database' on line 340 was not recognized
+Jan 01 16:35 : config: option 'default_songlength' on line 341 was not recognized
+Jan 01 16:35 : config: option 'filter' on line 342 was not recognized
+Jan 01 16:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 01 16:35 : client: [0] opened from 127.0.0.1:55336
+Jan 01 16:35 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Jan 02 22:34 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 02 22:34 : config: option 'songlength_database' on line 340 was not recognized
+Jan 02 22:34 : config: option 'default_songlength' on line 341 was not recognized
+Jan 02 22:34 : config: option 'filter' on line 342 was not recognized
+Jan 02 22:34 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 02 22:34 : client: [0] opened from 127.0.0.1:42214
+Jan 02 22:34 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Jan 04 19:19 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 04 19:19 : config: option 'songlength_database' on line 340 was not recognized
+Jan 04 19:19 : config: option 'default_songlength' on line 341 was not recognized
+Jan 04 19:19 : config: option 'filter' on line 342 was not recognized
+Jan 04 19:19 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 04 19:19 : client: [0] opened from 127.0.0.1:57902
+Jan 04 19:19 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Jan 05 22:58 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 05 22:58 : config: option 'songlength_database' on line 340 was not recognized
+Jan 05 22:58 : config: option 'default_songlength' on line 341 was not recognized
+Jan 05 22:58 : config: option 'filter' on line 342 was not recognized
+Jan 05 22:58 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 05 22:58 : client: [0] opened from 127.0.0.1:47020
+Jan 05 22:58 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Jan 06 22:35 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 06 22:35 : config: option 'songlength_database' on line 340 was not recognized
+Jan 06 22:35 : config: option 'default_songlength' on line 341 was not recognized
+Jan 06 22:35 : config: option 'filter' on line 342 was not recognized
+Jan 06 22:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 06 22:35 : client: [0] opened from 127.0.0.1:34104
+Jan 06 22:35 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Jan 09 21:36 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 09 21:36 : config: option 'songlength_database' on line 340 was not recognized
+Jan 09 21:36 : config: option 'default_songlength' on line 341 was not recognized
+Jan 09 21:36 : config: option 'filter' on line 342 was not recognized
+Jan 09 21:36 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 09 21:36 : client: [0] opened from 127.0.0.1:47576
+Jan 09 21:36 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Jan 10 19:55 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 10 19:55 : config: option 'songlength_database' on line 340 was not recognized
+Jan 10 19:55 : config: option 'default_songlength' on line 341 was not recognized
+Jan 10 19:55 : config: option 'filter' on line 342 was not recognized
+Jan 10 19:55 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 10 19:55 : client: [0] opened from 127.0.0.1:45174
+Jan 10 19:55 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM
+Jan 14 19:43 : exception: inotify_add_watch() has failed: No such file or directory
+Jan 14 19:43 : config: option 'songlength_database' on line 340 was not recognized
+Jan 14 19:43 : config: option 'default_songlength' on line 341 was not recognized
+Jan 14 19:43 : config: option 'filter' on line 342 was not recognized
+Jan 14 19:43 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Jan 14 19:43 : client: [0] opened from 127.0.0.1:47174
+Jan 14 19:43 : exception: Failed to read mixer for 'ALSA Device (no equalizer)': no such mixer control: PCM

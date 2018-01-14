@@ -11,7 +11,9 @@
 alias ls='ls --color=auto'
 alias ll='ls -lhA --color=auto'
 alias vi='nvim'
-
+alias mount='sudo mount -o iocharset=utf8'
+alias umount='sudo umount -R'
+alias pacman='sudo pacman'
 ##----ENVIROMENTS----##
 
 EDITOR="nvim"

@@ -1,0 +1,265 @@
+2017-11-16 20:42:59	-->	dsugo (~dsugo@erq159.neoplus.adsl.tpnet.pl) has joined #neovim
+2017-11-16 20:42:59	--	Topic for #neovim is "Vim's rebirth for the 21st century -- https://github.com/neovim/neovim -- Help sustain Neovim: https://salt.bountysource.com/teams/neovim -- Gitter.im chat: https://gitter.im/neovim/neovim. Posts by marvim are from users in the gitter.im room!"
+2017-11-16 20:42:59	--	Topic set by tarruda on Thu, 04 Jun 2015 12:35:58
+2017-11-16 20:43:00	--	Channel #neovim: 826 nicks (0 ops, 0 voices, 826 normals)
+2017-11-16 20:43:02	--	Channel created on Fri, 31 Jan 2014 16:44:47
+2017-11-16 20:43:19	dsugo	Hello! Is there any org-mode like plugin for neovim?
+2017-11-16 20:44:39	dsugo	:C
+2017-11-16 20:46:59	toogley	dsugo: there are some for vim. most/some of the vim plugins can be used in neovim, so try that
+2017-11-16 20:47:13	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 240 seconds)
+2017-11-16 20:48:43	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 20:50:39	toogley	dsugo: and there are some org-mode parsers http://orgmode.org/worg/org-tools/index.html as well corresponding API clients. => that means, the basis for implementing a true neovim org-mode plugin is quite good, i think.
+2017-11-16 20:52:50	--	sjl__ is now known as sjl
+2017-11-16 20:55:49	HoraceHeGitter[m	@bfredl I do, but sometimes I don't know what exactly to grepfor
+2017-11-16 20:57:45	-->	curious_corn (~curious_c@31-151-30-175.dynamic.upc.nl) has joined #neovim
+2017-11-16 20:58:11	bfredl	in this case, any event name you already know would be a safe bt
+2017-11-16 21:01:48	-->	Industrial (~tom@92-109-111-97.cable.dynamic.v4.ziggo.nl) has joined #neovim
+2017-11-16 21:02:20	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 246 seconds)
+2017-11-16 21:03:41	-->	kerananw (~kerananw@unaffiliated/kerananw) has joined #neovim
+2017-11-16 21:05:12	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 21:12:08	-->	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined #neovim
+2017-11-16 21:14:16	<--	mstruebing (~mstruebin@2a00-1dc0-cafe--298f-12e7.static.as43289.net) has quit (Ping timeout: 258 seconds)
+2017-11-16 21:15:13	-->	mstruebing (~mstruebin@2a00-1dc0-cafe--298f-12e7.static.as43289.net) has joined #neovim
+2017-11-16 21:16:37	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 255 seconds)
+2017-11-16 21:17:45	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 21:27:13	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 240 seconds)
+2017-11-16 21:28:45	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 21:34:29	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 240 seconds)
+2017-11-16 21:35:21	-->	Lieuwex (~Lieuwex@5ED19C19.cm-7-2c.dynamic.ziggo.nl) has joined #neovim
+2017-11-16 21:38:13	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 240 seconds)
+2017-11-16 21:38:17	<--	Lieuwex (~Lieuwex@5ED19C19.cm-7-2c.dynamic.ziggo.nl) has quit (Client Quit)
+2017-11-16 21:39:08	<--	curious_corn (~curious_c@31-151-30-175.dynamic.upc.nl) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-16 21:41:03	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #neovim
+2017-11-16 21:42:01	-->	Lieuwex (~Lieuwex@5ED19C19.cm-7-2c.dynamic.ziggo.nl) has joined #neovim
+2017-11-16 21:42:11	-->	curious_corn (~curious_c@31-151-30-175.dynamic.upc.nl) has joined #neovim
+2017-11-16 21:44:20	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 21:45:29	<--	hq1 (~hq1@unaffiliated/hq1) has quit (Ping timeout: 248 seconds)
+2017-11-16 21:46:33	-->	hq1 (~hq1@46.101.169.106) has joined #neovim
+2017-11-16 21:46:33	<--	hq1 (~hq1@46.101.169.106) has quit (Changing host)
+2017-11-16 21:46:33	-->	hq1 (~hq1@unaffiliated/hq1) has joined #neovim
+2017-11-16 21:54:02	<--	curious_corn (~curious_c@31-151-30-175.dynamic.upc.nl) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-16 21:57:11	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 248 seconds)
+2017-11-16 21:59:20	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 21:59:33	-->	RexHackbro[m] (rexhackbro@gateway/shell/matrix.org/x-mioqtxwjujqfudja) has joined #neovim
+2017-11-16 22:03:24	<--	pepper_chico (~pepper_ch@179.110.188.66) has quit (Quit: WeeChat 1.9.1)
+2017-11-16 22:03:57	<--	nejni-marji (~nejni-mar@unaffiliated/nejni-marji) has quit (Quit: WeeChat 1.9)
+2017-11-16 22:10:12	-->	nejni-marji (~nejni-mar@unaffiliated/nejni-marji) has joined #neovim
+2017-11-16 22:12:07	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 248 seconds)
+2017-11-16 22:13:52	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 22:14:57	-->	cotko4 (~ahmed@188-230-161-23.dynamic.t-2.net) has joined #neovim
+2017-11-16 22:15:59	applecrumble	Where are logs stored for neovim? I'm trying to debug some issues with my installation
+2017-11-16 22:17:46	<--	db8093246 (~db8093246@46-162-124-202.cust.bredband2.com) has quit (Remote host closed the connection)
+2017-11-16 22:20:09	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 248 seconds)
+2017-11-16 22:21:02	nateozem	applecrumble: have you tried the `-V` option (`:help verbose`)?
+2017-11-16 22:22:52	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 22:24:56	<--	lnds (~lnds@87-61-178-91-dynamic.dk.customer.tdc.net) has quit (Quit: WeeChat 2.0-dev)
+2017-11-16 22:30:59	applecrumble	nateozem: Thanks. I'm having issues with window resizing even after the latest fix. Looking at the logs, nothing seems to be wrong :(
+2017-11-16 22:31:22	applecrumble	nvim -u NORC has the same results, $TERM is xterm-256color
+2017-11-16 22:32:00	<--	nejni-marji (~nejni-mar@unaffiliated/nejni-marji) has quit (Quit: WeeChat 1.9)
+2017-11-16 22:32:42	applecrumble	Does anyone know of other things I could check?
+2017-11-16 22:33:32	-->	nejni-marji (~nejni-mar@unaffiliated/nejni-marji) has joined #neovim
+2017-11-16 22:37:05	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 260 seconds)
+2017-11-16 22:39:17	nateozem	applecrumble: can you describe more about your window resizing issue?
+2017-11-16 22:39:20	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 22:40:03	nateozem	applecrumble: what is your expectation than what you actually getting?
+2017-11-16 22:40:46	nateozem	nvm, I see your messsages above. screen tearing.
+2017-11-16 22:44:24	nateozem	applecrumble: seems to be reproducable. Can you file a issue at github under neovim repo and describe your steps? its better to diagnose things when things are placed in a single place.
+2017-11-16 22:46:30	nateozem	applecrumble: you're able to get a segfault. were you able to retrieve the log (or stacktrace) for the crash?
+2017-11-16 22:48:45	applecrumble	Not stacktrace, but the log file i point -V to gets populated
+2017-11-16 22:49:21	<--	simka (~simka@188.146.5.24.nat.umts.dynamic.t-mobile.pl) has quit (Quit: WeeChat 1.9.1)
+2017-11-16 22:50:35	applecrumble	I'll post an issue
+2017-11-16 22:50:48	<--	DarkDefender (~zed@c-b7a6d954.501201633205-0-757473696b74.cust.bredbandsbolaget.se) has quit (Quit: WeeChat 1.9.1)
+2017-11-16 22:51:42	nateozem	applecrumble: appreciated.
+2017-11-16 22:54:33	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 250 seconds)
+2017-11-16 22:55:10	<--	kalbasit (~kalbasit@unaffiliated/kalbasit) has quit (Ping timeout: 255 seconds)
+2017-11-16 22:55:53	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 23:02:14	-->	kalbasit (~kalbasit@unaffiliated/kalbasit) has joined #neovim
+2017-11-16 23:07:09	<--	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has quit (Ping timeout: 240 seconds)
+2017-11-16 23:09:59	-->	vladimiroff (~vladimiro@176-12-20-181.pon.spectrumnet.bg) has joined #neovim
+2017-11-16 23:11:35	<--	raichoo (~raichoo@dslb-084-062-113-229.084.062.pools.vodafone-ip.de) has quit (Remote host closed the connection)
+2017-11-18 16:02:56	-->	dsugo (~dsugo@dhs23.neoplus.adsl.tpnet.pl) has joined #neovim
+2017-11-18 16:02:56	--	Topic for #neovim is "Vim's rebirth for the 21st century -- https://github.com/neovim/neovim -- Help sustain Neovim: https://salt.bountysource.com/teams/neovim -- Gitter.im chat: https://gitter.im/neovim/neovim. Posts by marvim are from users in the gitter.im room!"
+2017-11-18 16:02:56	--	Topic set by tarruda on Thu, 04 Jun 2015 12:35:58
+2017-11-18 16:02:56	--	Channel #neovim: 833 nicks (0 ops, 0 voices, 833 normals)
+2017-11-18 16:02:58	--	Channel created on Fri, 31 Jan 2014 16:44:47
+2017-11-18 16:04:24	dsugo	Hello! I have in my init file these commands: set foldenable, set foldmethod=syntax, set foldlevel=99 but folding still doesn't work
+2017-11-18 16:04:29	dsugo	am i missing smth?
+2017-11-18 16:05:15	dsugo	btw. folding is working when i type set foldmethod while nvim is running
+2017-11-18 16:05:37	dsugo	i mean set foldmethod=syntax
+2017-11-18 16:05:38	dsugo	*
+2017-11-18 16:12:41	pepper_chico	dsugo: what's the fold method before you set it by command?
+2017-11-18 16:13:07	pepper_chico	you can check by :set foldmethod?
+2017-11-18 16:13:18	dsugo	pepper_chico: roger, gimme sec
+2017-11-18 16:14:02	dsugo	pepper_chico: it says: foldmethod=syntax
+2017-11-18 16:14:03	pepper_chico	dsugo: you should put the ? at the final
+2017-11-18 16:14:27	pepper_chico	hmm, ok, I thought it got changed by a plugin or something....
+2017-11-18 16:16:17	pepper_chico	dsugo: this kind of problem is the same as you could get for vim, almost 99% of chance. So you may find more help in the #vim channel. It's more active there for this kind of troubleshooting.
+2017-11-18 16:16:41	dsugo	pepper_chico: ok, I will try 
+2017-11-18 16:16:48	dsugo	pepper_chico: thanks for help :D
+2017-11-18 16:16:54	pepper_chico	😉
+2017-11-18 16:18:08	pepper_chico	dsugo: unless you have it working in vim already, just not neovim
+2017-11-18 16:18:19	pepper_chico	then you're better here 😛
+2017-11-18 16:23:49	dsugo	pepper_chico: i don't use vim :/
+2017-11-18 16:24:02	dsugo	im fairly new into vim/programming etc
+2017-11-18 16:24:10	dsugo	so i straightfully go into neovim
+2017-11-18 16:25:08	pepper_chico	ok, sadly I can't give much help because I always use foldmethod=marker
+2017-11-18 16:25:23	pepper_chico	and it simply works
+2017-11-18 16:25:30	dsugo	hm
+2017-11-18 16:25:59	pepper_chico	it's another kind of fold, you may not be interested in
+2017-11-18 16:26:55	dsugo	pepper_chico: you have to mark all the text that you want to fold?
+2017-11-18 16:26:58	dsugo	i mean mark manually
+2017-11-18 16:28:23	pepper_chico	dsugo: yes, I only like fold where I want things hidden.
+2017-11-18 16:28:51	dsugo	soo I can type zf10j
+2017-11-18 16:29:00	dsugo	and it will fold 10 lines down
+2017-11-18 16:29:40	dsugo	and it's temporary or these fold are actually saved for later?
+2017-11-18 16:30:51	pepper_chico	maybe they are saved if you make you of sessions, and load the session later. They sure are not saved in the file.
+2017-11-18 16:31:00	pepper_chico	sole marker based ones are
+2017-11-18 16:31:06	pepper_chico	solely*
+2017-11-18 16:31:11	-->	zamaterian_ (~Thomas@77.241.130.85.mobile.3.dk) has joined #neovim
+2017-11-18 16:31:19	pepper_chico	s/make you/make use/
+2017-11-18 16:32:08	pepper_chico	dsugo: check :h session-options for example
+2017-11-18 16:32:34	pepper_chico	I also recommend a nice plugin for session called vim-obsession
+2017-11-18 16:33:16	pepper_chico	ops, it's :h sessionoptions
+2017-11-18 16:34:38	<--	zamaterian (~Thomas@212.27.23.177.bredband.3.dk) has quit (Ping timeout: 240 seconds)
+2017-11-18 16:35:11	pepper_chico	dsugo: you're generally better at the #vim channel for general vim knowledge
+2017-11-18 16:35:59	-->	thvdburgt (~thvdburgt@2001:982:eee:1:224:d7ff:fe47:aa54) has joined #neovim
+2017-11-18 16:36:39	pepper_chico	so I recommend you join there if you're just getting started. Most of neovim settings are vim settings, so you leave the neovim channel for the neovim specific doubts
+2017-11-18 16:37:06	<--	SBM (2f0beeab@gateway/web/cgi-irc/kiwiirc.com/ip.47.11.238.171) has quit (Remote host closed the connection)
+2017-11-18 16:40:32	wsdjeg	I do not use #vim though
+2017-11-18 16:41:02	<--	cotko3 (~ahmed@188-230-161-23.dynamic.t-2.net) has quit (Ping timeout: 268 seconds)
+2017-11-18 16:41:34	-->	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has joined #neovim
+2017-11-18 16:42:32	wsdjeg	dsugo: you should read https://github.com/mhinz/vim-galore
+2017-11-18 16:51:34	<--	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 16:51:49	dsugo	wsdjeg: cmon 
+2017-11-18 16:51:59	dsugo	thats alot
+2017-11-18 16:52:18	<--	pepper_chico (~pepper_ch@179.110.220.137) has quit (Ping timeout: 260 seconds)
+2017-11-18 17:06:06	gitter_killthemu	Is there a good way to benchmark nvim plugins (rpc in this case)? I can benchmark the code itself somewhat easily of course, but in this case I'd also like to include the cost of communication in the benchmark, but not the cost of loading the file from the file system. Any recommendations for that?
+2017-11-18 17:13:40	-->	pepper_chico (~pepper_ch@189-19-138-166.dsl.telesp.net.br) has joined #neovim
+2017-11-18 17:14:21	--	b00kworm is now known as b00kworm_2
+2017-11-18 17:15:26	--	e is now known as demiurge
+2017-11-18 17:19:42	-->	nateozem (~nate@c-73-83-187-95.hsd1.wa.comcast.net) has joined #neovim
+2017-11-18 17:19:54	<--	nateozem (~nate@c-73-83-187-95.hsd1.wa.comcast.net) has quit (Changing host)
+2017-11-18 17:19:55	-->	nateozem (~nate@unaffiliated/nateozem) has joined #neovim
+2017-11-18 17:23:29	JustinMKeyesGitt	Do best of 3, file will be in cache if it fits in ram
+2017-11-18 17:23:40	<--	lkolstad (~ljk@c-24-16-12-195.hsd1.wa.comcast.net) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 17:24:00	-->	lkolstad (~ljk@c-24-16-12-195.hsd1.wa.comcast.net) has joined #neovim
+2017-11-18 17:24:23	gitter_killthemu	Just like `time nvim -c "runstuff"`? That would include startup time too
+2017-11-18 17:28:31	<--	wsdjeg (~wsdjeg@114.223.56.63) has quit (Remote host closed the connection)
+2017-11-18 17:45:55	JustinMKeyesGitt	The trick is to do enough work in the plugin so that it dominates the measurement
+2017-11-18 17:46:22	JustinMKeyesGitt	Do task X  10 times instead of once.
+2017-11-18 17:47:42	JustinMKeyesGitt	If you are really trying to measure a micro task then just add some logging ...
+2017-11-18 17:50:59	gitter_killthemu	The problem I'm facing is the asynchronous nature of the rpc, so knowing when my plugin is 'done' is kinda hard... but I'll manage, thanks :)
+2017-11-18 18:01:49	<--	raichoo (~raichoo@dslb-084-060-078-152.084.060.pools.vodafone-ip.de) has quit (Ping timeout: 268 seconds)
+2017-11-18 18:14:31	<--	saimen (~saimen@2001:a61:2126:ea01:8e70:5aff:fe94:1034) has quit (Ping timeout: 258 seconds)
+2017-11-18 18:18:29	<--	deniska (~denis@unaffiliated/deniska) has quit (Quit: leaving)
+2017-11-18 18:19:24	-->	deniska (~denis@unaffiliated/deniska) has joined #neovim
+2017-11-18 18:36:05	-->	kroete (~kroete@p2003006248022C6798143467E3981E16.dip0.t-ipconnect.de) has joined #neovim
+2017-11-18 18:48:25	-->	kerrhau (~kerrhau@unaffiliated/aceahmedmoh) has joined #neovim
+2017-11-18 18:57:54	<--	annexseven (~annexseve@toroon017sw-lp140-05-69-159-30-229.dsl.bell.ca) has quit (Quit: leaving)
+2017-11-18 18:59:08	<--	db8093246 (~db8093246@46-162-124-202.cust.bredband2.com) has quit (Ping timeout: 248 seconds)
+2017-11-18 19:20:04	-->	tibi (~tibi@86.125.39.134) has joined #neovim
+2017-11-18 19:23:21	-->	SBM (2f0bd956@gateway/web/cgi-irc/kiwiirc.com/ip.47.11.217.86) has joined #neovim
+2017-11-18 19:23:50	<--	tibi_ (~tibi@86.125.39.134) has quit (Ping timeout: 268 seconds)
+2017-11-18 19:31:08	<--	chargen (~chargen@179.149.21.95.dynamic.jazztel.es) has quit (Quit: BBL)
+2017-11-18 19:31:20	<--	SBM (2f0bd956@gateway/web/cgi-irc/kiwiirc.com/ip.47.11.217.86) has quit (Remote host closed the connection)
+2017-11-18 19:37:14	<--	dancinggrass (~dancinggr@111.94.36.116) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 19:43:13	<--	cottoneyejim (~cottoneye@46.161.91.187) has quit (Ping timeout: 260 seconds)
+2017-11-18 19:43:31	<--	pepper_chico (~pepper_ch@189-19-138-166.dsl.telesp.net.br) has quit (Ping timeout: 255 seconds)
+2017-11-18 19:44:01	-->	pepper_chico (~pepper_ch@177.45.33.57) has joined #neovim
+2017-11-18 19:44:33	<--	Arcaelyx (~Arcaelyx@2601:646:c200:27a1:dae:2955:5145:93ae) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 20:02:38	<--	simka (~simka@188.146.41.238.nat.umts.dynamic.t-mobile.pl) has quit (Ping timeout: 240 seconds)
+2017-11-18 20:04:41	-->	befedo (~befedo@x4d07f26c.dyn.telefonica.de) has joined #neovim
+2017-11-18 20:06:24	<--	thvdburgt (~thvdburgt@2001:982:eee:1:224:d7ff:fe47:aa54) has quit (Ping timeout: 250 seconds)
+2017-11-18 20:35:51	<--	hardenedapple (~hardeneda@88-111-57-152.dynamic.dsl.as9105.com) has quit (Quit: WeeChat 1.9.1)
+2017-11-18 20:38:36	-->	kerananw (~kerananw@unaffiliated/kerananw) has joined #neovim
+2017-11-18 20:43:33	-->	astronavt (~astronavt@2604:2000:1343:4291:a43c:3f7c:2556:4d19) has joined #neovim
+2017-11-18 20:44:58	-->	curious_corn (~curious_c@31-151-30-175.dynamic.upc.nl) has joined #neovim
+2017-11-18 20:47:00	<--	curious_corn (~curious_c@31-151-30-175.dynamic.upc.nl) has quit (Client Quit)
+2017-11-18 21:05:40	<--	qstrahl (~weechat@35.193.176.152) has quit (Quit: WeeChat 1.7)
+2017-11-18 21:07:02	-->	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has joined #neovim
+2017-11-18 21:07:35	-->	chargen (~chargen@179.149.21.95.dynamic.jazztel.es) has joined #neovim
+2017-11-18 21:08:15	-->	qstrahl (~weechat@35.193.176.152) has joined #neovim
+2017-11-18 21:12:44	<--	astronavt (~astronavt@2604:2000:1343:4291:a43c:3f7c:2556:4d19) has left #neovim ("Leaving...")
+2017-11-18 21:12:46	-->	astronavt (~astronavt@2604:2000:1343:4291:a43c:3f7c:2556:4d19) has joined #neovim
+2017-11-18 21:13:36	-->	db8093246 (~db8093246@46-162-124-202.cust.bredband2.com) has joined #neovim
+2017-11-18 21:18:51	<--	zamaterian_ (~Thomas@77.241.130.85.mobile.3.dk) has quit (Read error: No route to host)
+2017-11-18 21:20:14	<--	astronavt (~astronavt@2604:2000:1343:4291:a43c:3f7c:2556:4d19) has quit (Quit: Leaving...)
+2017-11-18 21:37:27	<--	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 21:38:36	<--	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has quit (Ping timeout: 248 seconds)
+2017-11-18 21:47:01	-->	stevenxl (uid133530@gateway/web/irccloud.com/x-rjzvyhmqbbuutmdu) has joined #neovim
+2017-11-18 21:47:32	-->	AnuragRoyGitter[ (gitteranur@gateway/shell/matrix.org/x-jrfkatccuxypldkf) has joined #neovim
+2017-11-18 21:47:32	AnuragRoyGitter[	Hey
+2017-11-18 21:47:58	AnuragRoyGitter[	Please help me.How do I get edit neovim to look cooler?
+2017-11-18 21:48:39	gitter_killthemu	You could install this colorscheme: https://github.com/fent/vim-frozen
+2017-11-18 21:48:49	ser[m]	https://github.com/centrifugal/centrifugo
+2017-11-18 21:48:55	AnuragRoyGitter[	https://gfycat.com/AshamedTemptingAntbear
+2017-11-18 21:48:56	ser[m]	Sorry. Wrong window.
+2017-11-18 21:49:10	AnuragRoyGitter[	Like the gif I sent
+2017-11-18 21:49:35	-->	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has joined #neovim
+2017-11-18 21:50:37	AnuragRoyGitter[	I have the link to the dotfiles, but I don't know how to set it
+2017-11-18 21:50:42	gitter_killthemu	Sorry, no idea. You could post at https://www.reddit.com/r/vim/ to see if someone know what colorscheme that it
+2017-11-18 21:50:54	RyanHilemanGitte	use it in sublime text ;)
+2017-11-18 21:51:03	AnuragRoyGitter[	Thanks for the help
+2017-11-18 21:53:21	gitter_killthemu	Well, dotfiles should be easy, put loading the colorscheme into your `init.vim` (see `:h colorscheme`), and put the colorscheme files into the right directory, probably only one file into `runtime/colors`, and you can find where `runtime` by running `:echo $VIMRUNTIME`
+2017-11-18 22:02:01	<--	chargen (~chargen@179.149.21.95.dynamic.jazztel.es) has quit (Quit: BBL)
+2017-11-18 22:03:54	<--	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 22:06:40	-->	vpgrn (~vpgrn@c-73-97-192-164.hsd1.wa.comcast.net) has joined #neovim
+2017-11-18 22:06:50	<--	nielsk (~nielsk@striper.datahaven.space) has quit (Ping timeout: 248 seconds)
+2017-11-18 22:08:12	-->	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has joined #neovim
+2017-11-18 22:08:30	-->	nielsk (~nielsk@2001:1560:a000:2:b89b:c019:2511:7af6) has joined #neovim
+2017-11-18 22:09:17	<--	vpgrn (~vpgrn@c-73-97-192-164.hsd1.wa.comcast.net) has quit (Client Quit)
+2017-11-18 22:10:34	-->	djapo (~archie@unaffiliated/djapo) has joined #neovim
+2017-11-18 22:24:33	pepper_chico	AnuragRoyGitter[: just check the colorscheme in the init.vim or vimrc
+2017-11-18 22:25:06	pepper_chico	it's will be a matter of importing it with your plugin manager then
+2017-11-18 22:35:40	-->	HTTP___GK1wmSU (~DEEP-BOOK@185.141.24.244) has joined #neovim
+2017-11-18 22:37:35	<--	HTTP___GK1wmSU (~DEEP-BOOK@185.141.24.244) has left #neovim
+2017-11-18 22:41:45	-->	alhariel (~alhariel@189.113.68.90) has joined #neovim
+2017-11-18 22:43:55	-->	ZyX-I (~ZyX-I@broadband-77-37-230-77.moscow.rt.ru) has joined #neovim
+2017-11-18 22:46:56	-->	chargen (~chargen@179.149.21.95.dynamic.jazztel.es) has joined #neovim
+2017-11-18 22:47:06	gitter_killthemu	The neovim test infrastructure is actually very nice to make functional test for plugins, too
+2017-11-18 22:49:43	<--	alhariel (~alhariel@189.113.68.90) has quit (Read error: Connection reset by peer)
+2017-11-18 22:50:01	-->	alhariel (~alhariel@189.113.68.90) has joined #neovim
+2017-11-18 22:56:56	gitter_killthemu	Anyone knows how to deal with paths in lua in an os-independent way?
+2017-11-18 23:00:17	<--	qstrahl (~weechat@35.193.176.152) has quit (Quit: WeeChat 1.7)
+2017-11-18 23:04:46	gitter_killthemu	If anyone's interested: nvim has `helpers.alter_slashes` for that
+2017-11-18 23:05:18	-->	qstrahl (~weechat@35.193.176.152) has joined #neovim
+2017-11-18 23:14:52	<--	db8093246 (~db8093246@46-162-124-202.cust.bredband2.com) has quit (Remote host closed the connection)
+2017-11-18 23:22:08	JustinMKeyesGitt	Yes, there's also `helpers.get_pathsep`
+2017-11-18 23:22:46	-->	astronavt (~astronavt@2604:2000:1343:4291:a43c:3f7c:2556:4d19) has joined #neovim
+2017-11-18 23:23:01	JustinMKeyesGitt	Going forward any new plugins should be in Lua, but yeah, it's surprisingly reasonable to test VimL plugins in test/functional as well.
+2017-11-18 23:26:44	<--	chargen (~chargen@179.149.21.95.dynamic.jazztel.es) has quit (Quit: BBL)
+2017-11-18 23:29:12	<--	pepper_chico (~pepper_ch@177.45.33.57) has quit (Read error: Connection reset by peer)
+2017-11-18 23:29:52	-->	cottoneyejim (~cottoneye@46.161.91.187) has joined #neovim
+2017-11-18 23:30:19	-->	izacht13_ (~Izach@pool-71-169-163-195.burl.east.myfairpoint.net) has joined #neovim
+2017-11-18 23:30:36	-->	rssk (~rhs@gateway/tor-sasl/rssk) has joined #neovim
+2017-11-18 23:31:26	gitter_killthemu	It's not a viml plugin, but a binary written in rust :)
+2017-11-18 23:31:50	-->	pepper_chico (~pepper_ch@177.45.33.57) has joined #neovim
+2017-11-18 23:32:02	gitter_killthemu	Doing real integration tests is somewhat hard imho, but the screen test make it a breeze
+2017-11-18 23:33:13	JustinMKeyesGitt	(by "any new plugins" I meant any new "standard" plugins)
+2017-11-18 23:34:11	gitter_killthemu	He ok :)
+2017-11-18 23:34:49	JustinMKeyesGitt	test coverage bumped to 78% ?!
+2017-11-18 23:34:54	JustinMKeyesGitt	:fire_engine:
+2017-11-18 23:37:00	-->	PeterKalauskasGi (gitterpesk@gateway/shell/matrix.org/x-zjujasoygayrxthg) has joined #neovim
+2017-11-18 23:37:01	PeterKalauskasGi	Question about clang's scan-build: are a lot of the warnings left unfixed for a reason? Especially dead assignments, I take it they are left there for a reason, is that right?
+2017-11-18 23:37:02	PeterKalauskasGi	https://neovim.io/doc/reports/clang/ Are there any guidelines on which are of a concern and which should be ignored?
+2017-11-18 23:37:46	JustinMKeyesGitt	@peskal we want all warnings to be addressed, either by marking them as false positive or fixing them
+2017-11-18 23:44:05	-->	dbmikus (~dbmikus@2604:2000:ef14:a900:d0ea:35ec:fda0:5d83) has joined #neovim
+2017-11-18 23:44:10	<--	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 23:44:13	<--	dbmikus (~dbmikus@2604:2000:ef14:a900:d0ea:35ec:fda0:5d83) has quit (Client Quit)
+2017-11-18 23:45:01	-->	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has joined #neovim
+2017-11-18 23:45:24	PeterKalauskasGi	ok cool, I'll take a look
+2017-11-18 23:46:16	<--	djapo (~archie@unaffiliated/djapo) has quit (Ping timeout: 240 seconds)
+2017-11-18 23:48:50	-->	Arcaelyx (~Arcaelyx@2601:646:c200:27a1:209e:c201:e4d7:168c) has joined #neovim
+2017-11-18 23:49:40	JustinMKeyesGitt	@peskal btw the PVS report just blew up recently (happens whenever PVS releases a new version): https://neovim.io/doc/reports/pvs/
+2017-11-18 23:49:58	JustinMKeyesGitt	there are a lot of "easy" ones in there, and it really needs a cleanup, help there is welcome
+2017-11-18 23:50:17	<--	ebsen (~ebsene@96-2-74-147-dynamic.midco.net) has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+2017-11-18 23:51:45	-->	saimen (~saimen@2001:a61:2126:ea01:8e70:5aff:fe94:1034) has joined #neovim
+2017-11-18 23:52:28	<--	sim590 (~sim590@cable-192.222.210.73.electronicbox.net) has quit (Ping timeout: 248 seconds)
+2017-11-18 23:53:54	-->	sim590 (~sim590@cable-192.222.210.73.electronicbox.net) has joined #neovim
+2017-11-18 23:56:17	<--	stevenxl (uid133530@gateway/web/irccloud.com/x-rjzvyhmqbbuutmdu) has quit (Quit: Connection closed for inactivity)
+2017-11-18 23:58:44	JustinMKeyesGitt	released 0.2.2 https://github.com/neovim/neovim/releases/tag/v0.2.2
+2017-11-19 00:01:07	gitter_killthemu	:yum:
+2017-11-19 00:03:43	-->	cotko3 (~ahmed@188-230-161-23.dynamic.t-2.net) has joined #neovim
+2017-11-19 00:03:57	-->	teddy_error (~teddy-err@2605:6000:60ca:6d00:b9ad:72cf:1025:c92f) has joined #neovim
+2017-11-19 00:10:54	<--	DarkDefender (~zed@c-b7a6d954.501201633205-0-757473696b74.cust.bredbandsbolaget.se) has quit (Quit: WeeChat 1.9.1)
+2017-11-19 00:16:03	nateozem	nice!

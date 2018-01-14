@@ -1,31 +1,19 @@
-[2017-10-31 18:44:02] WeeChat 1.9.1 (compiled on Sep 23 2017 19:44:10)
-[2017-10-31 18:44:02] Writing configuration file sec.conf (default options)
-[2017-10-31 18:44:02] Reading configuration file sec.conf
-[2017-10-31 18:44:02] Writing configuration file weechat.conf (default options)
-[2017-10-31 18:44:02] Reading configuration file weechat.conf
-[2017-10-31 18:44:02] Writing configuration file plugins.conf (default options)
-[2017-10-31 18:44:02] Reading configuration file plugins.conf
-[2017-10-31 18:44:03] Writing configuration file charset.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file charset.conf
-[2017-10-31 18:44:03] Writing configuration file logger.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file logger.conf
-[2017-10-31 18:44:03] Writing configuration file exec.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file exec.conf
-[2017-10-31 18:44:03] Writing configuration file trigger.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file trigger.conf
-[2017-10-31 18:44:03] Writing configuration file aspell.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file aspell.conf
-[2017-10-31 18:44:03] Writing configuration file alias.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file alias.conf
-[2017-10-31 18:44:03] Writing configuration file buflist.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file buflist.conf
-[2017-10-31 18:44:03] Writing configuration file fifo.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file fifo.conf
-[2017-10-31 18:44:03] Writing configuration file xfer.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file xfer.conf
-[2017-10-31 18:44:03] Writing configuration file irc.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file irc.conf
-[2017-10-31 18:44:03] Writing configuration file relay.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file relay.conf
-[2017-10-31 18:44:03] Writing configuration file script.conf (default options)
-[2017-10-31 18:44:03] Reading configuration file script.conf
+[2018-01-14 19:43:49] WeeChat 2.0.1 (compiled on Dec 21 2017 18:15:24)
+[2018-01-14 19:43:49] Reading configuration file sec.conf
+[2018-01-14 19:43:49] Reading configuration file weechat.conf
+[2018-01-14 19:43:49] Reading configuration file plugins.conf
+[2018-01-14 19:43:49] Reading configuration file charset.conf
+[2018-01-14 19:43:49] Reading configuration file logger.conf
+[2018-01-14 19:43:49] Reading configuration file exec.conf
+[2018-01-14 19:43:49] Reading configuration file trigger.conf
+[2018-01-14 19:43:49] Reading configuration file aspell.conf
+[2018-01-14 19:43:49] Reading configuration file alias.conf
+[2018-01-14 19:43:49] Reading configuration file buflist.conf
+[2018-01-14 19:43:49] Reading configuration file fifo.conf
+[2018-01-14 19:43:49] Reading configuration file xfer.conf
+[2018-01-14 19:43:49] Reading configuration file irc.conf
+[2018-01-14 19:43:49] Reading configuration file relay.conf
+[2018-01-14 19:43:50] Reading configuration file script.conf
+[2018-01-14 19:43:50] Reading configuration file fset.conf
+[2018-01-14 19:44:07] irc: connecting to server chat.freenode.net/6667...
+[2018-01-14 19:44:17] irc: connecting to server chat.freenode.net/6667...
